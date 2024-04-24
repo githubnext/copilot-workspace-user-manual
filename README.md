@@ -2,6 +2,10 @@
 
 Welcome!  This is the user manual for Copilot Workspace.
 
+## Table of Contents
+
+
+
 TODO(eaftan): Insert backlink to landing page with more info about CW
 
 ## Conceptual overview
