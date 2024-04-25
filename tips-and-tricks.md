@@ -106,7 +106,7 @@ We provide a built-in terminal so that you can validate the code changes that Co
 
 Modified files are two-way-synced between Copilot Workspace and the terminal/codespace. Feel free to edit in either place, and your changes will be reflected in the other.
 
-## Explore the Experiments
+## Explore the Experiments!
 
 ✨ TIP: Explore our experiments and send us feedback! 
 
