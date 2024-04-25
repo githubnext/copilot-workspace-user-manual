@@ -169,11 +169,12 @@ In order to make iteration feel lossless, the workspace automatically saves your
 
 | Term | Definition |
 |------|------------|
-| Copilot Workspace (CW) | A Copilot-native dev environment that’s designed for exploring and completing every day tasks. Start any coding task in a single-click! |
-| Target repo | A codebase at a specific commit. A target is identified by a repository name combined with a branch name, a commit SHA, or a pull request number. A pull request is a target with extra metadata (e.g., title, description, comments, diffs, etc.). | 
-| Task | A natural language description of a change to a target. A task can be defined directly in Copilot Workspace or extracted from a GitHub issue. | 
-| Specification | A description of the current and proposed state of the target as it relates to the task (which answers the yes/no question of the topic). |
-| Plan | A list of steps to transform the target from its current state to its proposed state as described in the specification. |
+| Copilot Workspace | A Copilot-native dev environment that’s designed for exploring and completing every day tasks.  |
+| Target repo | A branch of a codebase at a specific commit. | 
+| Task | A natural language description of a change to a target. | 
+| Topic | A brief single-sentence summary of a task, usually in question form. |
+| Specification | A description of the current and proposed state of the target as it relates to the task |
+| Plan | A list of files to add, remove or change, with notes about each of them, that together transform the target from its current state to its proposed state as described in the specification. |
 | Implementation | A set of changes to the target that, when applied, will complete the task. |
-| Session | A user’s saved progress towards completing a task. Think of a “session” as a pair programming session with Copilot. And a single task can have many sessions. |
-| Snapshot session | A snapshot of a user’s session, including both the task progress and UX state (e.g. panel collapse state). Used for sharing, and created when you click “Share link”. |
+| Session | A user’s saved progress towards completing a task. A single task can have many sessions. |
+| Snapshot session | A snapshot of a user’s session, including both the task progress and UX state. Created when you click “Share link”. |
