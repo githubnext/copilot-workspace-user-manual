@@ -22,7 +22,7 @@ __Components of the Copilot Workspace end-to-end workflow:__
 1. [Integrated Terminal](#integrated-terminal)
 1. [Session Sharing](#session-sharing)
 1. [Task Completion](#task-completion)
-1. [Task Re-entrancy/Hand-off](#task-re-entrancyhand-off)
+1. [Auto-save and Session Dashboard](#auto-save-and-session-dashboard)
 
 ## Task
 
