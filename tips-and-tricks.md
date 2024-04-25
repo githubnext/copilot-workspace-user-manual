@@ -28,19 +28,19 @@ are examples of useful clarifications. Use as many of these as you like!
 
 For example, you can say: _Here are some examples of command line invocations that should work after the change..._ and give a few examples. Or you can say: _Here are some examples of the expected output..._ and give a few examples.
 
-## If at First You Don't Succeed...
+## Check the Topic and Specification
 
-✨ TIP: Try regenerating the spec or plan
+✨ TIP: Check the topic and specification - if they're accurate, then Copilot Workspace is on the right track
 
-If you're not happy with the results you're getting, you can try regenerating the spec and/or plan. To do this, click the "Regenerate" button in the Spec or Plan panels:
+The Topic is your first quick glimpse of Copilot Workspace's analysis of your task in the context of your repository, and the Current Specification follows soon after, then the Updated Specification. If these are accurate, then Copilot Workspace is on the right track. If they're not, then you may need to provide more context, clarifications and hints in the Issue/Task panel, or you may be performing something beyond Copilot Workspace's current capabilities.
 
-<img src="images/regen.png" width=600 alt="Regenerate button">
+You can edit all of these to correct them, and checking them quickly can save you a lot of time. You can also go back and clarify the issue or task and try again.
 
-## Controlling Content Selection
+## Check the Content Selection
 
-✨ TIP: Use short notes to say where to look
+✨ TIP: Check the content selection and use short notes in the issue or task to say where to look
 
-If you know where the code that needs to be changed is, you can say so in the issue/task panel. For example, you can say: _Look in `src/server.js`_ or many other variations.
+You can [check the content selection used](#content-selection). Often the content selection can be improved, and right now you do this through natural language and notes on the issue/task. If you know where the code that needs to be changed is, you can say so in the issue/task panel. For example, you can say: _Look in `src/server.js`_ or many other variations.
 
 To determine how to address a task, Copilot Workspace must determine which files in a repo are relevant to the task. This is hard, and Copilot Workspace may not always select the right files. If that happens, you may see low-quality results.
 
@@ -49,6 +49,14 @@ To review the files that were selected, in the Specification panel, click the "V
 <img src="images/references.png" width=600 alt="Show references dialog">
 
 To steer Copilot Workspace towards better file selection, you can mention file names, directory names, etc. in the issue/task panel. Just write it naturally, as if you were writing a normal issue.
+
+## If at First You Don't Succeed...
+
+✨ TIP: Try regenerating the spec or plan
+
+If you're not happy with the results you're getting, you can try regenerating the spec and/or plan. To do this, click the "Regenerate" button in the Spec or Plan panels:
+
+<img src="images/regen.png" width=600 alt="Regenerate button">
 
 ## Iterating on the Implementation
 
