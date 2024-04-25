@@ -169,12 +169,12 @@ In order to make iteration feel lossless, the workspace automatically saves your
 
 | Term | Definition |
 |------|------------|
-| Copilot Workspace | A Copilot-native dev environment that’s designed for exploring and completing every day tasks.  |
-| Target repo | A branch of a codebase at a specific commit. | 
-| Task | A natural language description of a change to a target. | 
-| Topic | A brief single-sentence summary of a task, usually in question form. |
+| Copilot Workspace | A Copilot-native dev environment that’s designed for exploring and completing every day tasks  |
+| Target repo | A branch of a codebase at a specific commit | 
+| Task | A natural language description of a change to a target | 
+| Topic | A brief single-sentence summary of a task, usually in question form |
 | Specification | A description of the current and proposed state of the target as it relates to the task |
-| Plan | A list of files to add, remove or change, with notes about each of them, that together transform the target from its current state to its proposed state as described in the specification. |
-| Implementation | A set of changes to the target that, when applied, will complete the task. |
-| Session | A user’s saved progress towards completing a task. A single task can have many sessions. |
-| Snapshot session | A snapshot of a user’s session, including both the task progress and UX state. Created when you click “Share link”. |
+| Plan | A list of files to add, remove or change, with notes about each of them, that together transform the target from its current state to its proposed state as described in the specification |
+| Implementation | A set of changes to the target that, when applied, will complete the task |
+| Session | A user’s saved progress towards completing a task, a single task can have many sessions |
+| Snapshot session | A snapshot of a user’s session, created when you click “Share link”, including both the task progress and UX state |
