@@ -14,9 +14,8 @@ orient, assist, and empower developers towards completion.
 __Components of the Copilot Workspace end-to-end workflow:__
 
 1. [Task Definition](#task-definition)
-1. [Topic Question](#topic-question)
-1. [Current Specification](#current-specification)
-1. [Proposed Specification](#proposed-specification)
+1. [Topic](#topic)
+1. [Specification](#specification)
 1. [File Content Selection](#file-content-selection)
 1. [Plan](#plan)
 1. [Implementation](#implementation)
@@ -28,14 +27,14 @@ __Components of the Copilot Workspace end-to-end workflow:__
 
 ## Task Definition
 
-Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent, along with an associated GitHub repository, and any additional context/metadata about the task. And for its preview release, Copilot Workspace supports four types of tasks, each with its own distinct entry point from GitHub.com and the GitHub mobile app, in order to make them easy to get started with:
+Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent, along with an associated GitHub repository, and any additional context/metadata about the task. For this preview release, Copilot Workspace supports four types of tasks, each with its own distinct entry point from GitHub.com and the GitHub mobile app, in order to make them easy to get started with:
 
 | Task type | Task definition | Additional context/metadata |
 |-----------|-----------------|-----------------------------|
-| Issue ([Entrypoint](images/open-in-workspace.png)) | The title and body of the issue | The issue’s comment thread (if any) |
-| Ad-hoc task ([Entrypoint](images/ad-hoc-task.png)) | The task definition provided from the repo page or within CW | N/A (This is effectively like a draft issue) |
-| Pull request task ([Entrypoint](images/pr.png)) | The task definition provided within CW | The PR’s title, description, comments, and the specific changes it made to the repo |
-| New repo task | The description of the project | The readme of the template repo |
+| [Issue ([Entrypoint](images/open-in-workspace.png)) | The title and body of the issue | The issue’s comment thread (if any) |
+| Ad-hoc task ([Entrypoint](images/ad-hoc-task.png)) | The task provided from the repo page, incoming link or within CW | N/A (This is effectively like a draft issue) |
+| Pull request task ([Entrypoint](images/pr.png)) | The task definition provided from the incoming link or within CW | The specific code changes in the PR (the PR's title and description are not included by default, as they tend to confuse the picture of specifying further changes to the PR) |
+| New repo task | The description of the project | The README of the template repo |
 
 Due to its task-centric nature, Copilot Workspace displays the current task as the root of the timeline, and when needed, includes a panel with any additional context (e.g. the PR, when iterating on a PR). This ensures that the workspace can serve as a one-stop-shop for iterating on the task, without needing to switch contexts.
 
@@ -48,7 +47,7 @@ Due to its task-centric nature, Copilot Workspace displays the current task as t
 
 Once a task is defined, Copilot Workspace will progress to the next step in the timeline. And since an issue inherently represents a task definition, you can open it in Copilot Workspace and get started immediately.
 
-## Topic Question
+## Topic
 
 In order to help summarize a non-trivial task definition (e.g. an issue with a long comment thread), Copilot Workspace generates a “topic” for the task, which takes the form of a question that can be posed against the codebase, and used to define the before/after success criteria (see the [specification](#specification) section below). 
 
@@ -56,13 +55,15 @@ In order to help summarize a non-trivial task definition (e.g. an issue with a l
 
 *Note how the topic introduces clarity that is completely missing from the issue title*
 
-## Current Specification
+You can think of the topic as a way to distill the task down to its essence, and to give the developer an early and fast opportunity to see if Copilot Workspace is on the right track. If the topic is wrong, you don't need to continue. But if the topic is right, we’ve found that this helps developers to better understand the task, and to focus on the most important aspects of the codebase that are relevant to the task.
 
-In order to help contextualize the task for developers, Copilot Workspace takes the task details and topic, and generates a bulleted list which articulates the current behavior of the codebase, based on the topic question being posed. We’ve found that this helps build developers' confidence (because they can verify that Copilot Workspace understands the project/task), and also, serves as a means of onboarding folks to a task, when they might not fully understand the current state.
+## Specification
+
+In order to help contextualize the task for developers, Copilot Workspace takes the task details and topic, and generates a bulleted list which articulates the current behavior of the codebase, based on the topic being posed. We’ve found that this helps build developers' confidence (because they can verify that Copilot Workspace understands the project/task), and also, serves as a means of onboarding folks to a task, when they might not fully understand the current state.
 
 <img src="images/current-spec.png" width=600 alt="Current specification">
 
-*The current specification answers the topic question based on the current state*
+*The current specification answers question in the topic based on the current state*
 
 And if Copilot Workspace gets anything wrong, then the developer can easily edit/delete steps from the current spec, or even choose to regenerate an entirely new spec (“try again”). But in practice, we find that these tend to be pretty good on the first try.
 
@@ -72,9 +73,7 @@ Additionally, if we detect that a user’s task is overly ambiguous/unclear (e.g
 
 *The user is warned that their task is too ambiguous and that their intent needs to be clarified*
 
-## Proposed Specification
-
-In order to jumpstart the user with the selected task, Copilot Workspace generates a bulleted list which articulates the state that the codebase would be in after resolving the task (effectively answering the topic question). And in particular, the proposed specification is focused on defining the success criteria of the task, as opposed to getting into implementation details (which is the role of the [plan](#plan)).
+After the current specification, Copilot Workspace generates a “proposed specification”, which is a bulleted list which articulates the state that the codebase would be in after resolving the task (effectively answering the question in the topic). And in particular, the proposed specification is focused on defining the success criteria of the task, as opposed to getting into implementation details (which is the role of the [plan](#plan)).
 
 <img src="images/proposed-spec.png" width=600 alt="Proposed specification">
 
@@ -131,12 +130,17 @@ If the developer wants to make any more extensive changes or leverage rich edito
 
 In order to make it easy to share a workspace session with others (e.g. for doing an ad-hoc code review or sharing an initial implementation idea), Copilot Workspace allows users to generate shared links.  These links can be shared with guests, even if they are not part of the Copilot Workspace preview.
 
-Shared sessions are copies of the original session.  Non-guest users can use them a as a starting point to continue
-the task or explore alternative solutions without interfering with the original session.  Guest users can view the session but cannot use the workspace to make changes.
+Shared sessions are copies of the original session.  Non-guest users can use them a as a starting point to continue the task or explore alternative solutions without interfering with the original session.  Guest users can view the session but cannot use the workspace to make changes.
 
 <img src="images/share-link.png" width=600 alt="Generating a share link">
 
 *Generating a share link from the header bar*
+
+When working with issues and pull requests, additional sharing options are offered
+
+* Publish to issue comment. Copilot Workspace automatically generates a comment with a share link for the session, which is included in the issue. This allows reviewers to quickly access the workspace session and see the proposed changes.
+
+* Publish to pull request comment. Similar to the issue comment, Copilot Workspace automatically generates a comment with a share link for the session, which is included in the pull request. This allows reviewers to quickly access the workspace session and see the proposed changes.
 
 ## Task Completion
 
@@ -148,12 +152,12 @@ When a task is implemented, validated, and reviewed, developers can complete the
 
 | Task type | Available exit paths | 
 |-----------| -------------------- |
-| Issue | 1. Create pull request <br> 2. Create draft pull request <br> 3. Push to new branch <br> 4. Push changes to current branch (only available if you have commit permissions to the repo) |
+| Issue | — Create pull request <br> — Create draft pull request <br> — Push to new branch <br> — Push changes to current branch (only available if you have commit permissions to the repo) |
 | Ad-hoc task | *Same as above* |
-| PR task | 1. Update pull request (pushes a new commit with the changes) <br>2. *Same as the above* |
-| Repo task | 1. Create repository (creates a new repo from the selected template repo, and includes the changes) |
+| PR task | — Update pull request (pushes a new commit with the changes) <br> — *Same as the above* |
+| Repo task | — Create repository (creates a new repo from the selected template repo, and includes the changes) |
 
-## Task Re-entrancy/Hand-off
+## Auto-save and Session Dashboard
 
 In order to make iteration feel lossless, the workspace automatically saves your work. It also provides a session dashboard, which allows you to easily resume your work later. Additionally, because Copilot Workspace is fully optimized for usage on mobile devices, you can even start a task from your phone and then finish up on your laptop, or vice versa. 
 
