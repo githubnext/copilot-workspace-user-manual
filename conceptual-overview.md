@@ -151,7 +151,7 @@ When a task is implemented, validated, and reviewed, developers can complete the
 
 | Task type | Available exit paths | 
 |-----------| -------------------- |
-| Issue | — Create pull request <br> — Create draft pull request <br> — Push to new branch <br> — Push changes to current branch (only available if you have commit permissions to the repo) <br> These may fork the repository if you do not have write access |
+| Issue | — Create pull request <br> — Create draft pull request <br> — Push to new branch <br> — Push changes to current branch (only available if you have commit permissions to the repo) <br> <br> These may fork the repository if you do not have write access |
 | Ad-hoc task | *Same as above* |
 | PR task | — Update pull request (pushes a new commit with the changes) <br> — *Same as the above* |
 | Repo task | — Create repository (creates a new repo from the selected template repo, and includes the changes) |
