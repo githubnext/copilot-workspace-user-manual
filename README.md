@@ -4,11 +4,12 @@ Welcome!  This is the user manual for Copilot Workspace.
 
 ## Table of Contents
 
+* [Conceptual Overview](conceptual-overview.md)
 * [Getting Started](getting-started.md)
 
 TODO(eaftan): Insert backlink to landing page with more info about CW
 
-## Conceptual overview
+## Principles
 
 * Enable the user to collaborate with AI. Not fully autonomous.
 * Key principles are __transparency__ and __steerability__
