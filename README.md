@@ -1,36 +1,21 @@
 # Copilot Workspace User Manual
 
-Welcome!  This is the user manual for Copilot Workspace.
+Welcome! This is the user manual for Copilot Workspace, an experiment by GitHub Next.  Copilot Workspace is
+a Copilot-native development environment that allows you to collaborate with Copilot to solve coding tasks
+at the level of an entire repository.  You can learn more about what Copilot Workspace is at the [project page](https://githubnext.com/projects/copilot-workspace/).
+
+This manual will help you understand how to use Copilot Workspace most effectively, and will share tips and tricks
+that we've learned while using Copilot Workspace to build Copilot Workspace.
 
 ## Table of Contents
 
 * [Conceptual Overview](conceptual-overview.md)
 * [Getting Started](getting-started.md)
+* [Tips and Tricks](tips-and-tricks.md)
 
-TODO(eaftan): Insert backlink to landing page with more info about CW
+## Feedback
 
-## Principles
+To give general feedback, please join the [GitHub Next Discord](https://discord.gg/FeGshJZ2yy) and post in the #copilot-workspace channel.  Please provide a share link to the workspace and a description of the issue you're facing
+so that we can help you more effectively.
 
-* Enable the user to collaborate with AI. Not fully autonomous.
-* Key principles are __transparency__ and __steerability__
-* ...
-
-TODO(eaftan): Document the following:
-
-* Tip to check the file selection if you're not happy with the result, and how to steer it
-* How to adjust file selection by mentioning file names, directory names, etc. in the issue/task panel
-* Paste in relevant documentation into the issue panel, it won't sync back to the issue
-* Regen advice
-* Experiments panel
-* Implement one file at a time
-* Sessions and link sharing, guest access
-* Your work is auto saved
-* What to do if your issue and repo are different
-* Advice about editing the issue in CW vs. editing the actual issue
-* Work around file size constraints by generating a new file and copying and pasting in
-* continue further iteration in a new CW session
-* devcontainer.json and its interaction with the terminal
-* file syncing between the terminal/codespace and CW web UI
-* how to report issues/give feedback
-* how to report responsible AI issues
-* mention that undo/redo is supported
+To report harmful content, please email copilot-safety@github.com with a description of the issue and a share link to the workspace.
