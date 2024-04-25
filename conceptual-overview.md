@@ -13,10 +13,9 @@ orient, assist, and empower developers towards completion.
 
 __Components of the Copilot Workspace end-to-end workflow:__
 
-1. [Task Definition](#task-definition)
+1. [Task](#task)
 1. [Topic](#topic)
 1. [Specification](#specification)
-1. [File Content Selection](#file-content-selection)
 1. [Plan](#plan)
 1. [Implementation](#implementation)
 1. [File Iteration](#file-iteration)
@@ -25,7 +24,7 @@ __Components of the Copilot Workspace end-to-end workflow:__
 1. [Task Completion](#task-completion)
 1. [Task Re-entrancy/Hand-off](#task-re-entrancyhand-off)
 
-## Task Definition
+## Task
 
 Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent, along with an associated GitHub repository, and any additional context/metadata about the task. For this preview release, Copilot Workspace supports four types of tasks, each with its own distinct entry point from GitHub.com and the GitHub mobile app, in order to make them easy to get started with:
 
@@ -79,11 +78,11 @@ After the current specification, Copilot Workspace generates a “proposed speci
 
 *The proposed specification indicates how to edit the codebase in order to solve the task*
 
-## File Content Selection
+## Content Selection
 
 To generate the current and proposed specifications, and for all following steps, Copilot Workspace needs to identify which files in the codebase are relevant to understanding and completing the task.  It does this by a combination of LLM techniques and traditional code search. The contents of the highest-ranked files are then used as context for nearly all steps in the workflow.
 
-Users may review the files selected by Copilot Workspace using the "View references" button in the Specification panel. To adjust which files are selected, users can edit the task and use natural language to specify which files are relevant.
+Users may review the files selected by Copilot Workspace using the View references” button in the Specification panel. To adjust which files are selected, users can edit the task and use natural language to specify which files are relevant.
 
 <img src="images/references.png" width=600 alt="Show references dialog">
 
@@ -164,6 +163,10 @@ In order to make iteration feel lossless, the workspace automatically saves your
 <img src="images/dashboard-2.png" width=600 alt="Copilot Workspace dashboard">
 
 *The Copilot Workspace dashboard showing recent, bookmarked and completed sessions*
+
+## Undo/Redo
+
+Undo and redo are supported via the standard keyboard shortcuts: `Ctrl-Z` and `Ctrl-Y` on Windows and Linux, and `Cmd-Z` and `Cmd-Y` on macOS.
 
 ## Appendix: Glossary
 
