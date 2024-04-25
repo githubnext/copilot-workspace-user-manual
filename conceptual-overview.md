@@ -22,7 +22,7 @@ __Components of the Copilot Workspace end-to-end workflow:__
 1. [Integrated Terminal](#integrated-terminal)
 1. [Session Sharing](#session-sharing)
 1. [Task Completion](#task-completion)
-1. [Auto-save and Session Dashboard](#auto-save-and-session-dashboard)
+1. [Session Dashboard](#session-dashboard)
 
 ## Task
 
@@ -80,7 +80,7 @@ After the current specification, Copilot Workspace generates a “proposed speci
 
 ## Content Selection
 
-To generate the current and proposed specifications, and for all following steps, Copilot Workspace needs to identify which files in the codebase are relevant to understanding and completing the task.  It does this by a combination of LLM techniques and traditional code search. The contents of the highest-ranked files are then used as context for nearly all steps in the workflow.
+To generate the current and proposed specifications, and for all following steps, Copilot Workspace needs to identify which files in the codebase are relevant to understanding and completing the task. It does this by a combination of LLM techniques and traditional code search. The contents of the highest-ranked files are then used as context for nearly all steps in the workflow.
 
 Users may review the files selected by Copilot Workspace using the View references” button in the Specification panel. To adjust which files are selected, users can edit the task and use natural language to specify which files are relevant.
 
@@ -106,7 +106,7 @@ Once a file is implemented, Copilot Workspace renders a diff view for it, and au
 
 ## File Iteration
 
-We don't expect Copilot Workspace to always get everything right, and so we make it easy for users to iterate on the implementations file by file.  Simply add, remove, edit the items in the plan steps for each file, select the checkbox,
+We don't expect Copilot Workspace to always get everything right, and so we make it easy for users to iterate on the implementations file by file. Simply add, remove, edit the items in the plan steps for each file, select the checkbox,
 and click the "Update selected files" button. This will re-generate the contents of the selected files and update the diff view.
 
 For example, they can edit the diff directly, or they can go back to the plan and make changes there. And if they need to make more extensive changes, they can regenerate the plan entirely.
@@ -117,7 +117,7 @@ For example, they can edit the diff directly, or they can go back to the plan an
 
 ## Integrated Terminal
 
-Once the developer has implemented their plan, Copilot Workspace enables them to validate the changes for correctness by bringing up an integrated terminal and executing shell commands. This allows performing a build, lint, test, etc. against the changes, and can be a quick and effective way to gain confidence about the task and its completion status.  The terminal is backed by a Codespace, so it is a secure sandbox with a full development environment installed. 
+Once the developer has implemented their plan, Copilot Workspace enables them to validate the changes for correctness by bringing up an integrated terminal and executing shell commands. This allows performing a build, lint, test, etc. against the changes, and can be a quick and effective way to gain confidence about the task and its completion status. The terminal is backed by a Codespace, so it is a secure sandbox with a full development environment installed. 
 
 <img src="images/terminal.png" width=600 alt="Integrated terminal">
 
@@ -127,9 +127,9 @@ If the developer wants to make any more extensive changes or leverage rich edito
 
 ## Session Sharing
 
-In order to make it easy to share a workspace session with others (e.g. for doing an ad-hoc code review or sharing an initial implementation idea), Copilot Workspace allows users to generate shared links.  These links can be shared with guests, even if they are not part of the Copilot Workspace preview.
+In order to make it easy to share a workspace session with others (e.g. for doing an ad-hoc code review or sharing an initial implementation idea), Copilot Workspace allows users to generate shared links. These links can be shared with guests, even if they are not part of the Copilot Workspace preview.
 
-Shared sessions are copies of the original session.  Non-guest users can use them a as a starting point to continue the task or explore alternative solutions without interfering with the original session.  Guest users can view the session but cannot use the workspace to make changes.
+Shared sessions are copies of the original session. Non-guest users can use them a as a starting point to continue the task or explore alternative solutions without interfering with the original session. Guest users can view the session but cannot use the workspace to make changes.
 
 <img src="images/share-link.png" width=600 alt="Generating a share link">
 
@@ -156,9 +156,9 @@ When a task is implemented, validated, and reviewed, developers can complete the
 | PR task | — Update pull request (pushes a new commit with the changes) <br> — *As for issues* |
 | Repo task | — Create repository (creates a new repo from the selected template repo, and includes the changes) |
 
-## Auto-save and Session Dashboard
+## Session Dashboard
 
-In order to make iteration feel lossless, the workspace automatically saves your work. It also provides a session dashboard, which allows you to easily resume your work later. Additionally, because Copilot Workspace is fully optimized for usage on mobile devices, you can even start a task from your phone and then finish up on your laptop, or vice versa. 
+In order to make iteration feel lossless, Copilot Workspace automatically saves your work. It also provides a session dashboard, which allows you to easily resume your work later. Additionally, because Copilot Workspace is fully optimized for usage on mobile devices, you can even start a task from your phone and then finish up on your laptop, or vice versa. 
 
 <img src="images/dashboard-2.png" width=600 alt="Copilot Workspace dashboard">
 
