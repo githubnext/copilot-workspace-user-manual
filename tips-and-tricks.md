@@ -66,7 +66,13 @@ Often Copilot Workspace will get a task *mostly right*, but may have trouble wit
 
 <img src="images/file-iteration.png" width=600 alt="Update selected files flow">
 
-## Generate New Files
+## Add New Files and Iterate
+
+✨ TIP: You can add new files and iterate on the implementation
+
+If you need to add new files to the implementation, you can do so by clicking the "Add file" button in the Plan panel. This will add a new file to the plan, which you can then implement and iterate on.
+
+## Consider Generating New Files
 
 ✨ TIP: Generating new files can be better than appending to existing files
 
