@@ -1,10 +1,14 @@
 # Copilot Workspace for Repository Maintainers
 
-Copilot Workspace can assist repository maintainers in several ways:
+Copilot Workspace can assist you as a repository maintainer in several ways:
 
-1. Copilot Workspace can help you explore solutions to issues
-2. Copilot Workspace can help you generate sketches of solutions to issues for potential contributors, lowering the barrier of entry
+1. Copilot Workspace can help you explore potential solutions to issues.
+2. Copilot Workspace can help you generate sketches of solutions to issues for potential contributors, lowering the barrier of entry.
 3. Copilot Workspace can help encourage a culture where issue-creators leave additional helpful notes on how to solve issues, for use by both contributors and AI assistants.
+
+For example, when a new issue is filed in your repository, you can use Copilot Workspace to generate a sketch of a solution to the issue. You can then use the "Share" button to publish this sketch back to the issue thread, with additional comments about whether you think it is useful or not, and where it might need improvement. This can help potential contributors understand the problem better and provide a starting point for their work.
+
+Similarly, when a new issue is filed, you can ask the contributor to create a Copilot Workspace session for the issue. This may help the contributor understand the problem better and provide a starting point for their work. You can also include this guidance in the issue template for your repository, assuming your users have access to Copilot Workspace. You can also ask contributors to leave additional notes in the Copilot Workspace session, which can help future contributors and AI assistants understand the problem better.
 
 ## Restricting the use of Copilot Workspace in your repository
 
