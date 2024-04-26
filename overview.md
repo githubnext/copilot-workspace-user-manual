@@ -18,11 +18,11 @@ Copilot Workspace is built on a set of principles that guide its design and deve
 
 In this manual, we will guide you through the concepts and features of Copilot Workspace, and help you get started with using it effectively.
 
-## Features
-
 <img src="images/session.png" width="600" alt="A fully-implemented workspace session">
 
 *A fully-implemented workspace session*
+
+## Features
 
 1. [Task](#task)
 1. [Topic](#topic)
