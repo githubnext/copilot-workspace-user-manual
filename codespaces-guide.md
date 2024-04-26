@@ -10,7 +10,7 @@ The technical preview includes limited free Codespaces compute usage that is res
 
 ### Overall Limits
 
-The technical preview enforces a total Codespaces and total active Codespaces limits that you may encounter. If closing Workspace sessions does not resolve these issues you may reach out to GitHub here: https://github.com/githubnext/copilot-workspace-user-manual?tab=readme-ov-file#feedback
+The technical preview enforces a total Codespaces and total active Codespaces limits that you may encounter. If closing Workspace sessions does not resolve these issues you may reach out to us [here](https://github.com/githubnext/copilot-workspace-user-manual?tab=readme-ov-file#feedback).
 
 ### Organization based limits and policies
 If the Organization that owns the repository has set policies for Codespaces usage they will be applied to being able to create Codespaces for Workspace. You should reach out to an administrator of the organization to adjust any policies.
