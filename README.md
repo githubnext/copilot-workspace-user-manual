@@ -11,6 +11,7 @@ This manual will help you understand how to use Copilot Workspace most effective
 * [Tips and Tricks](tips-and-tricks.md)
 * [Further Techniques](further-techniques.md)
 * [Responsible AI FAQ](responsible-ai-faq.md)
+* [Codespaces Guide](codespaces-guide.md)
 
 ## Feedback
 
