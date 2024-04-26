@@ -38,7 +38,7 @@ In this manual, we will guide you through the concepts and features of Copilot W
 ## Task
 
 Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent. The task always has a context: a GitHub repository.
-For this technical preview, Copilot Workspace supports four types of tasks: solving issues, [refining pull requests](further-techniques.md#refining-pull-requests), [creating repositories from templates](further-techniques.md#creating-repositories-from-templates) and [ad-hoc tasks](./further-techniques.md#ad-hoc-tasks). Here we focus on Issue tasks, which are the most common entry point.
+For this technical preview, Copilot Workspace supports four types of tasks: solving issues, [refining pull requests](further-tasks.md#refining-pull-requests), [creating repositories from templates](further-tasks.md#creating-repositories-from-templates) and [ad-hoc tasks](./further-tasks.md#ad-hoc-tasks). Here we focus on Issue tasks, which are the most common entry point.
 
 <img src="images/open-in-workspace.png" width=400 alt="Button on issue page to open in Copilot Workspace"><br>*Open an issue in Copilot Workspace*
 
