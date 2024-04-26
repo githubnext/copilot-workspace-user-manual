@@ -2,7 +2,7 @@
 
 [Copilot Workspace](https://githubnext.com/projects/copilot-workspace/) is a _task-centric_ AI assistant. Each day as a developer you start with a task, and make the journey to explore, understand, refine, and complete that task, a journey that can be exciting, challenging, fascinating, and rewarding. Copilot Workspace takes this journey with you, every step of the way — the journey from task to working code. 
 
-Copilot Workspace is built on a set of core principles that guide its design and development:
+Copilot Workspace is built on a set of principles that guide its design and development:
 
 * Copilot Workspace is _contextual_. It is deeply integrated with GitHub, and is aware of the context of your task — the repository, the issue, the pull request.
 
@@ -31,7 +31,7 @@ __Components of the Copilot Workspace end-to-end workflow:__
 1. [Specification](#specification)
 1. [Plan](#plan)
 1. [Implementation](#implementation)
-1. [File Iteration](#file-iteration)
+1. [Iteration](#iteration)
 1. [Integrated Terminal](#integrated-terminal)
 1. [Session Sharing](#session-sharing)
 1. [Task Completion](#task-completion)

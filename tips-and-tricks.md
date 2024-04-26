@@ -76,7 +76,7 @@ If you need to add new files to the implementation, you can do so by clicking th
 
 ✨ TIP: Generating new files can be better than appending to existing files
 
-The technical preview of Copilot Workspace uses "whole file rewriting". This means that when you ask Copilot Workspace to add code to a file, it will replace the entire file with the new code. When performing tasks like writing unit tests or generating documentation or new implementation code, it can be easier and quicker to generate new files, then rename them.
+This technical preview of Copilot Workspace uses "whole file rewriting". This means that when you ask Copilot Workspace to add code to a file, it will replace the entire file with the new code. When performing tasks like writing unit tests or generating documentation or new implementation code, it can be easier and quicker to generate new files, then rename them.
 
 ## Share Early, Share Often
 
