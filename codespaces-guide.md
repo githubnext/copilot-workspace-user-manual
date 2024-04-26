@@ -1,6 +1,6 @@
 # Codespace Starter Guide
 
-This document contains useful information for using terminal/odespace in your Workspace session.
+This document contains useful information for using the terminal/Codespace in your Workspace session.
 
 ## Codespaces Limits
 
