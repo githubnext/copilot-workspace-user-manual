@@ -58,7 +58,7 @@ You can think of the topic as a way to distill the task down to its essence, and
 
 ## Specification
 
-In order to help contextualize the task for developers, Copilot Workspace takes the task details and topic, and generates a bulleted list which articulates the current behavior of the codebase, based on the topic being posed. We’ve found that this helps build developers' confidence (because they can verify that Copilot Workspace understands the project/task), and also, serves as a means of onboarding folks to a task, when they might not fully understand the current state.
+In order to help contextualize the task for developers, Copilot Workspace takes the task details and topic, and generates a bulleted list which articulates the current behavior of the codebase, based on the topic being posed. We’ve found that this helps build developers' confidence (because you can verify that Copilot Workspace understands the project/task), and also, serves as a means of onboarding folks to a task, when you might not fully understand the current state.
 
 <img src="images/current-spec.png" width=600 alt="Current specification">
 
@@ -84,7 +84,7 @@ Users may review the files selected by Copilot Workspace using the View referenc
 
 ## Plan
 
-Once the developer is happy with the current and proposed specs, they can request Copilot Workspace to generate a plan, which is a list of the files that need to be modified (e.g. edited, created, deleted, moved, or renamed) in order to accomplish the success criteria of the proposed spec. Additionally, each changed file includes a list of specific steps that indicate the exact changes that need to be made.
+Once you are happy with the current and proposed specs, you can request Copilot Workspace to generate a plan, which is a list of the files that need to be modified (e.g. edited, created, deleted, moved, or renamed) in order to accomplish the success criteria of the proposed spec. Additionally, each changed file includes a list of specific steps that indicate the exact changes that need to be made.
 
 Like the spec, the plan is fully editable and regeneratable, which allows the developer to refine and steer Copilot Workspace in the right direction.
 
@@ -94,16 +94,15 @@ Like the spec, the plan is fully editable and regeneratable, which allows the de
 
 ## Implementation
 
-When the developer is happy with the plan, they can click the “Implement” button in order to begin implementing it. This will update the UI to display a series of queued file updates on the right side, and then begin generating the updated file contents one-by-one. When a file begins generating, its associated entry in the plan will show it as being in progress. And when it completes, the plan will indicate it as being done.
+When you are happy with the plan, you can click the “Implement” button in order to begin implementing it. This will update the UI to display a series of queued file updates on the right side, and then begin generating the updated file contents one-by-one. When a file begins generating, its associated entry in the plan will show it as being in progress. And when it completes, the plan will indicate it as being done.
 
 Once a file is implemented, Copilot Workspace renders a diff view for it, and automatically scrolls to the first change. The diff editors are editable, which allows making minor tweaks directly to the code, as opposed to iterating via changes to the task, spec, or plan.
 
-## File Iteration
+## Iteration
 
-We don't expect Copilot Workspace to always get everything right, and so we make it easy for users to iterate on the implementations file by file. Simply add, remove, edit the items in the plan steps for each file, select the checkbox,
-and click the "Update selected files" button. This will re-generate the contents of the selected files and update the diff view.
+Copilot Workspace doesn't always get everything right, and so it makes it easy for users to iterate on the implementations file by file. Simply add, remove, edit the items in the plan steps for each file, select the checkbox, and click the "Update selected files" button. This will re-generate the contents of the selected files and update the diff view.
 
-For example, they can edit the diff directly, or they can go back to the plan and make changes there. And if they need to make more extensive changes, they can regenerate the plan entirely.
+For example, you can edit the diff directly, or you can go back to the plan and make changes there. And if you need to make more extensive changes, you can regenerate the plan entirely.
 
 <img src="images/file-iteration.png" width=600 alt="Plan panel with file iteration">
 
@@ -117,7 +116,7 @@ Once the developer has implemented their plan, Copilot Workspace enables them to
 
 *Integrated terminal, showing the generated branch name and access to just-in-time compute*
 
-If the developer wants to make any more extensive changes or leverage rich editor features (e.g. step debugging), they can open the Copilot Workspace session in a Codespace, using any of Codespace’s supported clients.
+If the developer wants to make any more extensive changes or leverage rich editor features (e.g. step debugging), you can open the Copilot Workspace session in a Codespace, using any of Codespace’s supported clients.
 
 ## Session Sharing
 
@@ -137,7 +136,7 @@ When working with issues and pull requests, additional sharing options are offer
 
 ## Task Completion
 
-When a task is implemented, validated, and reviewed, developers can complete the task by taking one of a few different types of “exit paths”, depending on the type of task they’re working on.
+When a task is implemented, validated, and reviewed, developers can complete the task by taking one of a few different types of “exit paths”, depending on the type of task you’re working on.
 
 <img src="images/task-completion.png" width=600 alt="Creating a pull request">
 
