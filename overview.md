@@ -29,7 +29,7 @@ In this manual, we will guide you through the concepts and features of Copilot W
 1. [Specification](#specification)
 1. [Plan](#plan)
 1. [Implementation](#implementation)
-1. [Iteration](#iteration)
+1. [Iterating on Files](#iterating-on-files)
 1. [Integrated Terminal](#integrated-terminal)
 1. [Session Sharing](#session-sharing)
 1. [Task Completion](#task-completion)
@@ -40,11 +40,15 @@ In this manual, we will guide you through the concepts and features of Copilot W
 Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent. The task always has a context: a GitHub repository.
 For this technical preview, Copilot Workspace supports four types of tasks: solving issues, [refining pull requests](further-tasks.md#refining-pull-requests), [creating repositories from templates](further-tasks.md#creating-repositories-from-templates) and [ad-hoc tasks](./further-tasks.md#ad-hoc-tasks). Here we focus on Issue tasks, which are the most common entry point.
 
-<img src="images/open-in-workspace.png" width=400 alt="Button on issue page to open in Copilot Workspace"><br>*Open an issue in Copilot Workspace*
+<img src="images/open-in-workspace.png" width=400 alt="Button on issue page to open in Copilot Workspace">
+
+*Open an issue in Copilot Workspace*
 
 For issue tasks, the task is based in the title and body of the issue, plus the issue’s comment thread. Once a task is defined, Copilot Workspace will progress to the next step in the timeline. Since an issue inherently represents a task definition, you can open it in Copilot Workspace and get started immediately. This looks like this:
 
-<img src="images/issue-timeline-representation.png" width=600 alt="Issue task timeline representation"><br>*The task is labeled as “Issue”*
+<img src="images/issue-timeline-representation.png" width=600 alt="Issue task timeline representation">
+
+*The task is labeled as “Issue”*
 
 ## Topic
 
@@ -98,7 +102,7 @@ When you are happy with the plan, you can click the “Implement” button in or
 
 Once a file is implemented, Copilot Workspace renders a diff view for it, and automatically scrolls to the first change. The diff editors are editable, which allows making minor tweaks directly to the code, as opposed to iterating via changes to the task, spec, or plan.
 
-## Iteration
+## Iterating on Files
 
 Copilot Workspace doesn't always get everything right, and so it makes it easy for users to iterate on the implementations file by file. Simply add, remove, edit the items in the plan steps for each file, select the checkbox, and click the "Update selected files" button. This will re-generate the contents of the selected files and update the diff view.
 
@@ -110,13 +114,13 @@ For example, you can edit the diff directly, or you can go back to the plan and 
 
 ## Integrated Terminal
 
-Once the developer has implemented their plan, Copilot Workspace enables them to validate the changes for correctness by bringing up an integrated terminal and executing shell commands. This allows performing a build, lint, test, etc. against the changes, and can be a quick and effective way to gain confidence about the task and its completion status. The terminal is backed by a Codespace, so it is a secure sandbox with a full development environment installed. 
+Once you have implemented their plan, Copilot Workspace enables you to validate the changes for correctness by bringing up an integrated terminal and executing shell commands. This allows performing a build, lint, test, etc. against the changes, and can be a quick and effective way to gain confidence about the task and its completion status. The terminal is backed by a Codespace, so it is a secure sandbox with a full development environment installed. 
 
 <img src="images/terminal.png" width=600 alt="Integrated terminal">
 
 *Integrated terminal, showing the generated branch name and access to just-in-time compute*
 
-If the developer wants to make any more extensive changes or leverage rich editor features (e.g. step debugging), you can open the Copilot Workspace session in a Codespace, using any of Codespace’s supported clients.
+If you want to make any more extensive changes or leverage rich editor features (e.g. step debugging), you can open the Copilot Workspace session in a Codespace, using any of Codespace’s supported clients.
 
 ## Session Sharing
 
@@ -128,7 +132,7 @@ Shared sessions are copies of the original session. Non-guest users can use them
 
 *Generating a share link from the header bar*
 
-When working with issues and pull requests, additional sharing options are offered
+When working with issues and pull requests, you can also
 
 * Publish to issue comment. Copilot Workspace automatically generates a comment with a share link for the session, which is included in the issue. This allows reviewers to quickly access the workspace session and see the proposed changes.
 
@@ -136,7 +140,7 @@ When working with issues and pull requests, additional sharing options are offer
 
 ## Task Completion
 
-When a task is implemented, validated, and reviewed, developers can complete the task by taking one of a few different types of “exit paths”, depending on the type of task you’re working on.
+When a task is implemented, validated, and reviewed, you can complete the task in different ways, depending on the type of task you’re working on.
 
 <img src="images/task-completion.png" width=600 alt="Creating a pull request">
 
@@ -151,7 +155,7 @@ When a task is implemented, validated, and reviewed, developers can complete the
 
 ## Session Dashboard
 
-In order to make iteration feel lossless, Copilot Workspace automatically saves your work. It also provides a session dashboard, which allows you to easily resume your work later. Additionally, because Copilot Workspace is fully optimized for usage on mobile devices, you can even start a task from your phone and then finish up on your laptop, or vice versa. 
+Copilot Workspace automatically saves your work. It also provides a session dashboard, which allows you to easily resume your work later. You can start a task from your phone and then finish up on your laptop, or vice versa.
 
 <img src="images/dashboard-2.png" width=600 alt="Copilot Workspace dashboard">
 
