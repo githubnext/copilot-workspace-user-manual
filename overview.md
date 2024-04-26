@@ -43,12 +43,12 @@ Everything in Copilot Workspace begins with a “task”, which is a natural lan
 
 For this technical preview, Copilot Workspace supports four types of tasks, each with its own distinct entry point from GitHub.com and the GitHub mobile app:
 
-| Task type | Entrypoint | Task definition |
-|-----------|-----------------|-----------------------------|
-| Solve Issue | [Open in Workspace](images/open-in-workspace-full.png) | The title and body of the issue and the issue’s comment thread |
-| Create Repository | [Template Repository](images/create-repo-from-template.png) or [Copilot Workspace](https://copilot-workspace.githubnext.com/new) | The description of the software and the README of the template repo |
-| Refine PR |  [Open in Workspace](images/pr.png) | The task description and the specific code changes in the PR |
-| Ad-hoc | [Repository](images/ad-hoc-task.png) | The task description | 
+| Task type | Entrypoint | Task definition | Additional context |
+|-----------|-----------------|-----------------------------|--------|
+| Solve Issue | <img src="images/open-in-workspace.png" width=400 alt="Button on issue page to open in Copilot Workspace"><br>*Open an issue in Copilot Workspace* | The title and body of the issue | The issue’s comment thread |
+| Create Repository | <img src="images/create-repo-from-template.png" width=400 alt="Create repository from template"><br>*Creating a repository from a template via Copilot Workspace*<br>or [New Session in Copilot Workspace](https://copilot-workspace.githubnext.com/new) | The description of the software to create | The README of the template repo |
+| Refine PR |   <img src="images/open-in-workspace.png" width=400 alt="Button on pull request page to open in Copilot Workspace"><br>*Refine a pull request in Copilot Workspace* | The task description  | The specific code changes in the PR |
+| Ad-hoc | <img src="images/open-in-workspace.png" width=400 alt="Panel on repository page to open an ad-hoc task in Copilot Workspace"><br>*Start an ad-hoc task in Copilot Workspace*<br>or [New Session in Copilot Workspace](https://copilot-workspace.githubnext.com/new) | The task description | The repository |
 
 Copilot Workspace displays the current task as the root of the timeline, and when needed, includes a panel with any additional context.
 
