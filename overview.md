@@ -1,6 +1,6 @@
 # Copilot Workspace: Overview
 
-Copilot Workspace is a _task-centric_ AI assistant. Each day as a developer you start with a task, and make the journey to explore, understand, refine, and complete that task, a journey that can be exciting, challenging, fascinating, and rewarding. Copilot Workspace takes this journey with you, every step of the way — the journey from task to working code. 
+[Copilot Workspace](https://githubnext.com/projects/copilot-workspace/) is a _task-centric_ AI assistant. Each day as a developer you start with a task, and make the journey to explore, understand, refine, and complete that task, a journey that can be exciting, challenging, fascinating, and rewarding. Copilot Workspace takes this journey with you, every step of the way — the journey from task to working code. 
 
 Copilot Workspace is built on a set of core principles that guide its design and development:
 
@@ -10,7 +10,7 @@ Copilot Workspace is built on a set of core principles that guide its design and
 
 * Copilot Workspace is _pervasive_. It is ready and waiting for you, available on every issue in every enabled repository on GitHub. And Copilot Workspace is even there for you when starting new code, available on every template repository, to create new software using natural language.
 
-* Copilot Workspace is _iterative_. Unlike fully-automatic AI assistants, Copilot Workspace encourages you to check, review, refine and iterate on AI-generated outputs. You, the developer, are in control.
+* Copilot Workspace is _iterative_. Copilot Workspace encourages you to check, review, refine and iterate on AI-generated outputs. You, the developer, are in control.
 
 * Copilot Workspace is _collaborative_. You can share sessions with your team and publish links to your sessions on issues and pull requests. And, if you're a repository maintainer, we give you controls to help manage the use of AI-assisted development with your repositories.
 
