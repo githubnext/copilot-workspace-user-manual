@@ -130,4 +130,11 @@ If your issues and code are in separate repositories, you can use the "New sessi
 
 <img src="images/issue-and-code.png" width=300 alt="Issue and code URL dialog">
 
+## Ambiguity Warnings
+
+If Copilot Workspace detects that your task is overly ambiguous/unclear (e.g. it doesn’t seem aligned with the goals/focus of the repo), then it warn you about that and ask you to clarify the task further, before you can carry on. This is done to prevent hallucination in the plan and help guide you towards the “pit of success”, since subsequent stages of the workflow work best with sufficient detail.
+
+<img src="images/ambiguous-spec.png" width=600 alt="Ambiguous specification">
+
+*A warning that a task is too ambiguous and that their intent needs to be clarified*
 

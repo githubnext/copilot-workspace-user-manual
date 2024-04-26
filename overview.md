@@ -40,11 +40,9 @@ In this manual, we will guide you through the concepts and features of Copilot W
 Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent. The task always has a context: a GitHub repository.
 For this technical preview, Copilot Workspace supports four types of tasks: solving issues, [refining pull requests](further-techniques.md#refining-pull-requests), [creating repositories from templates](further-techniques.md#creating-repositories-from-templates) and [ad-hoc tasks](./further-techniques.md#ad-hoc-tasks). Here we focus on Issue tasks, which are the most common entry point.
 
-Once a task is defined, Copilot Workspace will progress to the next step in the timeline. Since an issue inherently represents a task definition, you can open it in Copilot Workspace and get started immediately.
-
 <img src="images/open-in-workspace.png" width=400 alt="Button on issue page to open in Copilot Workspace"><br>*Open an issue in Copilot Workspace*
 
-For issue tasks, the task is based in the title and body of the issue, plus the issue’s comment thread. Once started an issue task looks like this:
+For issue tasks, the task is based in the title and body of the issue, plus the issue’s comment thread. Once a task is defined, Copilot Workspace will progress to the next step in the timeline. Since an issue inherently represents a task definition, you can open it in Copilot Workspace and get started immediately. This looks like this:
 
 <img src="images/issue-timeline-representation.png" width=600 alt="Issue task timeline representation"><br>*The task is labeled as “Issue”*
 
@@ -67,12 +65,6 @@ In order to help contextualize the task for developers, Copilot Workspace takes 
 *The current specification answers the question in the topic based on the current state*
 
 And if Copilot Workspace gets anything wrong, then the developer can easily edit/delete steps from the current spec, or even choose to regenerate an entirely new spec (“try again”). But in practice, we find that these tend to be pretty good on the first try.
-
-Additionally, if we detect that a user’s task is overly ambiguous/unclear (e.g. it doesn’t seem aligned with the goals/focus of the repo), then we’ll warn them about that and ask them to clarify the task further, before they can carry on. This is done to prevent hallucination in the plan and help guide users towards the “pit of success”, since subsequent stages of the workflow work best when they have sufficient detail.
-
-<img src="images/ambiguous-spec.png" width=600 alt="Ambiguous specification">
-
-*The user is warned that their task is too ambiguous and that their intent needs to be clarified*
 
 After the current specification, Copilot Workspace generates a “proposed specification”, which is a bulleted list which articulates the state that the codebase would be in after resolving the task (effectively answering the question in the topic). And in particular, the proposed specification is focused on defining the success criteria of the task, as opposed to getting into implementation details (which is the role of the [plan](#plan)).
 
