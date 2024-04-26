@@ -25,7 +25,6 @@ In this manual, we will guide you through the concepts and features of Copilot W
 ## Features
 
 1. [Task](#task)
-1. [Topic](#topic)
 1. [Specification](#specification)
 1. [Plan](#plan)
 1. [Implementation](#implementation)
@@ -52,25 +51,23 @@ This will open Copilot Workspace contextualized to this issue. For issue tasks, 
 
 *The task is labeled as “Issue” and analysis begins*
 
-## Topic
+## Specification
 
-In order to help summarize a non-trivial task definition (e.g. an issue with a long comment thread), Copilot Workspace generates a “topic” for the task, which takes the form of a question that can be posed against the codebase, and used to define the before/after success criteria (see the [specification](#specification) section below). 
+In order to help summarize a non-trivial task definition (e.g. an issue with a long comment thread), Copilot Workspace first generates a “topic” for the task, which takes the form of a question that can be posed against the codebase, and used to define the before/after success criteria (see the [specification](#specification) section below). 
 
 <img src="images/topic-question.png" width=600 alt="Topic question">
 
 *Note how the topic introduces clarity that is completely missing from the issue title*
 
-You can think of the topic as a way to distill the task down to its essence, and to give the developer an early and fast opportunity to see if Copilot Workspace is on the right track. If the topic is wrong, you don't need to continue. But if the topic is right, we’ve found that this helps developers to better understand the task, and to focus on the most important aspects of the codebase that are relevant to the task.
+You can think of the topic as a way to distill the task down to its essence, and to give you an early and fast opportunity to see if Copilot Workspace is on the right track. If the topic is wrong, you don't need to continue. But if the topic is right, it helps you better understand the task, and to focus on the most important aspects of the codebase that are relevant to the task.
 
-## Specification
-
-In order to help contextualize the task for developers, Copilot Workspace takes the task details and topic, and generates a bulleted list which articulates the current behavior of the codebase, based on the topic being posed. We’ve found that this helps build developers' confidence (because you can verify that Copilot Workspace understands the project/task), and also, serves as a means of onboarding folks to a task, when you might not fully understand the current state.
+After producing the topic, Copilot Workspace generates a bulleted list describing the current behavior of the codebase, based on the task and topic being posed. This helps build your confidence that Copilot Workspace is on the right track, and serves as a means of onboarding you to the context, in cases where you might not fully understand the current state.
 
 <img src="images/current-spec.png" width=600 alt="Current specification">
 
 *The current specification answers the question in the topic based on the current state*
 
-And if Copilot Workspace gets anything wrong, then the developer can easily edit/delete steps from the current spec, or even choose to regenerate an entirely new spec (“try again”). But in practice, we find that these tend to be pretty good on the first try.
+And if Copilot Workspace gets anything wrong, then you can easily edit/delete steps from the current spec, or even choose to regenerate an entirely new spec (“try again”). In practice, we find that these tend to be pretty good on the first try.
 
 After the current specification, Copilot Workspace generates a “proposed specification”, which is a bulleted list which articulates the state that the codebase would be in after resolving the task (effectively answering the question in the topic). And in particular, the proposed specification is focused on defining the success criteria of the task, as opposed to getting into implementation details (which is the role of the [plan](#plan)).
 
@@ -92,7 +89,7 @@ Users may review the files selected by Copilot Workspace using the View referenc
 
 Once you are happy with the current and proposed specs, you can request Copilot Workspace to generate a plan, which is a list of the files that need to be modified (e.g. edited, created, deleted, moved, or renamed) in order to accomplish the success criteria of the proposed spec. Additionally, each changed file includes a list of specific steps that indicate the exact changes that need to be made.
 
-Like the spec, the plan is fully editable and regeneratable, which allows the developer to refine and steer Copilot Workspace in the right direction.
+Like the spec, the plan is fully editable and regeneratable, which allows you to refine and steer Copilot Workspace in the right direction.
 
 <img src="images/plan.png" width=600 alt="Plan">
 
