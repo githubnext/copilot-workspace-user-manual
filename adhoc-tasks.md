@@ -2,7 +2,7 @@
 
 An ad-hoc task is a task that you define yourself, without the context of an issue or pull request. You can start an ad-hoc task from the Copilot Workspace dashboard, or from the repository page on GitHub.com.
 
-<img src="images/adhoc-task.png" width=400 alt="Panel on repository page to open an ad-hoc task in Copilot Workspace"><br>*Start an ad-hoc task in Copilot Workspace*
+<img src="images/ad-hoc-task-full.png" width=400 alt="Panel on repository page to open an ad-hoc task in Copilot Workspace"><br>*Start an ad-hoc task in Copilot Workspace*
 
 Once started an ad-hoc task looks like this:
 
