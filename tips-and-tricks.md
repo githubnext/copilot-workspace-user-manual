@@ -113,3 +113,21 @@ Modified files are two-way-synced between Copilot Workspace and the terminal/cod
 We're always trying new things in Copilot Workspace. You can opt into our current experiments by clicking on your avatar in the top right corner of the screen and selecting "Experiments":
 
 <img src="images/experiments.png" width=200 alt="Experiments selector">
+
+## Work Around Model "Laziness"
+
+✨ TIP: If the model is "lazy" and elides chunks of edited files, copy and paste the missing parts from the diff
+
+Sometimes the model will be "lazy" and elide chunks of edited files. If you see this happening, you can copy the missing parts from the left-hand side of the diff and paste them into the right-hand side.  We know that's not ideal, and we're working hard on this issue. 
+
+## What If Your Issues and Code Are in Separate Repos?
+
+✨ TIP: Use the "New session" button to tell Copilot Workspace where your issues and code are
+
+If your issues and code are in separate repositories, you can use the "New session" button on a session page to tell Copilot Workspace where your issues and code are. This will allow Copilot Workspace to analyze your issues in the context of your code.
+
+<img src="images/new-session.png" width=300 alt="Start new session selector">
+
+<img src="images/issue-and-code.png" width=300 alt="Issue and code URL dialog">
+
+
