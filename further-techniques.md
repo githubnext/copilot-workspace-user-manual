@@ -20,11 +20,11 @@ Here you give a task description explicitly, and the task takes into account the
 
 An ad-hoc task is a task that you define yourself, without the context of an issue or pull request. You can start an ad-hoc task from the Copilot Workspace dashboard, or from the repository page on GitHub.com.
 
-<img src="images/open-in-workspace.png" width=400 alt="Panel on repository page to open an ad-hoc task in Copilot Workspace"><br>*Start an ad-hoc task in Copilot Workspace*
+<img src="images/adhoc-task.png" width=400 alt="Panel on repository page to open an ad-hoc task in Copilot Workspace"><br>*Start an ad-hoc task in Copilot Workspace*
 
 Once started an ad-hoc task looks like this:
 
-<img src="images/adhoc-task-timeline-representation.png" width=600 alt="Ad-hoc task timeline representation"><br>*The timeline starts with the ad-hoc task and has no associated metadata* |
+<img src="images/adhoc-task-timeline-representation.png" width=600 alt="Ad-hoc task timeline representation"><br>*The timeline starts with the ad-hoc task and has no associated metadata*
 
 ## Separate Repos for Issues and Code
 
