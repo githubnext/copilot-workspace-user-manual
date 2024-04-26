@@ -6,16 +6,15 @@ Copilot Workspace is built on a set of core principles that guide its design and
 
 * Copilot Workspace is _contextual_. It is deeply integrated with GitHub, and is aware of the context of your task — the repository, the issue, the PR.
 
-* Copilot Workspace is _explorative_. It offers a canvas for you to navigate, understand and complete tasks, augmenting your development skills with a new kind of AI assistance. You can use Copilot Workspace to explore and understand unfamiliar codebases, and real-world tasks associated with them.
+* Copilot Workspace is _explorative_. It offers a canvas for you to navigate tasks, augmenting your development skills with a new kind of AI assistance. You can use Copilot Workspace to explore repositories through real-world tasks associated with them.
 
-* Copilot Workspace is _pervasive_. It is ready and waiting for you, on every issue in every enabled repository on GitHub. Any issue, any repository. And Copilot Workspace is even there for you when starting new code — you can use it with every template repository, to create new software using natural language.
+* Copilot Workspace is _pervasive_. It is ready and waiting for you, via a button available on every issue in every enabled repository on GitHub. And Copilot Workspace is even there for you when starting new code, available on every template repository, to create new software using natural language.
 
-* Copilot Workspace is _iterative_. Unlike fully-automatic AI assistants, Copilot Workspace encourages you to check,
-review, refine and iterate on AI-generated outputs. You, the developer, are in control.
+* Copilot Workspace is _iterative_. Unlike fully-automatic AI assistants, Copilot Workspace encourages you to check, review, refine and iterate on AI-generated outputs. You, the developer, are in control.
 
-* Copilot Workspace is _collaborative_. Teams of developers can share sessions and collaborate on tasks together. You can publish links to your sessions, and, if you're a repository maintainer, we give you controls to help manage the use of AI-assisted development with your repositories.
+* Copilot Workspace is _collaborative_. You can share sessions with your team and publish links to your sessions on issues and pull requests. And, if you're a repository maintainer, we give you controls to help manage the use of AI-assisted development with your repositories.
 
-* Copilot Workspace is _configurable_. You can integrate Copilot Workspace into your existing or new workflows by creating incoming links that specify common tasks — like adding unit tests — or use existing documents as indicators of new tasks.
+* Copilot Workspace is _configurable_. You can integrate Copilot Workspace into your workflows via deep links to Copilot Workspace that specify common tasks.
 
 In this manual, we will guide you through the concepts and features of Copilot Workspace, and help you get started with using it effectively.
 
