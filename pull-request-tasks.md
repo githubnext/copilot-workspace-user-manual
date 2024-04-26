@@ -10,3 +10,4 @@ Once started a pull request task looks like this:
 
 <img src="images/pr-task-timeline-representation.png" width=600 alt="PR task timeline representation"><br>*A “Pull Request” panel includes the title and description of the PR, along with the task*
 
+After creation, pull request tasks proceed as for issue tasks. On completion, you are offered an additional option to update the pull request.
