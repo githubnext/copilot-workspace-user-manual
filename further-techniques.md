@@ -14,10 +14,6 @@ If Copilot Workspace detects that your task is overly ambiguous/unclear (e.g. it
 
 *A warning that a task is too ambiguous and that their intent needs to be clarified*
 
-## Copilot Workspace for Repo Maintainers
-
-see docs
-
 ## Incoming Links
 
 see docs
