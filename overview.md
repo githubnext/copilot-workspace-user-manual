@@ -22,7 +22,7 @@ In this manual, we will guide you through the concepts and features of Copilot W
 
 <img src="images/session.png" width="600" alt="A fully-implemented workspace session">
 
-*A fully-implemented workspace session that illustrates the structured timeline-based workflow (issue-to-PR)*
+*A fully-implemented workspace session*
 
 __Components of the Copilot Workspace end-to-end workflow:__
 
