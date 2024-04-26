@@ -24,8 +24,6 @@ In this manual, we will guide you through the concepts and features of Copilot W
 
 *A fully-implemented workspace session*
 
-__Components of the Copilot Workspace end-to-end workflow:__
-
 1. [Task](#task)
 1. [Topic](#topic)
 1. [Specification](#specification)
