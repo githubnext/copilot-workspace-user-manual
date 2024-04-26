@@ -38,17 +38,19 @@ In this manual, we will guide you through the concepts and features of Copilot W
 ## Task
 
 Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent. The task always has a context: a GitHub repository.
-For this technical preview, Copilot Workspace supports four types of tasks: solving issues, [refining pull requests](further-tasks.md#refining-pull-requests), [creating repositories from templates](further-tasks.md#creating-repositories-from-templates) and [ad-hoc tasks](./further-tasks.md#ad-hoc-tasks). Here we focus on Issue tasks, which are the most common entry point.
+For this technical preview, Copilot Workspace supports four types of tasks: solving issues, [refining pull requests](further-tasks.md#refining-pull-requests), [creating repositories from templates](further-tasks.md#creating-repositories-from-templates) and [ad-hoc tasks](./further-tasks.md#ad-hoc-tasks). Here we focus on solving issues, which are the most common entry point.
+
+Once enrolled in the technical preview, then on every issue in GitHub you will find a new "Open in Wokspace" button:
 
 <img src="images/open-in-workspace.png" width=400 alt="Button on issue page to open in Copilot Workspace">
 
 *Open an issue in Copilot Workspace*
 
-For issue tasks, the task is based in the title and body of the issue, plus the issue’s comment thread. Once a task is defined, Copilot Workspace will progress to the next step in the timeline. Since an issue inherently represents a task definition, you can open it in Copilot Workspace and get started immediately. This looks like this:
+This will open Copilot Workspace contextualized to this issue. For issue tasks, the task is based in the title and body of the issue, plus the issue’s comment thread. Copilot Workspace will immediately progress to the next step in the timeline. This looks like this:
 
 <img src="images/issue-timeline-representation.png" width=600 alt="Issue task timeline representation">
 
-*The task is labeled as “Issue”*
+*The task is labeled as “Issue” and analysis begins*
 
 ## Topic
 
