@@ -6,7 +6,7 @@ This manual will help you understand how to use Copilot Workspace most effective
 
 ## Table of Contents
 
-* [Conceptual Overview](conceptual-overview.md)
+* [Overview](overview.md)
 * [Getting Started](getting-started.md)
 * [Tips and Tricks](tips-and-tricks.md)
 * [Advanced Techniques](advanced-techniques.md)

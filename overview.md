@@ -1,11 +1,37 @@
-# Copilot Workspace: Conceptual Overview
+# Copilot Workspace: Overview
 
-Copilot Workspace models development as a __task-centric workflow__, which allows starting from an 
-existing task (e.g., an issue), or defining a new task (e.g., iterating on a PR, creating a repo), 
-and then collaborating with Copilot on a solution. And in order to provide a feedback loop that
-makes forward progress feel actionable, Copilot Workspace represents this workflow as a 
-structured timeline of steps that are __AI-generated but human-editable__, and are meant to help 
-orient, assist, and empower developers towards completion.
+Software development is __task-centric__. Each day as a developer you start with a task, and your goal is to
+explore, understand, refine, and complete that task. This journey can be exciting, challenging,
+fascinating, and rewarding. And along the way you use tools, tools designed to assist you.
+
+Copilot Workspace is a task-centric AI assistant that takes this journey with you, every step of the way — the journey from task to working code.
+You will usually enter Copilot Workspace by a button available on on every GitHub issue. Copilot Workspace then assists you
+in exploring a solution through a workflow — a structured timeline of steps that are __AI-generated but human-editable__. This workflow is designed to
+orient, assist, and empower you towards completion.
+
+Copilot Workspace is __explorative__. It offers a canvas for you to navigate, understand and complete tasks, augmenting
+your existing development workflow with a new kind of AI assistance. You can use Copilot Workspace to explore and understand
+unfamiliar codebases and real-world tasks associated with them. Copilot Workspace is a friend helping you
+navigate the unfamiliar and learn new skills.
+
+Copilot Workspace is __pervasive__. It is right there, ready and waiting for you, on every issue in every enabled repository
+on GitHub. On GitHub, there's an entire universe of software and tasks to explore with Copilot Workspace: any issue, any
+repository. And Copilot Workspace is even there for you when generating software from scratch — you can find it on every template repository, where
+you can use Copilot Workspace to create new software repositories using natural language.
+
+Copilot Workspace is __iterative__. Unlike fully-automatic AI assistants, Copilot Workspace encourages you to check, review, refine and iterate
+on generated specifications, plans and implementations. You can edit, delete, and add to the AI-generated content. You, the developer, are in control.
+
+Copilot Workspace is __collaborative__. It is designed to be used by teams of developers, who can share
+a workspace and collaborate on tasks together. You can create and share a sessions with your team, and work
+together to complete tasks. You can publish links to your sessions as comments on related GitHub issues or pull requests.
+And as a maintainer, we give you controls to help manage the use of AI-assisted development in your repositories.
+
+Finally, Copilot Workspace is __configurable__: you can integrate Copilot Workspace into your existing or
+new workflows by creating incoming links that specify common tasks — like adding unit tests — or use
+existing documents as indicators of new tasks.
+
+In this manual, we will guide you through the features and workflows of Copilot Workspace, and help you get started with using it effectively.
 
 <img src="images/session.png" width="600" alt="A fully-implemented workspace session">
 
@@ -26,25 +52,27 @@ __Components of the Copilot Workspace end-to-end workflow:__
 
 ## Task
 
-Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent, along with an associated GitHub repository, and any additional context/metadata about the task. For this preview release, Copilot Workspace supports four types of tasks, each with its own distinct entry point from GitHub.com and the GitHub mobile app, in order to make them easy to get started with:
+Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent. The task always has a context: a GitHub repository.
 
-| Task type | Task definition | Additional context/metadata |
+For this technical preview, Copilot Workspace supports four types of tasks, each with its own distinct entry point from GitHub.com and the GitHub mobile app:
+
+| Task type | Entrypoint | Task definition |
 |-----------|-----------------|-----------------------------|
-| [Issue ([Entrypoint](images/open-in-workspace.png)) | The title and body of the issue | The issue’s comment thread (if any) |
-| Ad-hoc task ([Entrypoint](images/ad-hoc-task.png)) | The task provided from the repo page, incoming link or within CW | N/A (This is effectively like a draft issue) |
-| Pull request task ([Entrypoint](images/pr.png)) | The task definition provided from the incoming link or within CW | The specific code changes in the PR (the PR's title and description are not included by default, as they tend to confuse the picture of specifying further changes to the PR) |
-| New repo task | The description of the project | The README of the template repo |
+| Solve Issue | [Open in Workspace](images/open-in-workspace-full.png) | The title and body of the issue and the issue’s comment thread |
+| Create Repository | [Template Repository](images/create-repo-from-template.png) or [Copilot Workspace](https://copilot-workspace.githubnext.com/new) | The description of the software and the README of the template repo |
+| Refine PR |  [Open in Workspace](images/pr.png) | The task description and the specific code changes in the PR |
+| Ad-hoc | [Repository](images/ad-hoc-task.png) | The task description | 
 
-Due to its task-centric nature, Copilot Workspace displays the current task as the root of the timeline, and when needed, includes a panel with any additional context (e.g. the PR, when iterating on a PR). This ensures that the workspace can serve as a one-stop-shop for iterating on the task, without needing to switch contexts.
+Copilot Workspace displays the current task as the root of the timeline, and when needed, includes a panel with any additional context.
 
 | Task type |Timeline representation |
 |-----------|:----------------------:|
-| Issue | <img src="images/issue-timeline-representation.png" width=600 alt="Issue task timeline representation"><br>*The task is labeled as “Issue”, since this is a first-class type of task* |
-| Ad-hoc task | <img src="images/adhoc-task-timeline-representation.png" width=600 alt="Ad-hoc task timeline representation"><br>*Since this is a generic repo task, the timeline starts with it and has no associated metadata* |
-| PR task | <img src="images/pr-task-timeline-representation.png" width=600 alt="PR task timeline representation"><br>*A “Pull Request” panel includes the title and description of the PR, along with the task* |
-| Repo task | <img src="images/repo-task-timeline-representation.png" width=600 alt="Repo task timeline representation"><br>*The task is labeled as “Repository”, and the “Template” panel indicates the template repo* |
+| Solve Issue | <img src="images/issue-timeline-representation.png" width=600 alt="Issue task timeline representation"><br>*The task is labeled as “Issue”* |
+| Create Repository | <img src="images/repo-task-timeline-representation.png" width=600 alt="Repo task timeline representation"><br>*The task is labeled as “Repository”, and the “Template” panel indicates the template repo* |
+| Refine PR | <img src="images/pr-task-timeline-representation.png" width=600 alt="PR task timeline representation"><br>*A “Pull Request” panel includes the title and description of the PR, along with the task* |
+| Ad-hoc | <img src="images/adhoc-task-timeline-representation.png" width=600 alt="Ad-hoc task timeline representation"><br>*The timeline starts with the ad-hoc task and has no associated metadata* |
 
-Once a task is defined, Copilot Workspace will progress to the next step in the timeline. And since an issue inherently represents a task definition, you can open it in Copilot Workspace and get started immediately.
+Once a task is defined, Copilot Workspace will progress to the next step in the timeline. Since an issue inherently represents a task definition, you can open it in Copilot Workspace and get started immediately.
 
 ## Topic
 
@@ -62,7 +90,7 @@ In order to help contextualize the task for developers, Copilot Workspace takes 
 
 <img src="images/current-spec.png" width=600 alt="Current specification">
 
-*The current specification answers question in the topic based on the current state*
+*The current specification answers the question in the topic based on the current state*
 
 And if Copilot Workspace gets anything wrong, then the developer can easily edit/delete steps from the current spec, or even choose to regenerate an entirely new spec (“try again”). But in practice, we find that these tend to be pretty good on the first try.
 
