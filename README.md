@@ -9,9 +9,14 @@ This manual will help you understand how to use Copilot Workspace most effective
 * [Overview](overview.md)
 * [Getting Started](getting-started.md)
 * [Tips and Tricks](tips-and-tricks.md)
-* [Further Techniques](further-techniques.md)
-* [Responsible AI FAQ](responsible-ai-faq.md)
-* [Codespaces Guide](codespaces-guide.md)
+* Going Further
+  - [Creating Repositories](creating-repos.md)
+  - [Ad-hoc Tasks](adhoc-tasks.md)
+  - [Pull Request Tasks](pull-request-tasks.md)
+  - [Codespaces Guide](codespaces-guide.md)
+  - [Controls for Repository Maintainers](repo-maintainers.md)
+  - [Further Techniques](further-techniques.md)
+  - [Responsible AI FAQ](responsible-ai-faq.md)
 
 ## Feedback
 
