@@ -161,9 +161,7 @@ Copilot Workspace automatically saves your work. It also provides a session dash
 
 *The Copilot Workspace dashboard showing recent, bookmarked and completed sessions*
 
-## Undo/Redo
-
-Undo and redo are supported via the standard keyboard shortcuts: `Ctrl-Z` and `Ctrl-Y` on Windows and Linux, and `Cmd-Z` and `Cmd-Y` on macOS.
+Undo and redo are supported within the session via buttons on the toolbar.
 
 ## Appendix: Glossary
 
