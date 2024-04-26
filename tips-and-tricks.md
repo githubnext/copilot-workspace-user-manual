@@ -102,9 +102,9 @@ We provide a built-in terminal so that you can validate the code changes that Co
 
 ## Use the Codespace
 
-✨ TIP: Full editing in the codespace is simple and quick
+✨ TIP: Full editing in the Codespace is simple and quick
 
-Modified files are two-way-synced between Copilot Workspace and the terminal/codespace. Feel free to edit in either place, and your changes will be reflected in the other.
+Modified files are two-way-synced between Copilot Workspace and the terminal/Codespace. Feel free to edit in either place, and your changes will be reflected in the other.
 
 Check out [Codespaces Guide](./codespaces-guide.md) for more information.
 

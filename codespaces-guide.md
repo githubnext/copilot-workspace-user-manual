@@ -1,6 +1,6 @@
 # Codespace Starter Guide
 
-This document contains useful information for using terminal/codespace in your Workspace session.
+This document contains useful information for using terminal/odespace in your Workspace session.
 
 ## Codespaces Limits
 
@@ -10,10 +10,10 @@ The technical preview includes limited free Codespaces compute usage that is res
 
 ### Overall Limits
 
-Codespaces enforces total codespaces and total active codespaces limits that you may encounter. If closing Workspace sessions does not resolve these issues you may reach out to GitHub here: https://github.com/githubnext/copilot-workspace-user-manual?tab=readme-ov-file#feedback
+Codespaces enforces total Codespaces and total active Codespaces limits that you may encounter. If closing Workspace sessions does not resolve these issues you may reach out to GitHub here: https://github.com/githubnext/copilot-workspace-user-manual?tab=readme-ov-file#feedback
 
 ### Organization based limits and policies
-If the Organization that owns the repository has set policies for codespaces usage they will be applied to being able to create codespaces for Workspace. You should reach out to an administrator of the organization to adjust any policies.
+If the Organization that owns the repository has set policies for Codespaces usage they will be applied to being able to create Codespaces for Workspace. You should reach out to an administrator of the organization to adjust any policies.
 
 ## Common Errors
 
@@ -28,14 +28,14 @@ Remediate this by closing open Workspace sessions and allowing previous sessions
 #### Limit of Copilot Workspace reached.
 Remediate this by closing open Workspace sessions and allowing previous sessions to shutdown before creating new ones.
 
-#### Repository may not be used for a codespace
+#### Repository may not be used for a Codespace
 
-This may be because of a repository or organization policy restricting codespaces creation. Please check any settings in the organization or repository that may be preventing codespaces usage. If you do not find any please reach out to our [technical
+This may be because of a repository or organization policy restricting Codespaces creation. Please check any settings in the organization or repository that may be preventing Codespaces usage. If you do not find any please reach out to our [technical
 preview feedback channels](https://github.com/githubnext/copilot-workspace-user-manual?tab=readme-ov-file#feedback) for assistance.
 
 #### The assigned location is currently unavailable.
 
-You may try again in a few minutes. Additionally, you can change your default codespaces region in your user settings if you continue to run into this error for a particular region by following these [public docs](https://docs.github.com/en/codespaces/setting-your-user-preferences/setting-your-default-region-for-github-codespaces).
+You may try again in a few minutes. Additionally, you can change your default Codespaces region in your user settings if you continue to run into this error for a particular region by following these [public docs](https://docs.github.com/en/codespaces/setting-your-user-preferences/setting-your-default-region-for-github-codespaces).
 
 #### Provided `devcontainer.json` cannot be parsed to valid JSON
 
