@@ -41,41 +41,15 @@ __Components of the Copilot Workspace end-to-end workflow:__
 
 Everything in Copilot Workspace begins with a “task”, which is a natural language description of intent. The task always has a context: a GitHub repository.
 
-For this technical preview, Copilot Workspace supports four types of tasks, each with its own distinct entry point from GitHub.com and the GitHub mobile app. Once a task is defined, Copilot Workspace will progress to the next step in the timeline. Since an issue inherently represents a task definition, you can open it in Copilot Workspace and get started immediately.
+For this technical preview, Copilot Workspace supports four types of tasks: solving issues, [refining pull requests](further-techniques.md#refining-pull-requests), [creating repositories from templates](further-techniques.md#creating-repositories-from-templates) and [ad-hoc tasks](further-techniques.md#ad-hoc-tasks). Here we focus on Issue tasks, which are the most common entry point.
 
-### Issue Tasks
+Once a task is defined, Copilot Workspace will progress to the next step in the timeline. Since an issue inherently represents a task definition, you can open it in Copilot Workspace and get started immediately.
 
 <img src="images/open-in-workspace.png" width=400 alt="Button on issue page to open in Copilot Workspace"><br>*Open an issue in Copilot Workspace*
 
-The task is based in the title and body of the issue, plus the issue’s comment thread. Once started an issue task looks like this:
+For issue tasks, the task is based in the title and body of the issue, plus the issue’s comment thread. Once started an issue task looks like this:
 
 <img src="images/issue-timeline-representation.png" width=600 alt="Issue task timeline representation"><br>*The task is labeled as “Issue”*
-
-### Creating Repositories from Templates
-
-<img src="images/create-repo-from-template.png" width=400 alt="Create repository from template"><br>*Creating a repository from a template via Copilot Workspace*
-
-The task is based on the description of the software to create, plus the README of the template repo. You can also start this kind of task by creating a [New Session in Copilot Workspace](https://copilot-workspace.githubnext.com/new). Once started a create repository task looks like this:
-
-<img src="images/repo-task-timeline-representation.png" width=600 alt="Repo task timeline representation"><br>*The task is labeled as “Repository”, and the “Template” panel indicates the template repo*
-
-### Refining Pull Requests
-
-<img src="images/open-in-workspace.png" width=400 alt="Button on pull request page to open in Copilot Workspace"><br>*Refine a pull request in Copilot Workspace*
-
-Here you give a task description explicitly, and the task takes into account the specific code changes in the PR. Once started a pull request task looks like this:
-
-<img src="images/pr-task-timeline-representation.png" width=600 alt="PR task timeline representation"><br>*A “Pull Request” panel includes the title and description of the PR, along with the task*
-
-### Ad-hoc Tasks
-
-An ad-hoc task is a task that you define yourself, without the context of an issue or pull request. You can start an ad-hoc task from the Copilot Workspace dashboard, or from the repository page on GitHub.com.
-
-<img src="images/open-in-workspace.png" width=400 alt="Panel on repository page to open an ad-hoc task in Copilot Workspace"><br>*Start an ad-hoc task in Copilot Workspace*
-
-Once started an ad-hoc task looks like this:
-
-<img src="images/adhoc-task-timeline-representation.png" width=600 alt="Ad-hoc task timeline representation"><br>*The timeline starts with the ad-hoc task and has no associated metadata* |
 
 ## Topic
 
