@@ -12,11 +12,11 @@ The Issue/Task panel may be prepopulated with content depending on how you enter
 
 ✨ TIP: A few words clarifications can make a huge difference!
 
-Just a few words of clarification can make a big difference in the quality of the results you get. For example, 
+Just a few words of clarification can make a big difference in the quality of the results you get. For example,
 
 * _add corresponding unit tests in `test/server`_ or
 
-* _the problem is in the convolution code_ or 
+* _the problem is in the convolution code_ or
 
 * _don't change any existing code just add unit tests_
 
@@ -106,9 +106,11 @@ We provide a built-in terminal so that you can validate the code changes that Co
 
 Modified files are two-way-synced between Copilot Workspace and the terminal/codespace. Feel free to edit in either place, and your changes will be reflected in the other.
 
+Check out [Codespaces Guide](./codespaces-guide.md) for more information.
+
 ## Explore the Experiments!
 
-✨ TIP: Explore our experiments and send us feedback! 
+✨ TIP: Explore our experiments and send us feedback!
 
 We're always trying new things in Copilot Workspace. You can opt into our current experiments by clicking on your avatar in the top right corner of the screen and selecting "Experiments":
 
@@ -118,7 +120,7 @@ We're always trying new things in Copilot Workspace. You can opt into our curren
 
 ✨ TIP: If the model is "lazy" and elides chunks of edited files, copy and paste the missing parts from the diff
 
-Sometimes the model will be "lazy" and elide chunks of edited files. If you see this happening, you can copy the missing parts from the left-hand side of the diff and paste them into the right-hand side.  We know that's not ideal, and we're working hard on this issue. 
+Sometimes the model will be "lazy" and elide chunks of edited files. If you see this happening, you can copy the missing parts from the left-hand side of the diff and paste them into the right-hand side.  We know that's not ideal, and we're working hard on this issue.
 
 ## What If Your Issues and Code Are in Separate Repos?
 
