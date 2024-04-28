@@ -10,3 +10,14 @@ The task is based on the description of the software to create, plus the README 
 
 <img src="images/repo-task-timeline-representation.png" width=600 alt="Repo task timeline representation"><br>*The task is labeled as “Repository”, and the “Template” panel indicates the template repo*
 
+## Using the URL
+
+You can also turn on “Create Repository” mode for any repository URL by adding `?template=true` as a query parameter. For example:
+
+https://copilot-workspace.githubnext.com/githubnext/hello-world?template=true
+
+Some repositories are treated as templates by default:
+
+- Any GitHub template repository
+- Any repository in an organization containing `templates`, upper or lower case, with dash at start or end
+- Any repository with `-template`, `-scaffold`, `-starter` or `-boilerplate` in its name, upper or lower case, with dash at start or end
