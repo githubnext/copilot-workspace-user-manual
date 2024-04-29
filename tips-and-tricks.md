@@ -138,7 +138,7 @@ If your issues and code are in separate repositories, you can use the "New sessi
 
 <img src="images/issue-and-code.png" width=300 alt="Issue and code URL dialog">
 
-## Edits code in Copilot Workspace
+## Edit code in Copilot Workspace
 
 ✨ TIP: Make edits directly in the code editors per file
 
