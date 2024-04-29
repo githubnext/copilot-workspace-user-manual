@@ -8,6 +8,12 @@ This document contains assorted tips and tricks for using Copilot Workspace effe
 
 The Issue/Task panel may be prepopulated with content depending on how you entered Copilot Workspace. For example, if you started from an Issue, the Issue panel will be prepopulated with the content of the issue. This content is ephemeral -- edits aren't synced back to the issue -- and so feel free to edit it to provide more context or to steer Copilot Workspace towards better results.
 
+## Tasks can be short!
+
+✨ TIP: You might be surprised at the effectiveness of simple tasks like "Add unit tests"
+
+Tasks don't have to be long. Simple, clear statements of intent like "Switch to use Python numpy" or "Add more unit tests for the server code" can get you a long way. You can easily add more clarification and iterate.
+
 ## Clarify the Issue or Task
 
 ✨ TIP: A few words clarifications can make a huge difference!
