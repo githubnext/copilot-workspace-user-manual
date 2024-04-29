@@ -14,7 +14,7 @@ The task is based on the description of the software to create, plus the README 
 
 Copilot Workspace will then generate a specification for the repository based on the description you provide, and a plan for creating it, and then the final implementation.
 
-## Using "New session" on the dsachboard
+## Using "New session" on the dashboard
 
 You can also create a repository from a template by clicking the “New session” button in the [Copilot Workspace dashboard](https://copilot-workspace.githubnext.com), and search for a template. This will open a new task in the workspace where you can describe the software you want to create.
 
