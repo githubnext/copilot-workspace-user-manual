@@ -11,10 +11,7 @@ Welcome to the technical preview for Copilot Workspace! 👋 In order to help yo
    in the header bar, or clicking the “Open terminal” button in the “Implementation” panel (after you’ve started 
    implementing a task).
 
-1. __Share a workspace with someone__ by clicking the share button in the upper-right section of the header bar, and 
-   sending them the URL. Note that at the moment, this only works for other people that are in the preview. For the actual
-   tech preview launch, anyone will be able to view a read-only version of a shared session, as long as they have access to 
-   the repo.
+1. __Share a session snapshot with someone__ by clicking the share button in the upper-right section of the header bar, and sending them the URL. Note that anyone with access to the repository can view a read-only version of the snapshot. But if you send a link to someone else in the preview, they'll be able to fork your session, in order to explore it further. 
 
 1. __Install the GitHub mobile app__ on your phone and open an issue from there by clicking the “...” menu and selecting 
    “Open in Workspace”. Note that the mobile web client for Copilot Workspace is optimized for mobile usage. And since your 
