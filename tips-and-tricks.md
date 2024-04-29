@@ -138,3 +138,27 @@ If your issues and code are in separate repositories, you can use the "New sessi
 
 <img src="images/issue-and-code.png" width=300 alt="Issue and code URL dialog">
 
+## Edits code in Copilot Workspace
+
+✨ TIP: Make edits directly in the code editors per file
+
+When Copilot Workspace has generated a suggestion, it is presented to you in the implementation panel. But those suggestions aren’t just read-only! You can edit them, and make changes as you desire.
+
+<img src="images/code-editor.png" width=300 alt="Edit code in Copilot Workspace">
+
+And if you have a GitHub Codespace open, those edits will sync between Copilot Workspace and the GitHub Codespace too!
+
+## Need to go back?
+
+✨ TIP: You can use the undo and redo buttons to travel between an older and newer state of your workspace.
+
+You can use the undo and redo buttons to navigate back to a previous state of your workspace. That can include reverting an implementation, or the additions and tweaks that you may have made to your spec or plan. 
+
+<img src="images/undo-redo.png" width=300 alt="Use Undo and Redo to change states in Copilot Workspace">
+
+
+## On the go? Try Copilot Workspace on Mobile
+
+✨ TIP: Copilot Workspace is mobile-friendly, so consider making changes on the go!
+
+Ideas can happen anywhere, whether you’re at your desk, in a coffee shop or on a bus. With that spark of creativity, you can use Copilot Workspace from your mobile to explore ideas! And if you didn’t fully complete your task, you can use the dashboard in Copilot Workspace to pick up where you left off.
