@@ -68,9 +68,9 @@ We are working to add a second authorization option for Copilot Workspace based 
 
 ### Scaling
 
-Copilot Workspace can be used with many existing very large repositories. However some repositories are so large that even listing their files can be a challenging exercise. Further some repositories contain highly unusual content: files with enormously long lines, or binary files with unusual extensions and so on.
+Copilot Workspace can be used with many existing large repositories. However some repositories are so large that even listing their files can be a challenging exercise. Further some repositories contain highly unusual content: files with enormously long lines, or binary files with unusual extensions and so on. Large repositories are also challenging to content selection and planing.
 
-Large repositories are also challenging to content selection and planing.
+Copilot Workspace places a limit on the GitHub-reported size of repositories that may be analyzed. If a repository is above this limit you may see `Copilot Workspace may not be used to analyze <owner>/<repo> due to size limitations`.
 
 We are working on improving the scalability of Copilot Workspace to handle these cases.
 
