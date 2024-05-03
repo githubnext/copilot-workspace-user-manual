@@ -162,3 +162,7 @@ You can use the undo and redo buttons to navigate back to a previous state of yo
 ✨ TIP: Copilot Workspace is mobile-friendly, so consider making changes on the go!
 
 Ideas can happen anywhere, whether you’re at your desk, in a coffee shop or on a bus. With that spark of creativity, you can use Copilot Workspace from your mobile to explore ideas! And if you didn’t fully complete your task, you can use the dashboard in Copilot Workspace to pick up where you left off.
+
+## Regaining access if you revoked OAuth
+
+Copilot Workspace is implemented as an OAuth application. If you revoked authorization for the application in your GitHub account settings, you'll no longer be able to use Workspace. You can restore your access at https://copilot-workspace.githubnext.com/ by logging out, then logging in and re-authorizing the OAuth app.
