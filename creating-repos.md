@@ -8,7 +8,7 @@ To create a repository with Copilot Workspace, you can navigate to a template re
 
 <img src="images/create-repo-from-template.png" width=400 alt="Create repository from template"><br>*Creating a repository from a template via Copilot Workspace*
 
-The task is based on the description of the software to create, plus the README of the template repo. You can also start this kind of task by creating a . Once started a create repository task looks like this:
+The task is based on the description of the software to create, plus the README of the template repo. You can also start this kind of task by creating a [new session](#using-new-session-on-the-dashboard). Once started a create repository task looks like this:
 
 <img src="images/repo-task-timeline-representation.png" width=600 alt="Repo task timeline representation"><br>*The task is labeled as “Repository”, and the “Template” panel indicates the template repo*
 
