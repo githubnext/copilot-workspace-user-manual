@@ -124,7 +124,6 @@ We are actively working to improve the terminal start-up time in Copilot Workspa
   1. Log out of Copilot Workspace.
   2. Go through SAML auth in the browswer by looking at, say, a repository of the organization
   3. Then log back into Copilot Workspace.
-  There is no way in the Copilot Workspace UX to see this condition.
 
 ### Troubleshooting Private Repositories
 
