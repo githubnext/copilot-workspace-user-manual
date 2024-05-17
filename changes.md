@@ -2,7 +2,7 @@
 
 ### Features / Enhancements
 
-* **Revise the spec, plan and files with natural language** - In addition to making direct edits to the specification or plan, you can now provide a natural language instruction for how you'd like to revise them. This same action is also available on the header for changed files, which allows you to revise the code based on a specific insturction (e.g. `Move the logging logic into a seperate function`), in addition to editing the code manually.
+* **Revise the spec, plan and files with natural language** - In addition to making direct edits to the specification or plan, you can now provide a natural language instruction for how you'd like to revise them (e.g. `Add tests for this change`). This same capability is also available on the header for changed files, which allows you to revise code based on a specific instruction (e.g. `Move the logging logic into a seperate function`), in addition to editing it manually.
 
    ![image](https://github.com/githubnext/copilot-workspace-user-manual/assets/116461/883e48a1-265c-4b12-bfaa-4c70e4ec2317)
 
