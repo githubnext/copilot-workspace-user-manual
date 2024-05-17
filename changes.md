@@ -6,14 +6,14 @@
 
    ![image](https://github.com/githubnext/copilot-workspace-user-manual/assets/116461/883e48a1-265c-4b12-bfaa-4c70e4ec2317)
 
-* **Copilot completions and language services in embedded editors** - We've shipped an initial experience for getting hover info, error squiggles, go to definition, and Copilot completions directly from the embedded editors in Copilot Workspace. That way you can easily spot issues to fix, navigate the changes, or make manual edits, while receiving the Copilot assistance you know and love 💙
+* **Copilot completions and language services in embedded editors** - We've shipped an initial experience for getting hover info, error squiggles, go-to-definition, and Copilot completions directly from the embedded editors in Copilot Workspace. That way you can easily spot issues to fix, navigate the changes, or make manual edits, while receiving the Copilot assistance you know and love 💙
 
    ![image](https://github.com/githubnext/copilot-workspace-user-manual/assets/116461/1fd21aa6-028c-44c7-ac9e-3fa55249c914)
 
    Here's a few things to note about this enhancement:
 
    * It isn't on by default, and so if you want to try it, you need to click on your avatar in the upper right, select `Experiments` and then check the `Enable Copilot and language services in editors` setting.
-   * The language services (hover info, error squiggle, GTD) currently only support JavaScript/TypeScript, Python and Go. But more languages are coming!
+   * The language services (hover info, error squiggles, go-to-definition) currently only support JavaScript/TypeScript, Python and Go. But more languages are coming!
    * Support for Copilot completions requires an active Copilot subscription. If you don't have one, then you simply won't see "ghost text" in the editor, but you can still use the language services described above.
  
 * **UX layout persistence** - When you collapse changed files and/or minimize the timeline, that UX state is now properly persisted for the session. That way, when you return to a session later, you can pick up exactly where you left off. Or if you share a snapshot with someone else, you can curate the UX to look exactly how you want them to see it 🚀
