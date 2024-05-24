@@ -6,11 +6,11 @@
 
    To get started, simply navigate to the [Copilot Workspace dashboard](https://copilot-workspace.githubnext.com), and then either click the `Install Copilot Workspace` button in the navigation bar (on desktop), or click `Add to Home Screen` from the share menu (on mobile).
 
-   ![image](https://github.com/githubnext/copilot-workspace-user-manual/assets/116461/4609084e-7fd1-4b88-a752-3a52475d30f1)<br />
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Working on a task in a beautiful Copilot Workspace PWA from your desktop_ 😻
+   ![image](https://github.com/githubnext/copilot-workspace-user-manual/assets/116461/399ff59d-08b7-464a-9eed-cc5b1b3f2260)<br />
+   &nbsp;&nbsp;_Working on a task in a beautiful Copilot Workspace PWA from your desktop_ 😻
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/githubnext/copilot-workspace-user-manual/assets/116461/ba6673bb-5fcb-4406-9975-e3c6aa7e68ef" width="400px" /><br />
-  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;_Copilot Workspace nestled comfortably on the iOS dock_
+   &nbsp;&nbsp;<img src="https://github.com/githubnext/copilot-workspace-user-manual/assets/116461/ba6673bb-5fcb-4406-9975-e3c6aa7e68ef" width="400px" /><br />
+   &nbsp;&nbsp;_Copilot Workspace nestled comfortably on the iOS dock_
 
 * **Organizing the plan** - You can now re-order the plan by moving files up or down in the list. And since the `Files changed` list is also sorted by the plan, this allows you to better organize sessions for both self-review, but also, to better curate them when sharing sessions with others (like [this](https://copilot-workspace.githubnext.com/lostintangent/gitdoc/issues/52?shareId=94b2e8df-15ea-41bd-b5f6-a1d9f5b376dc)!).
 
