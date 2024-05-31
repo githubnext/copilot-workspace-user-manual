@@ -21,6 +21,17 @@ This manual will help you understand how to use Copilot Workspace most effective
   - [Origins](origins.md)
 * [Change Notes](changes.md)
 
+## Accessing Copilot Workspace on Android
+
+To access Copilot Workspace on your Android device, follow these steps:
+
+1. Open your mobile browser and navigate to the Copilot Workspace dashboard at [https://copilot-workspace.githubnext.com](https://copilot-workspace.githubnext.com).
+2. Once the dashboard loads, tap on the browser's menu and select "Add to Home screen" to easily access Copilot Workspace from your home screen.
+3. Confirm the action if prompted, and Copilot Workspace will be added to your home screen, providing a native app-like experience thanks to PWA support.
+4. Please note, accessing Copilot Workspace on Android is exclusively available to GitHub Next subscribers.
+
+![Accessing Copilot Workspace on Android](images/repo-task-timeline-representation.png)
+
 ## Feedback
 
 To give general feedback, please join the [GitHub Next Discord](https://discord.gg/FeGshJZ2yy) and post in the [#copilot-workspace](https://discord.com/channels/735557230698692749/1234535943915044946) channel.  Please provide a share link to the workspace and a description of the issue you're facing so that we can help you more effectively.
