@@ -1,6 +1,6 @@
 # Creating Repositories from Templates
 
-Copilot Workspace allows you to create repositories from templates using natural langauge.
+Copilot Workspace allows you to create repositories from templates using natural language.
 
 ## Using "Use this template" from GitHub.com
 
