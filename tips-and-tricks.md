@@ -100,7 +100,7 @@ Shared sessions are copies of the original session. Non-guest users can use them
 
 Your sessions are automatically saved, so you won't lose work if you close the browser or navigate away from the page. You can return to your session by going to [your Copilot Workspace dashboard](https://copilot-workspace.githubnext.com).
 
-## Confgure the Terminal for Your Repository
+## Configure the Terminal for Your Repository
 
 ✨ TIP: Set up a `devcontainer.json` file in your repository to configure the terminal
 
