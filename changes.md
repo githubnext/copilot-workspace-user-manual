@@ -10,8 +10,8 @@ This week's release is all about performance and quality. So when you use Copilo
 
 What contributed to these gains?
 
-* We migrated to GPT-4o by default, and made numerous improvements to spec/plan/code generation
-* We introduced "speculative decoding" for code generation (read below for details)
+* We migrated to GPT-4o, and made numerous improvements to spec/plan/code generation
+* We introduced "speculative decoding" for code generation _(read below for details)_
   
 ### Speculative decoding
 
