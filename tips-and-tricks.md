@@ -163,6 +163,12 @@ You can use the undo and redo buttons to navigate back to a previous state of yo
 
 Ideas can happen anywhere, whether you’re at your desk, in a coffee shop or on a bus. With that spark of creativity, you can use Copilot Workspace from your mobile to explore ideas! And if you didn’t fully complete your task, you can use the dashboard in Copilot Workspace to pick up where you left off.
 
+And if you'd like to easily access Copilot Workspace at any time, you can add it to your mobile homescreen by performing the following steps:
+
+1. Open your mobile browser and navigate to the Copilot Workspace dashboard at [https://copilot-workspace.githubnext.com](https://copilot-workspace.githubnext.com).
+2. Once the dashboard loads, tap on the browser's menu and select "Add to Home screen" to easily access Copilot Workspace from your home screen.
+3. Confirm the action if prompted, and Copilot Workspace will be added to your home screen, providing a native app-like experience thanks to PWA support.
+
 ## Regaining access if you revoked OAuth
 
 Copilot Workspace is implemented as an OAuth application. If you revoked authorization for the application in your GitHub account settings, you'll no longer be able to use Workspace. You can restore your access at https://copilot-workspace.githubnext.com/ by logging out, then logging in and re-authorizing the OAuth app.
