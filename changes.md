@@ -78,9 +78,9 @@ These changes also make it easier to edit code post-implement, since it's a lot 
 
 ### Spec/plan/code improvements
 
-We made numerous improvements to the way we generate the spec and plan, which should increase the quality a bit, for larger repos/complex tasks. Additionally, we improved our code generation, so that it shouldn't delete unrelated code/comments when implementing a task. 
+We made numerous improvements to the way we generate the spec and plan, which should increase the quality a bit, for both larger repos and complex tasks. Additionally, we improved our code generation, so that it shouldn't delete unrelated code/comments when implementing a task. 
 
-Finally, after enabling speculative decoding a few weeks ago, we've confirmed that it's stable enough to be on by default, and we've removed it from the `Experiments` panel. So thanks to everyone for all the great feedback, as we've continued to focus on both perf and quality of code generation 🙏
+Finally, after enabling speculative decoding a few weeks ago, we've confirmed that it's stable enough to be on by default, and we've removed it from the `Experiments` panel. That said, we really appreciate all the great feedback from preview users, as we've continued to focus on improving the perf and quality of code generation 🙏
 
 ## 📅 12 July 2024
 
