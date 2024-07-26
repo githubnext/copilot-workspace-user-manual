@@ -59,8 +59,6 @@ _The CW timeline, with the `Specification` panel skipped, as we went from task->
 
 When you open an issue, CW continues to generate a spec as the first step, and doesn't give you the option to skip it. This is because issues are much more complex and ambiguous in practice, and therefore, they commonly benefit from the summarization/contextualization/thinking that the spec panel offers.
 
-> Note: This experience is currently enabled via an experiment. So if you'd like to try it, click on your avatar in the upper-right of CW, select `Experiments`, and then check `Allow skipping the spec and going straight to plan`.
-
 ---
 
 ### Optimized file viewers
