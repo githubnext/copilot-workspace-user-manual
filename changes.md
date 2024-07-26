@@ -67,10 +67,10 @@ When you open an issue, CW continues to generate a spec as the first step, and d
 
 When you implement a plan, the `Files changed` list now includes two key improvements, to make it easier to review the code:
 
-* Added/renamed files are display using a code editing vs. a diff editor
-* Deletes files are automatically collapsed, so they don't clutter up the list
+* Added/renamed files are displayed using a code editor (as opposed to a diff editor)
+* Deleted files are automatically collapsed, so they don't clutter up the list
 
-These changes also make it easier to edit code post-implement, since it's a lot nicer to write code in a standard editor (especially with the help of CW's integrated language services + Copilot completions) 💙
+These changes also make it easier to edit code post-implement, since it's a lot nicer to write code in a standard editor vs. a diff editor. Especially with the help of CW's integrated language services + Copilot completions 💙
 
 <img src="https://github.com/user-attachments/assets/7c868d7e-9a93-44d7-830e-63a30dc48490" width="600px" />
 
