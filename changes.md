@@ -74,6 +74,8 @@ These changes also make it easier to edit code post-implement, since it's a lot 
 
 <img src="https://github.com/user-attachments/assets/7c868d7e-9a93-44d7-830e-63a30dc48490" width="600px" />
 
+&nbsp;&nbsp;&nbsp;_Reviewing added/deleted files in a more natural/distraction-free way_
+
 ---
 
 ### Spec/plan/code improvements
