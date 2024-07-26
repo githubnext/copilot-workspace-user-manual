@@ -5,7 +5,7 @@
 * [Session continuation](#session-continuation)
 * [Proceed to plan (task->plan)](#proceed-to-plan-task-plan)
 * [Optimized file viewers](#optimized-file-viewers)
-* [Spec/plan/code improvements](#spec-plan-code-improvements)
+* [Spec/plan/code improvements](#specplancode-improvements)
   
 ### Session continuation
 
