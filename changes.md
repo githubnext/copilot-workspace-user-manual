@@ -11,8 +11,8 @@
 
 When you create a repository/PR/branch from Copilot Workspace, we now provide two options for your next step:
 
-   * Continuing to iterate on the current task
    * Starting an entirely new session (for the current repo/PR/branch)
+   * Continuing to iterate on the current task (<ins>this is the new part!</ins> 🙌)   
 
    <img width="500px" src="https://github.com/user-attachments/assets/93269727-7c13-4e45-8bd5-38559459d61a "/><br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Just created a PR? Let's stay in the flow!_
