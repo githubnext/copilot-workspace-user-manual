@@ -5,10 +5,14 @@
 * [Session continuation](#session-continuation)
 * [Proceed to plan (task->plan)](#proceed-to-plan-task-plan)
 * [Optimized file viewers](#optimized-file-viewers)
+* [Spec/plan/code improvements](#spec-plan-code-improvements)
   
 ### Session continuation
 
-When you create a repository/PR/branch from Copilot Workspace, we now provide two next-steps: continue iterating on the current task, or start an entirely new session (for the current repo/PR/branch).
+When you create a repository/PR/branch from Copilot Workspace, we now provide two options for your next steps:
+
+   * Continuing to iterate on the current task
+   * Starting an entirely new session (for the current repo/PR/branch).
 
    <img width="500px" src="https://github.com/user-attachments/assets/93269727-7c13-4e45-8bd5-38559459d61a "/><br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Just created a PR? Let's stay in the flow!_
@@ -67,6 +71,16 @@ When you implement a plan, the `Files changed` list now includes two key improve
 * Deletes files are automatically collapsed, so they don't clutter up the list
 
 These changes also make it easier to edit code post-implement, since it's a lot nicer to write code in a standard editor (especially with the help of CW's integrated language services + Copilot completions) 💙
+
+<img src="https://github.com/user-attachments/assets/7c868d7e-9a93-44d7-830e-63a30dc48490" width="600px" />
+
+---
+
+### Spec/plan/code improvements
+
+We made numerous improvements to the way we generate the spec and plan, which should increase the quality a bit, for larger repos/complex tasks. Additionally, we improved our code generation, so that it shouldn't delete unrelated code/comments when implementing a task. 
+
+Finally, after enabling speculative decoding a few weeks ago, we've confirmed that it's stable enough to be on by default, and we've removed it from the `Experiments` panel. So thanks to everyone for all the great feedback, as we've continued to focus on both perf and quality of code generation 🙏
 
 ## 📅 12 July 2024
 
