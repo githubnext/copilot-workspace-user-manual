@@ -9,10 +9,10 @@
   
 ### Session continuation
 
-When you create a repository/PR/branch from Copilot Workspace, we now provide two options for your next steps:
+When you create a repository/PR/branch from Copilot Workspace, we now provide two options for your next step:
 
    * Continuing to iterate on the current task
-   * Starting an entirely new session (for the current repo/PR/branch).
+   * Starting an entirely new session (for the current repo/PR/branch)
 
    <img width="500px" src="https://github.com/user-attachments/assets/93269727-7c13-4e45-8bd5-38559459d61a "/><br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Just created a PR? Let's stay in the flow!_
@@ -20,17 +20,17 @@ When you create a repository/PR/branch from Copilot Workspace, we now provide tw
 This is a _significant_ change to the CW workflow, and has the following key benefits:
 
    * It allows you to share context across multiple commits, and consolidate logically-related changes within a single session
-   * It allows you to correct mistakes or address feedback, without having to create follow-up CW sessions
+   * It allows you to correct post-commit mistakes or address feedback, without having to create follow-up CW sessions
  
-In this sense, a CW session has evolved from being associated with a single commit, and is now more logically associated with a branch, or chain of commits (for trunk-based development). This not only provides a lot more flexibility, but also, reflects the way that many developers wanted to use it. So we're excited to hear feedback!
+In this sense, a CW session has evolved from being associated with a single commit, and is now logically associated with a branch, or chain of commits (for trunk-based development). This not only provides a lot more flexibility, but also, reflects the way that many developers wanted to use it. So we're excited to hear feedback!
 
 <img width="400px" src="https://github.com/user-attachments/assets/c525f7e9-5b2b-45dc-a463-c4bc00810837" />
 
 &nbsp;&nbsp;&nbsp;_A single CW session that lead to a PR + follow-up commit_
 
-To make this multi-commit workflow even more fun...when you implement changes to a CW session (that was already pushed to a repo/PR/branch), you'll see a new `All | Unchanged` toggle button in the toolbar. This allows you to easily differentiate the changes for the most recent iteration, from the overall changes for the session.
+To make this multi-commit workflow even more fun...when you implement changes to a CW session (that was already pushed to a repo/PR/branch), you'll see a new `All | Unchanged` toggle button in the toolbar. This allows you to easily see the changes for the most recent iteration, as opposed to the changes for the overall session (which could now include multiple commits).
 
-For example, if you have a CW session you created a PR from, you could address PR feedback in that session, quickly review those exact changes, and then confidently push an update to the PR (after running/testing it in the terminal!)
+For example, if you have a CW session that you created a PR from, you could address PR feedback in that same session, quickly review those exact changes, and then confidently push an update to the PR (after running/testing it in the terminal!)
 
 <img src="https://github.com/user-attachments/assets/7c89389a-7607-4ecc-ab7c-d140061fac44" width="800px" />
 
@@ -40,7 +40,7 @@ For example, if you have a CW session you created a PR from, you could address P
 
 ### Proceed to plan (task->plan)
 
-When you start an ad-hoc task (opening a repo/PR/branch in CW, without an issue), you can now choose to skip generating a spec, and proceed directly to planning 🏃
+When you start an ad-hoc task (opening a repo/PR/branch in CW, as opposed to an issue), you can now choose to skip generating a spec, and proceed directly to planning 🏃
 
 <img src="https://github.com/user-attachments/assets/68ddf82d-26b5-4008-8222-7730b4f0afcc" width="600px" />
 
@@ -51,7 +51,7 @@ This helps CW feel a lot more optimized, for tasks that fall into the following 
 
 In these cases, you likely don't need a summary of the task (because you just wrote it!), or help fleshing out the success criteria (because it's simple!). And in those instances, CW should now feel a lot faster, more lightweight, and easier to iterate 🚀
 
-When you proceed directly to the plan, the `Specification` panel will still be displayed in the timeline, but it will be greyed out. And if you review the plan/code, and realize that you actually do need a bit more help investigating the task, then you can expand the `Task` panel and select `Add Specification`. That way the spec feels helpful as needed, but not required 👍
+When you proceed directly to the plan, the `Specification` panel will still be displayed in the timeline, but it will be greyed out. And if you review the plan/code, and realize that you actually do need a bit more help investigating the task, then you can expand the `Task` panel and select `Add Specification`. That way the spec feels helpful if/when needed, but not required 👍
 
 <img src="https://github.com/user-attachments/assets/5460d267-9769-48a3-9d76-5a37f83bed35" width="600px" />
 
@@ -59,7 +59,7 @@ _The CW timeline, with the `Specification` panel skipped, as we went from task->
 
 When you open an issue, CW continues to generate a spec as the first step, and doesn't give you the option to skip it. This is because issues are much more complex and ambiguous in practice, and therefore, they commonly benefit from the summarization/contextualization/thinking that the spec panel offers.
 
-> Note: This experience is currently enabled via an experiment. So if you'd like to try it, click on your avatar in the open right, select `Experiments`, and then check `Allow skipping the spec and going straight to plan`.
+> Note: This experience is currently enabled via an experiment. So if you'd like to try it, click on your avatar in the upper-right of CW, select `Experiments`, and then check `Allow skipping the spec and going straight to plan`.
 
 ---
 
