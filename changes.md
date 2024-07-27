@@ -14,7 +14,7 @@ When you create a repository/PR/branch from Copilot Workspace, we now provide tw
    * Starting an entirely new session (for the current repo/PR/branch)
    * Continuing to iterate on the current session (<ins>this is the new part!</ins> 🙌)   
 
-   <img width="500px" src="https://github.com/user-attachments/assets/93269727-7c13-4e45-8bd5-38559459d61a "/><br />
+   <img width="500px" src="https://github.com/user-attachments/assets/0d12972a-0b1d-4193-a930-535f88191d66"/><br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Just created a PR? Let's stay in the flow!_
 
 This is a _significant_ change to the CW workflow, and has the following key benefits:
