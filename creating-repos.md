@@ -6,11 +6,11 @@ Copilot Workspace allows you to create repositories from templates using natural
 
 To create a repository with Copilot Workspace, you can navigate to a template repository in GitHub.com and choose “Use this template”, like this:
 
-<img src="images/create-repo-from-template.png" width=400 alt="Create repository from template"><br>*Creating a repository from a template via Copilot Workspace*
+<img src="images/creating-repos/create-repo-from-template.png" width=400 alt="Create repository from template"><br>*Creating a repository from a template via Copilot Workspace*
 
 The task is based on the description of the software to create, plus the README of the template repo. You can also start this kind of task by creating a [new session](#using-new-session-on-the-dashboard). Once started a create repository task looks like this:
 
-<img src="images/repo-task-timeline-representation.png" width=600 alt="Repo task timeline representation"><br>*The task is labeled as “Repository”, and the “Template” panel indicates the template repo*
+<img src="images/creating-repos/repo-task-timeline-representation.png" width=600 alt="Repo task timeline representation"><br>*The task is labeled as “Repository”, and the “Template” panel indicates the template repo*
 
 Copilot Workspace will then generate a specification for the repository based on the description you provide, and a plan for creating it, and then the final implementation.
 

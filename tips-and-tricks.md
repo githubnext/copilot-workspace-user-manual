@@ -52,7 +52,7 @@ To determine how to address a task, Copilot Workspace must determine which files
 
 To review the files that were selected, in the Specification panel, click the "View references" button:
 
-<img src="images/references.png" width=600 alt="Show references dialog">
+<img src="images/tips-and-tricks/references.png" width=600 alt="Show references dialog">
 
 To steer Copilot Workspace towards better file selection, you can mention file names, directory names, etc. in the issue/task panel. Just write it naturally, as if you were writing a normal issue.
 
@@ -62,7 +62,7 @@ To steer Copilot Workspace towards better file selection, you can mention file n
 
 If you're not happy with the results you're getting, you can try regenerating the spec and/or plan. To do this, click the "Regenerate" button in the Spec or Plan panels:
 
-<img src="images/regen.png" width=600 alt="Regenerate button">
+<img src="images/tips-and-tricks/regen.png" width=600 alt="Regenerate button">
 
 ## Iterating on the Implementation
 
@@ -70,7 +70,7 @@ If you're not happy with the results you're getting, you can try regenerating th
 
 Often Copilot Workspace will get a task *mostly right*, but may have trouble with some parts. In this case, you can reimplement specific files with new or additional instructions. After implementing and reviewing the code, you can select file(s) in the Plan panel and add bullet points, then click "Update selected files" to reimplement those file(s) with the new instructions that you've provided.
 
-<img src="images/file-iteration.png" width=600 alt="Update selected files flow">
+<img src="images/tips-and-tricks/file-iteration.png" width=600 alt="Update selected files flow">
 
 ## Add New Files and Iterate
 
@@ -92,7 +92,7 @@ You can share your Copilot Workspace session with others by clicking the "Share"
 
 Shared sessions are copies of the original session. Non-guest users can use them as a starting point to continue the task or explore alternative solutions without interfering with the original session. Guest users can view the session but cannot use the workspace to make changes.
 
-<img src="images/share-link.png" width=200 alt="Share button">
+<img src="images/tips-and-tricks/share-link.png" width=200 alt="Share button">
 
 ## Use the Sessions
 
@@ -120,7 +120,7 @@ Check out [Codespaces Guide](./codespaces-guide.md) for more information.
 
 We're always trying new things in Copilot Workspace. You can opt into our current experiments by clicking on your avatar in the top right corner of the screen and selecting "Experiments":
 
-<img src="images/experiments.png" width=200 alt="Experiments selector">
+<img src="images/tips-and-tricks/experiments.png" width=200 alt="Experiments selector">
 
 ## Work Around Model "Laziness"
 
@@ -134,9 +134,9 @@ Sometimes the model will be "lazy" and elide chunks of edited files. If you see 
 
 If your issues and code are in separate repositories, you can use the "New session" button on a session page to tell Copilot Workspace where your issues and code are. This will allow Copilot Workspace to analyze your issues in the context of your code.
 
-<img src="images/new-session.png" width=300 alt="Start new session selector">
+<img src="images/tips-and-tricks/new-session.png" width=300 alt="Start new session selector">
 
-<img src="images/issue-and-code.png" width=300 alt="Issue and code URL dialog">
+<img src="images/tips-and-tricks/issue-and-code.png" width=300 alt="Issue and code URL dialog">
 
 ## Edit code in Copilot Workspace
 
@@ -144,7 +144,7 @@ If your issues and code are in separate repositories, you can use the "New sessi
 
 When Copilot Workspace has generated a suggestion, it is presented to you in the implementation panel. But those suggestions aren’t just read-only! You can edit them, and make changes as you desire.
 
-<img src="images/code-editor.png" width=300 alt="Edit code in Copilot Workspace">
+<img src="images/tips-and-tricks/code-editor.png" width=300 alt="Edit code in Copilot Workspace">
 
 And if you have a GitHub Codespace open, those edits will sync between Copilot Workspace and the GitHub Codespace too!
 
@@ -154,7 +154,7 @@ And if you have a GitHub Codespace open, those edits will sync between Copilot W
 
 You can use the undo and redo buttons to navigate back to a previous state of your workspace. That can include reverting an implementation, or the additions and tweaks that you may have made to your spec or plan. 
 
-<img src="images/undo-redo.png" width=300 alt="Use Undo and Redo to change states in Copilot Workspace">
+<img src="images/tips-and-tricks/undo-redo.png" width=300 alt="Use Undo and Redo to change states in Copilot Workspace">
 
 
 ## On the go? Try Copilot Workspace on Mobile
