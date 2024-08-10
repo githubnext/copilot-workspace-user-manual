@@ -32,6 +32,8 @@
 
 * **SVG preview** - When you implement or open a `*.svg` file, you can now preview a rendered version of its contents, by clicking the eyeball icon in its header. We previously introduced preview support for Markdown, and plan to continue adding support for other file formats in the coming weeks (HTML? 🤔)
 
+    <img src="https://github.com/user-attachments/assets/d8229ba0-c373-4ff6-875a-677b0b5414d1" width="500px" />
+
 * **Sessions + Settings** - The user menu (that you get to by clicking your avatar in the upper-right) now includes two new items:
 
    * `Your sessions` - This navigates you to the [CW dashboard](https://copilot-workspace.githubnext.com), so you can see your recent/bookmarked/completed sessions. We got feedback that folks weren't discovering the dashboard, and so we wanted to make this a bit more discoverable (since it's super useful!)
@@ -44,7 +46,9 @@
  
      <img src="https://github.com/user-attachments/assets/2a22900a-2950-4311-a072-7c07ce4fbfbc" width="400px" />
 
-* **Renamed files** - Renamed files are now collapsed by default in the `Files changed` section, and they're displayed using a code editor, as opposed to a diff editor. This makes it easier to focus your attention on new and changed code, while simply seeing the presence of renamed or deleted files.
+* **Renamed files** - Renamed files are now collapsed by default in the `Files changed` section. This makes it easier to focus your attention on new and changed code, while simply seeing the presence of renamed or deleted files. If a file is both renamed + changed, then it will be collapsed post-implement, so you can properly review the changes.
+
+    <img src="https://github.com/user-attachments/assets/fd3cd39d-6466-4185-8693-aad8a4b9c1d1" width="400px" />
 
 * **Usage quota increase** - Due to popular demand, we've increase the daily usage quota again 🙌 That way, the folks that are using CW for many tasks every day, can keep sending us amazing feedback 🙏
 
