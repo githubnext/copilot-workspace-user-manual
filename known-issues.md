@@ -6,23 +6,31 @@ We will be doing ongoing continuous releases of Copilot Workspace during the tec
 
 ## Active experiments
 
-There are several active "Experiments" available related to things we are working on. We invite you to activate these and will update this document with new experiments when they are available.
+There are several active "Experiments" available related to things we are working on. We invite you to activate these and will update this document with new experiments when they are available. These features aren't set in stone, and any feedback regarding them would be greatly appreciated.
 
-### Revising with natural language (🥼)
+### Use line numbers always (🥼)
 
-We are experimenting with a feature that allows you to revise code using natural language. Enable this using the "Revise with natural language" feature in Copilot Workspace, which adds an icon to the toolbar to quickly clarify the spec or plan.
+We are experimenting with a feature that allows Copilot Workspace to always use line numbers when generating code. Enable this using the "Use line numbers always" feature in Copilot Workspace.
 
-### Using linked issues (🥼)
+### Use emoji in topic and specs (🥼)
 
-We are experimenting with a feature that allows Copilot Workspace to utilize the textual content of linked issues when analyzing tasks. Enable this using the "Use linked issues" feature in Copilot Workspace.
+We are experimenting with a feature that allows Copilot Workspace to use emoji in the topic and specifications. Enable this using the "Use emoji in topic and specs" feature in Copilot Workspace.
 
-### Always using line numbers (🥼)
+### Utilize linked issues, PRs, and GitHub file links in analysis (🥼)
 
-Copilot Workspace selectively uses line numbers in its AI analysis based on perceived need based on the text of the task. In the future we will likely move to always using line numbers. Enable this using the "Always use line numbers" feature in Copilot Workspace.
+We are experimenting with a feature that allows Copilot Workspace to utilize linked issues, pull requests, and GitHub file links when analyzing tasks. This allows CW to have more context related to linked issues, PRs, and GitHub file links in analysis. Enable this using the "Utilize linked issues, PRs, and GitHub file links in analysis" feature in Copilot Workspace.
+
+### Utilize referenced generic web content in analysis (🥼)
+
+We are experimenting with a feature that allows Copilot Workspace to utilize referenced generic web content when analyzing tasks. Currently, the contents of the URL are summarized and given to Copilot Workspace, in order to aid Copilot Workspace more focused on relevant details.
 
 ### Clarify ambiguous specifications (🥼)
 
-We are experimenting with a feature that allows Copilot Workspace to detect and warn about ambiguous specifications, in co-operation with the user. Enable this using the "Clarify ambiguous specifications" feature in Copilot Workspace.
+We are experimenting with a feature that allows Copilot Workspace to detect and warn about ambiguous specifications, in cooperation with the user. Enable this using the "Clarify ambiguous specifications" feature in Copilot Workspace.
+
+### Allow skipping the spec and going straight to plan (🥼)
+
+We are experimenting with a feature that allows users to skip the specification step and go straight to the plan. This is especially useful if you have already written a very detailed task description and want Copilot Workspace to go straight to implementing the task. Enable this using the "Allow skipping the spec and going straight to plan" feature in Copilot Workspace.
 
 ## Core areas for improvement
 
@@ -52,7 +60,7 @@ Tasks can include direct links to web resources such as documentation. Further, 
 
 ### Build/test repair
 
-After code is generated, both AI and traditional tooling can be used to "repair" the code based on diagnostics generated from building, testing and running the code. We prototyped early versions of this in Copilot Workspace and it is an area of active investigation.
+After code is generated, both AI and traditional tooling can be used to "repair" the code based on diagnostics generated from building, testing and running the code. We already have some support for this in Copilot Workspace, and we are working on improving this.
 
 ### Tasks small, tasks large
 
@@ -76,7 +84,7 @@ We are working on improving the scalability of Copilot Workspace to handle these
 
 ### Validation
 
-Copilot Workspace provides an integrated terminal to assist with validating code. We are continuously working on a range of techniques to improve the validation capabilities of Copilot Workspace.
+Copilot Workspace provides an integrated terminal to assist with validating code. We are continuously working on a range of techniques to improve the validation capabilities of Copilot Workspace. 
 
 ### Developer tooling
 

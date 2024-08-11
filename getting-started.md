@@ -5,7 +5,7 @@ Welcome to the technical preview for Copilot Workspace! 👋 In order to help yo
 1. __Open an issue in a GitHub repo, and click the “Open in Workspace” button.__ This will start a new Copilot Workspace 
    session, pre-seeded with the issue as the task, and allow you to iterate on the spec/plan/implementation for it
 
-   <img src="images/open-in-workspace.png" width=800 alt="Open an issue in Copilot Workspace">
+   <img src="images/general/open-in-workspace.png" width=800 alt="Open an issue in Copilot Workspace">
 
 1. __Open the integrated terminal__ in order to build/test/run your changes. You can do this by clicking the terminal icon
    in the header bar, or clicking the “Open terminal” button in the “Implementation” panel (after you’ve started 
@@ -22,14 +22,16 @@ Welcome to the technical preview for Copilot Workspace! 👋 In order to help yo
    Effectively like a draft issue. And if you select a [template repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository), you can define the requirements of a new repo that 
    you create from that.
 
-   <img src="images/dashboard.png" width=800 alt="Open an issue in Copilot Workspace">
+   <img src="images/getting-started/dashboard.png" width=800 alt="Open an issue in Copilot Workspace">
 
 1. __Iterate on a pull request__ by clicking the “Open in Workspace” button, defining the change you’d like to make (e.g. 
    “Add docs for the changes in the PR”) and then implementing them.
 
-   <img src="images/pr.png" width=800 alt="Open an issue in Copilot Workspace">
+   <img src="images/getting-started/pr.png" width=800 alt="Open an issue in Copilot Workspace">
 
 1. __Open a workspace session in a Codespace,__ by clicking the “Open in Codespace” button in the header bar or in the 
    “Implementation” panel. Note that your workspace edits will be synced to the Codespace, and also, any edits you make in 
    the Codespace are synced back to the workspace. This allows you to use VS Code/Codespaces as a companion experience for 
    making larger edits, debugging, etc.
+
+1. __Learn about ad-hoc tasks__ by visiting the [Ad-hoc Tasks](adhoc-tasks.md) page. Ad-hoc tasks are tasks that you define yourself, without the context of an issue or pull request. You can start an ad-hoc task from the Copilot Workspace dashboard, or from the repository page on GitHub.com.

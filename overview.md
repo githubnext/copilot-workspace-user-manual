@@ -18,7 +18,7 @@ Copilot Workspace is built on a set of principles that guide its design and deve
 
 In this manual, we will guide you through the concepts and features of Copilot Workspace, and help you get started with using it effectively.
 
-<img src="images/session.png" width="600" alt="A fully-implemented workspace session">
+<img src="images/overview/session.png" width="600" alt="A fully-implemented workspace session">
 
 *A fully-implemented workspace session*
 
@@ -41,13 +41,13 @@ For this technical preview, Copilot Workspace supports four types of tasks: solv
 
 Once enrolled in the technical preview, then on every issue in GitHub you will find a new "Open in Workspace" button:
 
-<img src="images/open-in-workspace.png" width=400 alt="Button on issue page to open in Copilot Workspace">
+<img src="images/general/open-in-workspace.png" width=400 alt="Button on issue page to open in Copilot Workspace">
 
 *Open an issue in Copilot Workspace*
 
 This will open Copilot Workspace contextualized to this issue. For issue tasks, the task is based in the title and body of the issue, plus the issue’s comment thread. Copilot Workspace will immediately progress to the next step in the timeline. This looks like this:
 
-<img src="images/issue-timeline-representation.png" width=600 alt="Issue task timeline representation">
+<img src="images/overview/issue-timeline-representation.png" width=600 alt="Issue task timeline representation">
 
 *The task is labeled as “Issue” and analysis begins*
 
@@ -55,7 +55,7 @@ This will open Copilot Workspace contextualized to this issue. For issue tasks, 
 
 In order to help summarize a non-trivial task definition (e.g. an issue with a long comment thread), Copilot Workspace first generates a “topic” for the task, which takes the form of a question that can be posed against the codebase, and used to define the before/after success criteria (see the [specification](#specification) section below). 
 
-<img src="images/topic-question.png" width=600 alt="Topic question">
+<img src="images/overview/topic-question.png" width=600 alt="Topic question">
 
 *Note how the topic introduces clarity that is completely missing from the issue title*
 
@@ -63,7 +63,7 @@ You can think of the topic as a way to distill the task down to its essence, and
 
 After producing the topic, Copilot Workspace generates a bulleted list describing the current behavior of the codebase, based on the task and topic being posed. This helps build your confidence that Copilot Workspace is on the right track, and serves as a means of onboarding you to the context, in cases where you might not fully understand the current state.
 
-<img src="images/current-spec.png" width=600 alt="Current specification">
+<img src="images/overview/current-spec.png" width=600 alt="Current specification">
 
 *The current specification answers the question in the topic based on the current state*
 
@@ -71,7 +71,7 @@ And if Copilot Workspace gets anything wrong, then you can easily edit/delete st
 
 After the current specification, Copilot Workspace generates a “proposed specification”, which is a bulleted list which articulates the state that the codebase would be in after resolving the task (effectively answering the question in the topic). And in particular, the proposed specification is focused on defining the success criteria of the task, as opposed to getting into implementation details (which is the role of the [plan](#plan)).
 
-<img src="images/proposed-spec.png" width=600 alt="Proposed specification">
+<img src="images/overview/proposed-spec.png" width=600 alt="Proposed specification">
 
 *The proposed specification indicates how to edit the codebase in order to solve the task*
 
@@ -81,7 +81,7 @@ To generate the current and proposed specifications, and for all following steps
 
 Users may review the files selected by Copilot Workspace using the "View references" button in the Specification panel. To adjust which files are selected, users can edit the task and use natural language to specify which files are relevant.
 
-<img src="images/references.png" width=600 alt="Show references dialog">
+<img src="images/overview/references.png" width=600 alt="Show references dialog">
 
 *The references that the model used to generate the original and modified specifications*
 
@@ -91,7 +91,7 @@ Once you are happy with the current and proposed specs, you can request Copilot 
 
 Like the spec, the plan is fully editable and regeneratable, which allows you to refine and steer Copilot Workspace in the right direction.
 
-<img src="images/plan.png" width=600 alt="Plan">
+<img src="images/overview/plan.png" width=600 alt="Plan">
 
 *A plan, showing the steps needed to edit one file and add a second one*
 
@@ -107,7 +107,7 @@ Copilot Workspace doesn't always get everything right, and so it makes it easy f
 
 For example, you can edit the diff directly, or you can go back to the plan and make changes there. And if you need to make more extensive changes, you can regenerate the plan entirely.
 
-<img src="images/file-iteration.png" width=600 alt="Plan panel with file iteration">
+<img src="images/overview/file-iteration.png" width=600 alt="Plan panel with file iteration">
 
 *The plan panel enables users to iterate on implementation file by file*
 
@@ -115,7 +115,7 @@ For example, you can edit the diff directly, or you can go back to the plan and 
 
 Once you have implemented the plan, Copilot Workspace enables you to validate the changes for correctness by bringing up an integrated terminal and executing shell commands. This allows performing a build, lint, test, etc. against the changes, and can be a quick and effective way to gain confidence about the task and its completion status. The terminal is backed by a Codespace, so it is a secure sandbox with a full development environment installed. 
 
-<img src="images/terminal.png" width=600 alt="Integrated terminal">
+<img src="images/overview/terminal.png" width=600 alt="Integrated terminal">
 
 *Integrated terminal, showing the generated branch name and access to just-in-time compute*
 
@@ -127,7 +127,7 @@ In order to make it easy to share a workspace session with others (e.g. for doin
 
 Shared sessions are copies of the original session. Non-guest users can use them as a starting point to continue the task or explore alternative solutions without interfering with the original session. Guest users can view the session but cannot use the workspace to make changes.
 
-<img src="images/share-link.png" width=600 alt="Generating a share link">
+<img src="images/overview/share-link.png" width=600 alt="Generating a share link">
 
 *Generating a share link from the header bar*
 
@@ -141,7 +141,7 @@ When working with issues and pull requests, you can also
 
 When a task is implemented, validated, and reviewed, you can complete the task in different ways, depending on the type of task you’re working on.
 
-<img src="images/task-completion.png" width=600 alt="Creating a pull request">
+<img src="images/overview/task-completion.png" width=600 alt="Creating a pull request">
 
 *Creating a pull request for the implemented changes*
 
@@ -156,7 +156,7 @@ When a task is implemented, validated, and reviewed, you can complete the task i
 
 Copilot Workspace automatically saves your work. It also provides a session dashboard, which allows you to easily resume your work later. You can start a task from your phone and then finish up on your laptop, or vice versa.
 
-<img src="images/dashboard-2.png" width=600 alt="Copilot Workspace dashboard">
+<img src="images/overview/dashboard-2.png" width=600 alt="Copilot Workspace dashboard">
 
 *The Copilot Workspace dashboard showing recent, bookmarked and completed sessions*
 
