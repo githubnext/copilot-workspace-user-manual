@@ -22,7 +22,7 @@ Welcome to the technical preview for Copilot Workspace! 👋 In order to help yo
    Effectively like a draft issue. And if you select a [template repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository), you can define the requirements of a new repo that 
    you create from that.
 
-   <img src="images/getting-started/dashboard.png" width=800 alt="Open an issue in Copilot Workspace">
+   <img src="images/general/dashboard.png" width=800 alt="Open an issue in Copilot Workspace">
 
 1. __Iterate on a pull request__ by clicking the “Open in Workspace” button, defining the change you’d like to make (e.g. 
    “Add docs for the changes in the PR”) and then implementing them.
