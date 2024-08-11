@@ -162,3 +162,18 @@ And if you'd like to easily access Copilot Workspace at any time, you can add it
 ## Regaining access if you revoked OAuth
 
 Copilot Workspace is implemented as an OAuth application. If you revoked authorization for the application in your GitHub account settings, you'll no longer be able to use Workspace. You can restore your access at https://copilot-workspace.githubnext.com/ by logging out, then logging in and re-authorizing the OAuth app.
+
+## Incoming Links
+
+✨ TIP: Copilot Workspace has a capability for the task to be specified by query parameters when the subject is a repository, branch or pull request. 
+
+```
+https://copilot-workspace.githubnext.com/githubnext/copilot-workspace/pull/695?task=Add%20more%20unit%20tests%20to%20this%20pull%20request.```
+```
+
+The query parameters supported are
+
+- `task` - The description of the task. If not specified, and the subject is an issue, the body of the issue is used, otherwise no task body is used and the user must enter one.
+- `codeOwner` - The organization or individual for the code repository associated with an issue, e.g. `githubnext` for `githubnext/copilot-workspace`
+- `codeRepo` - The name of the code repository associated with an issue, e.g. `copilot-workspace` for `githubnext/copilot-workspace`
+- `branch` - The SHA or branch name to analyze the task at, e.g. `main`
