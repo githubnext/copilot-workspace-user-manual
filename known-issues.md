@@ -30,7 +30,7 @@ We are experimenting with a feature that allows Copilot Workspace to detect and 
 
 ### Allow skipping the spec and going straight to plan (🥼)
 
-We are experimenting with a feature that allows users to skip the specification step and go straight to the plan. This is especially useful if you have already written  very detailed task description and want Copilot Workspace to go straight to implementing the task. Enable this using the "Allow skipping the spec and going straight to plan" feature in Copilot Workspace.
+We are experimenting with a feature that allows users to skip the specification step and go straight to the plan. This is especially useful if you have already written a very detailed task description and want Copilot Workspace to go straight to implementing the task. Enable this using the "Allow skipping the spec and going straight to plan" feature in Copilot Workspace.
 
 ## Core areas for improvement
 
