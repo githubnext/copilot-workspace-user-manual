@@ -1,38 +1,6 @@
-# Experiments, Roadmap and Known Issues
+# Known Issues and Future Improvements
 
-Copilot Workspace is a technical preview and is under active development. This document lists some known issues and known areas where we'd like to make future improvements.
-
-We will be doing ongoing continuous releases of Copilot Workspace during the technical preview, adding new features, new experiments and fixing bugs as we go. 
-
-## Active experiments
-
-There are several active "Experiments" available related to things we are working on. We invite you to activate these and will update this document with new experiments when they are available. These features aren't set in stone, and any feedback regarding them would be greatly appreciated.
-
-### Use line numbers always (🥼)
-
-We are experimenting with a feature that allows Copilot Workspace to always use line numbers when generating code. Enable this using the "Use line numbers always" feature in Copilot Workspace.
-
-### Use emoji in topic and specs (🥼)
-
-We are experimenting with a feature that allows Copilot Workspace to use emoji in the topic and specifications. Enable this using the "Use emoji in topic and specs" feature in Copilot Workspace.
-
-### Utilize linked issues, PRs, and GitHub file links in analysis (🥼)
-
-We are experimenting with a feature that allows Copilot Workspace to utilize linked issues, pull requests, and GitHub file links when analyzing tasks. This allows CW to have more context related to linked issues, PRs, and GitHub file links in analysis. Enable this using the "Utilize linked issues, PRs, and GitHub file links in analysis" feature in Copilot Workspace.
-
-### Utilize referenced generic web content in analysis (🥼)
-
-We are experimenting with a feature that allows Copilot Workspace to utilize referenced generic web content when analyzing tasks. Currently, the contents of the URL are summarized and given to Copilot Workspace, in order to aid Copilot Workspace more focused on relevant details.
-
-### Clarify ambiguous specifications (🥼)
-
-We are experimenting with a feature that allows Copilot Workspace to detect and warn about ambiguous specifications, in cooperation with the user. Enable this using the "Clarify ambiguous specifications" feature in Copilot Workspace.
-
-### Allow skipping the spec and going straight to plan (🥼)
-
-We are experimenting with a feature that allows users to skip the specification step and go straight to the plan. This is especially useful if you have already written a very detailed task description and want Copilot Workspace to go straight to implementing the task. Enable this using the "Allow skipping the spec and going straight to plan" feature in Copilot Workspace.
-
-## Core areas for improvement
+Please remember that Copilot Workspace is a technical preview and is an area of active development. This document lists some known issues and known areas where we'd like to make future improvements of the product.
 
 The following are core areas where we are actively working to improve Copilot Workspace.
 
@@ -120,23 +88,3 @@ On mobile, the auto-completion list is positioned wrong when adding a file to th
 
 We are actively working to improve the terminal start-up time in Copilot Workspace.
 
-## Troubleshooting
-
-### Troubleshooting Organizations
-
-- **You are accessing an org that must approve OAuth apps**. As part of the login you authorize the OAuth app into various orgs, depending on the org policies with regard to OAuth apps. You can request access and the organization can approve the OAuth app. If you need to re-request access or revoke any access at all you can [control the status of your connection with the OAuth app](https://github.com/settings/connections/applications/903eccd8a9d2ff50288f).
-
-- **Although you appear to have the correct authorization credentials, the `github` organization has enabled OAuth App access restrictions, meaning that data access to third-parties is limited.** This is because an org restricts OAuth apps. Some of authorization attempts for orgs may fail if the org doesn't allow OAuth apps at all. This can affect even access to public repositories in organizations that deny access to OAuth apps.
-
-- **Resource protected by organization SAML enforcement. You must grant your OAuth token access to this organization**.You may be logging in to an organization with SAML control, e.g. Microsoft. They should
-  1. Log out of Copilot Workspace.
-  2. Go through SAML auth in the browser by looking at, say, a repository of the organization
-  3. Then log back into Copilot Workspace.
-
-### Troubleshooting Private Repositories
-
-- **You can't access a private repository in your own account**. After login you should be able to access your personal private repositories unless you have removed access for the OAuth app. If you have trouble, it is possible it is because you landed in Copilot Workspace via a sharing link and have only given public repo privileges. You should log out and log back in again and this should restore access. Failing that you should [check the status of their connection with the OAuth app](https://github.com/settings/connections/applications/903eccd8a9d2ff50288f).
-
-### Troubleshooting Codespaces
-
-- **Billable owner could not be determined for a new codespace, Repository may not be used for a codespace.** The CW OAuth app is not installed in the billable owner's organization.
