@@ -17,7 +17,6 @@ This manual will help you understand how to use Copilot Workspace most effective
   - [Pull Request Tasks](pull-request-tasks.md)
   - [Controls for Repository Maintainers](repo-maintainers.md)
   - [Experiments, Roadmap and Known Issues](known-issues.md)
-  - [Creating a Repository](creating-repos.md)
   - [Responsible AI FAQ](responsible-ai-faq.md)
   - [Origins](origins.md)
   - [Settings](settings.md)
