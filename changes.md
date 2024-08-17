@@ -1,3 +1,35 @@
+## 📅 16 August 2024
+
+### Features / Enhancements
+
+* **File regeneration** - The file toolbar now includes a regenerate button, which allows you to request CW to "try again" with implementing it. This can be useful if you've revised the plan through NL, and noticed that CW missed a detail. Or, if you'd like to ask it to get a bit more "creative" with its interpreation of your intent 🎨
+
+  The `Specification` and `Plan` panels already had a regenerate button, and so this change ensures that in addition to editing, you can regenerate every piece of content within the workspace.
+
+  <img src="https://github.com/user-attachments/assets/c3470d4c-cfe5-4176-b116-12f8a83fdb18" width="500px" />
+
+* **Improved code search** - As a follow-up to allowing web URLs in the task definition, we've introduced an improvement to the way we perform code search when analyzing issues/tasks. Depending on the codebase/scenario, this allows us to better identify the right set of files to edit (across the entire repo). And therefore, can improve the quality/success-rate of CW.
+
+   We're still refining this enhancement, and so for now, you need to opt-into it by clicking the beaker icon in the header bar, and checking the `Use code search during task analysis` setting. If you get a chance to turn this on, and use CW for a while, then we'd [love to hear](https://gh.io/next-discord) if you notice any difference 🙏
+  
+   <img src="https://github.com/user-attachments/assets/ee6ddcb8-4f4c-4892-b76b-ae8ccfa783d8" width="400px" />
+
+* **Desktop notification** - You can now opt-into getting a system notification whenever a CW session is finished implementing (and the page isn't currently visible). This is useful if you're implementing a large plan, and want to switch to another task while it's running. But then know as soon as it's ready for review.
+
+   <img src="https://github.com/user-attachments/assets/7d285c40-16b0-40fd-a009-dbd72012ee76" width="300px" />
+   
+   To turn this on, simply click your avatar in the upper-right, select `Settings`, and then check the `Show notification after implementing` option. Your browser will ask for permission for CW to show notifications, and so make sure to approve that 👍
+
+   <img src="https://github.com/user-attachments/assets/898162a8-5f32-426e-8080-8444d558e80f" width="300px" />
+
+* **Task authoring** - The `Task`/`Issue` panels now match the authoring experiences for other markdown content across GitHub (e.g. issues, PR comments). In particular, instead of requiring you to explicitly put the task into "edit mode", or explicitly save it in order to preview the content, the panels now provide two tabs that you can seamlessly switch between: `Write` and `Preview`.
+  
+   <img src="https://github.com/user-attachments/assets/03ad1ede-22d7-4358-addf-9198101b8909" width="500px" />
+
+* **Issue/PR status** - The workspace header now indicates the status of the issue and/or PR associated with a session, by coloring the issue and PR icons based on whether they're open (green) or closed/merged (purple). This can make it easier to spot if you accidentally opened an issue/PR that has already been closed. At which point, you can work on something else! 🙌
+
+   <img src="https://github.com/user-attachments/assets/5cbc5939-7ac3-48f8-bd50-ba0fc2d169fc" width="600px" />
+
 ## 📅 9 August 2024
 
 ### Features / Enhancements
