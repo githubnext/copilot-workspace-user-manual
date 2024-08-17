@@ -2,9 +2,9 @@
 
 ### Features / Enhancements
 
-* **File regeneration** - The changed file toolbar now includes a regenerate button, which allows you to request CW to "try again" with implementing it. This can be useful if you've revised the plan through NL, and noticed that CW may have missed a detail. Or, if you'd like to ask it to get a bit more "creative" with its interpreation of your intent 🎨
+* **File regeneration** - The file toolbar now includes a regenerate button, which allows you to ask CW to "try again" with implementing it. This can be useful if you've revised the plan through NL, and noticed that CW may have missed a detail. Or, if you'd like to ask it to get a bit more "creative" with its interpreation of your intent 🎨
 
-  The `Specification` and `Plan` panels already had a regenerate button, and so this change ensures that in addition to editing, you can regenerate every piece of content within the workspace.
+  The `Specification` and `Plan` panels already had a regenerate button, and so this change ensures that in addition to editing/revising/undoing, you can regenerate every piece of content within the workspace.
 
   <img src="https://github.com/user-attachments/assets/c3470d4c-cfe5-4176-b116-12f8a83fdb18" width="500px" />
 
