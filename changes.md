@@ -2,15 +2,15 @@
 
 ### Features / Enhancements
 
-* **File regeneration** - The file toolbar now includes a regenerate button, which allows you to request CW to "try again" with implementing it. This can be useful if you've revised the plan through NL, and noticed that CW missed a detail. Or, if you'd like to ask it to get a bit more "creative" with its interpreation of your intent 🎨
+* **File regeneration** - The changed file toolbar now includes a regenerate button, which allows you to request CW to "try again" with implementing it. This can be useful if you've revised the plan through NL, and noticed that CW may have missed a detail. Or, if you'd like to ask it to get a bit more "creative" with its interpreation of your intent 🎨
 
   The `Specification` and `Plan` panels already had a regenerate button, and so this change ensures that in addition to editing, you can regenerate every piece of content within the workspace.
 
   <img src="https://github.com/user-attachments/assets/c3470d4c-cfe5-4176-b116-12f8a83fdb18" width="500px" />
 
-* **Improved code search** - As a follow-up to allowing web URLs in the task definition, we've introduced an improvement to the way we perform code search when analyzing issues/tasks. Depending on the codebase/scenario, this allows us to better identify the right set of files to edit (across the entire repo). And therefore, can improve the quality/success-rate of CW.
+* **Improved code search** - As a follow-up to supporting web URLs in the task definition, we've introduced an improvement to the way we perform code search, when analyzing the details of your issues/tasks. Depending on the codebase/scenario, this allows us to better identify the right set of files to edit (across the entire repo). And ultimately, can improve the quality/success-rate of CW.
 
-   We're still refining this enhancement, and so for now, you need to opt-into it by clicking the beaker icon in the header bar, and checking the `Use code search during task analysis` setting. If you get a chance to turn this on, and use CW for a while, then we'd [love to hear](https://gh.io/next-discord) if you notice any difference 🙏
+   We're still refining this enhancement. And so for now, you need to opt-into it by clicking the beaker icon in the header bar, and checking the `Use code search during task analysis` setting. If you get a chance to turn this on, and use CW for a while, then we'd [love to hear](https://gh.io/next-discord) if you notice any improvements 💙
   
    <img src="https://github.com/user-attachments/assets/ee6ddcb8-4f4c-4892-b76b-ae8ccfa783d8" width="400px" />
 
