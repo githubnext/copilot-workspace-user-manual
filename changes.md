@@ -8,7 +8,7 @@
 
   <img src="https://github.com/user-attachments/assets/c3470d4c-cfe5-4176-b116-12f8a83fdb18" width="500px" />
 
-* **Desktop notification** - You can now opt-into getting a system notification whenever a CW session is finished implementing (and the page isn't currently visible). This is useful if you're implementing a large plan, and want to switch to another task while it's running. But then know as soon as it's ready for review.
+* **Desktop notification** - You can now opt-into getting a system notification whenever a CW session is finished implementing (and the page isn't currently visible). This is useful if you're implementing a large plan, and want to switch to another task while it's running. But then know as soon as it's ready for your review 🏃
 
    <img src="https://github.com/user-attachments/assets/7d285c40-16b0-40fd-a009-dbd72012ee76" width="300px" />
    
