@@ -2,7 +2,7 @@
 
 Copilot Workspace supports tasks to refine pull requests. 
 
-<img src="images/pull-request-tasks/open-in-workspace.png" width=400 alt="Button on pull request page to open in Copilot Workspace"><br>*Refine a pull request in Copilot Workspace*
+<img src="images/general/open-in-workspace.png" width=400 alt="Button on pull request page to open in Copilot Workspace"><br>*Refine a pull request in Copilot Workspace*
 
 Here you give a task description explicitly, and the task takes into account the specific code changes in the PR.
 
