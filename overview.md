@@ -156,7 +156,7 @@ When a task is implemented, validated, and reviewed, you can complete the task i
 
 Copilot Workspace automatically saves your work. It also provides a session dashboard, which allows you to easily resume your work later. You can start a task from your phone and then finish up on your laptop, or vice versa.
 
-<img src="images/overview/dashboard.png" width=600 alt="Copilot Workspace dashboard">
+<img src="images/general/dashboard.png" width=600 alt="Copilot Workspace dashboard">
 
 *The Copilot Workspace dashboard showing recent, bookmarked and completed sessions*
 
