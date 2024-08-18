@@ -70,7 +70,7 @@ If you're not happy with the results you're getting, you can try regenerating th
 
 Often Copilot Workspace will get a task *mostly right*, but may have trouble with some parts. In this case, you can reimplement specific files with new or additional instructions. After implementing and reviewing the code, you can select file(s) in the Plan panel and add bullet points, then click "Update selected files" to reimplement those file(s) with the new instructions that you've provided.
 
-<img src="images/general/file-iteration.png" width=600 alt="Update selected files flow">
+<img src="images/overview/file-iteration.png" width=600 alt="Update selected files flow">
 
 ## Add New Files and Iterate
 
