@@ -1,8 +1,10 @@
-# Experiments, Roadmap and Known Issues
+# Experiments
 
 Copilot Workspace is a technical preview and is under active development. This document lists some known issues and known areas where we'd like to make future improvements.
 
 We will be doing ongoing continuous releases of Copilot Workspace during the technical preview, adding new features, new experiments and fixing bugs as we go. 
+
+We greatly appreciate any [feedback](https://github.com/githubnext/copilot-workspace-user-manual?tab=readme-ov-file#feedback) on these experiments, as it helps us improve Copilot Workspace and make it more useful for you.
 
 ## Active experiments
 
@@ -23,6 +25,10 @@ We are experimenting with a feature that allows Copilot Workspace to utilize lin
 ### Utilize referenced generic web content in analysis (🥼)
 
 We are experimenting with a feature that allows Copilot Workspace to utilize referenced generic web content when analyzing tasks. Currently, the contents of the URL are summarized and given to Copilot Workspace, in order to aid Copilot Workspace more focused on relevant details.
+
+### Use code search during task analysis (🥼)
+
+We are experimenting with a feature that allows Copilot Workspace to utilize code search during task analysis. This helps Copilot Workspace identify relevant files and code snippets more effectively, improving the overall accuracy and relevance of the generated specifications and plans. Enable this using the "Use code search during task analysis" feature in Copilot Workspace. Note that this experiment may result in slower completion times for spec/plan generation, but will cause Copilot Workspace to be more "focused" on your codebase.
 
 ### Clarify ambiguous specifications (🥼)
 

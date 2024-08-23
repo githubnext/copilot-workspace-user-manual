@@ -52,7 +52,7 @@ To determine how to address a task, Copilot Workspace must determine which files
 
 To review the files that were selected, in the Specification panel, click the "View references" button:
 
-<img src="images/tips-and-tricks/references.png" width=600 alt="Show references dialog">
+<img src="images/overview/references.png" width=600 alt="Show references dialog">
 
 To steer Copilot Workspace towards better file selection, you can mention file names, directory names, etc. in the issue/task panel. Just write it naturally, as if you were writing a normal issue.
 
@@ -70,7 +70,7 @@ If you're not happy with the results you're getting, you can try regenerating th
 
 Often Copilot Workspace will get a task *mostly right*, but may have trouble with some parts. In this case, you can reimplement specific files with new or additional instructions. After implementing and reviewing the code, you can select file(s) in the Plan panel and add bullet points, then click "Update selected files" to reimplement those file(s) with the new instructions that you've provided.
 
-<img src="images/tips-and-tricks/file-iteration.png" width=600 alt="Update selected files flow">
+<img src="images/overview/file-iteration.png" width=600 alt="Update selected files flow">
 
 ## Add New Files and Iterate
 
@@ -92,7 +92,7 @@ You can share your Copilot Workspace session with others by clicking the "Share"
 
 Shared sessions are copies of the original session. Non-guest users can use them as a starting point to continue the task or explore alternative solutions without interfering with the original session. Guest users can view the session but cannot use the workspace to make changes.
 
-<img src="images/tips-and-tricks/share-link.png" width=200 alt="Share button">
+<img src="images/overview/share-link.png" width=200 alt="Share button">
 
 ## Use the Sessions
 
