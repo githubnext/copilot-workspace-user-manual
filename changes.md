@@ -2,7 +2,7 @@
 
 ### Features / Enhancements
 
-* **Repo-level instructions** - You can now define instructions for Copilot Workspace, that will be automatically taken into account for any issue or task performed against a repository. This allows you to capture any policies/suggestions/etc. that aren't easily inferable from the codebase, but you want to be always considered (e.g. `New features should be put behind a feature flag`, `Docs should always be created when impacting user-facing areas`).
+* **Repo-level instructions** - You can now define instructions for Copilot Workspace, that will automatically be taken into account for any issue/task performed against a repository. This allows you to capture any policies/suggestions/etc. that aren't easily inferable from the codebase, but you want to be always considered (e.g. `New features should be put behind a feature flag`, `Docs should always be created when impacting user-facing areas`).
 
    For example, the following screenshot shows a `Proposed` spec calling out the need to update the `CHANGELOG.md`, despite the issue not mentioning this at all. This is because the repo's instructions defined that feature contributions should include an update to the changelog.
 
