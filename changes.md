@@ -2,13 +2,13 @@
 
 ### Features / Enhancements
 
-* **Repo-level instructions** - You can now define instructions for Copilot Workspace, that will automatically be taken into account for every issue/task performed against a repository. This allows you to capture any policies/suggestions/etc. that aren't easily inferable from the codebase, but you want to be always considered (e.g. `New features should be put behind a feature flag`, `Docs should always be created when impacting user-facing areas`).
+* **Repo-level instructions** - You can now define instructions for Copilot Workspace, that will be automatically applied to every issue or task performed on a repository. This allows you to document policies, suggestions, and other important guidelines that may not be evident from the codebase, but should always be considered.
 
-   For example, the following screenshot shows a `Proposed` spec which indicates the need to update the `CHANGELOG.md`, despite the issue not mentioning this requirement at all. This is because the repo's instructions defined that new feature contributions should include an entry in the changelog.
+   For example, the following screenshot shows a `Proposed` spec which indicates the need to update the `CHANGELOG.md`, despite the issue not mentioning this requirement. This is because the repo's instructions defined that new feature contributions should include an entry in the changelog.
 
    <img src="https://github.com/user-attachments/assets/83770b9e-3a3c-4ca3-88a2-04677ad5ed5f" width="600px" />
    
-  To begin using this, simply create a markdown file at the following path: `.github/copilot-workspace/CONTRIBUTING.md`. As the name suggests, you can think of this as the contribution guidance for Copilot, which can contain whatever context you think is useful for it to know about. And since the spec, plan, and code in CW are fully editable, a session can always "override" any repo-wide instructions when appropriate. However, by enabling you to codify common/required guidelines, we hope this can reduce mistakes/repetition/learning barriers/etc. for all contributors on a project 🙌
+  To begin using this, simply create a markdown file at the following path: `.github/copilot-workspace/CONTRIBUTING.md`. As the name suggests, you can think of this as the contribution guidance for Copilot, which can contain whatever context you think is useful. By enabling you to codify common/required guidelines, we hope this can reduce mistakes/repetition/learning barriers/etc. for all contributors on a project 🙌
 
 * **Terminal assist enhancements** - When you encounter an error in the terminal, and Copilot suggestions a change to the spec or plan, that suggestion will now be displayed as an editable diff of the spec/plan. This allows you to quickly understand what the suggestion is, and to easily tweak it as needed, before commiting the change.
 
