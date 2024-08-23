@@ -88,3 +88,10 @@ On mobile, the auto-completion list is positioned wrong when adding a file to th
 
 We are actively working to improve the terminal start-up time in Copilot Workspace.
 
+### Terminal Help Button Timeout
+
+The repair flow from the terminal to the plan sometimes times out, causing the terminal help button to say it can't assist you. 
+A workaround for this is to click the send button (up arrow icon) again can regenerate the suggestion.
+We understand that this is not ideal, and are working on a solution to this issue.
+
+
