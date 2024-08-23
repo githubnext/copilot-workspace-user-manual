@@ -4,7 +4,7 @@
 
 * **Repo-level instructions** - You can now define instructions for Copilot Workspace, that will be automatically applied to every issue or task performed on a repository. This allows you to document policies, suggestions, and other important guidelines that may not be evident from the codebase, but should always be considered.
 
-   For example, the following screenshot shows a `Proposed` spec which indicates the need to update the `CHANGELOG.md`, despite the issue not mentioning this requirement. This is because the repo's instructions defined that new feature contributions should include an entry in the changelog.
+   For example, the following screenshot shows a `Proposed` spec which indicates the need to update the `CHANGELOG.md`, despite the issue not mentioning this requirement. This is because the [repo's CW instructions](https://github.com/lostintangent/codeswing/blob/main/.github/copilot-workspace/CONTRIBUTING.md) defines that new features should include an entry in the changelog.
 
    <img src="https://github.com/user-attachments/assets/83770b9e-3a3c-4ca3-88a2-04677ad5ed5f" width="600px" />
    
