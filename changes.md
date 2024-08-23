@@ -2,17 +2,17 @@
 
 ### Features / Enhancements
 
-* **Repo-level instructions** - You can now define instructions for Copilot Workspace, that will automatically be taken into account for any issue/task performed against a repository. This allows you to capture any policies/suggestions/etc. that aren't easily inferable from the codebase, but you want to be always considered (e.g. `New features should be put behind a feature flag`, `Docs should always be created when impacting user-facing areas`).
+* **Repo-level instructions** - You can now define instructions for Copilot Workspace, that will automatically be taken into account for every issue/task performed against a repository. This allows you to capture any policies/suggestions/etc. that aren't easily inferable from the codebase, but you want to be always considered (e.g. `New features should be put behind a feature flag`, `Docs should always be created when impacting user-facing areas`).
 
-   For example, the following screenshot shows a `Proposed` spec calling out the need to update the `CHANGELOG.md`, despite the issue not mentioning this at all. This is because the repo's instructions defined that feature contributions should include an update to the changelog.
+   For example, the following screenshot shows a `Proposed` spec which indicates the need to update the `CHANGELOG.md`, despite the issue not mentioning this requirement at all. This is because the repo's instructions defined that new feature contributions should include an entry in the changelog.
 
    <img src="https://github.com/user-attachments/assets/83770b9e-3a3c-4ca3-88a2-04677ad5ed5f" width="600px" />
    
-  To enable this, simply create a markdown file at the following path: `.github/copilot-workspace/CONTRIBUTING.md`. As the name suggests, you can think of this as the contribution guidance for Copilot, which can contain whatever detail you think is useful for it to know about. And since the spec, plan, and code in CW are fully editable, a session can always "override" any repo-wide instructions when appropriate. However, by enabling you to codify common/required guidelines, we hope this can reduce mistakes/repetition/learning barriers/etc. for all contributors on a project 🙌
+  To begin using this, simply create a markdown file at the following path: `.github/copilot-workspace/CONTRIBUTING.md`. As the name suggests, you can think of this as the contribution guidance for Copilot, which can contain whatever context you think is useful for it to know about. And since the spec, plan, and code in CW are fully editable, a session can always "override" any repo-wide instructions when appropriate. However, by enabling you to codify common/required guidelines, we hope this can reduce mistakes/repetition/learning barriers/etc. for all contributors on a project 🙌
 
-* **Terminal assist enhancements** - When using the terminal assist feature, and the recommended fix requires an edit to the spec or plan, the suggestion will now be displayed as an editable diff of the spec or plan. This allows you to quickly see what the suggested fix it, and if needed, to tweak it before commiting the change.
+* **Terminal assist enhancements** - When you encounter an error in the terminal, and Copilot suggestions a change to the spec or plan, that suggestion will now be displayed as an editable diff of the spec/plan. This allows you to quickly understand what the suggestion is, and to easily tweak it as needed, before commiting the change.
 
-  Additionally, if you encounter an error in the terminal that is trivial in nature, and doesn't justify an udpate to the spec/plan (e.g. lint errors, typos), then the terminal assist will now suggest making direct edits to any neccessary files. For example, the following shows the suggestion after running a build, that failed due to a typo:
+  Additionally, if you encounter an error in the terminal that is trivial in nature, and therefore, doesn't justify an update to the spec/plan (e.g. lint errors, typos), then the terminal assistance will now suggest making direct edits to the neccessary files. For example, the following shows the suggestion after running a build, which failed due to a typo. Note that Copilot accurately recommends simply fixing the typo directly (as opposed to updating the plan):
 
   <img src="https://github.com/user-attachments/assets/92c89572-987a-44c8-a8e9-10a2ee79ffd3" width="600px" />
 
@@ -20,7 +20,7 @@
 
   <img src="https://github.com/user-attachments/assets/b288601c-d244-4720-a0cf-247a7fcb4257" width="400px" />
 
-* **File search on mobile** - You can now easily search the contents of a file on mobile, by tapping the magnifying glass icon in the file's header bar. This has always been possible on desktop, by pressing `CMD+F` within the editor. But this new button provides the same navigation ability, regardless what device you're currently using 📱
+* **File search on mobile** - You can now easily search the contents of a file on mobile, by tapping the magnifying glass icon in the file's header bar. This has always been possible on desktop, by pressing `CMD+F` within the editor. But this new button provides the same navigation ability, regardless what device you're currently working from 📱
 
   <img src="https://github.com/user-attachments/assets/127da4c4-68ba-4301-b440-9f15ef061110" width="300px" />
 
