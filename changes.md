@@ -1,22 +1,24 @@
 ## 📅 13 September 2024
 
-* **VS Code session continuation** - We've created a new VS Code extension, which allows you to resume CW sessions within your editor. This allows you to start tasks from the CW web client or PWA, and after feeling good about the implementation, finish the code from the comfort of your fully-configured dev environment (e.g. using your favorite extensions, color theme, keybindings, etc.) 🤗
+### Features / Enhancements
 
-   Additionally, since CW's integrated terminal only allows running/testing web apps and terminal apps, the new VS Code extension has the benefit of allowing you to debug and running arbitrary client/desktop apps (e.g. mobile, Chrome extensions, etc.), without needing to push/pull to an intermediate branch. This works because the VS Code extension supports bi-directional file syncing with the CW service/web client. And so as you make changes in one client, they're immediately available in the other. Which allows you to start and finish work from whichever environment is most convenient 😎
+* **VS Code session continuation** - We've created a new VS Code extension, which allows you to resume CW sessions within your editor. This allows you to start tasks from the CW web app/PWA, and after feeling good about the implementation, finish the code off from the comfort of your fully-configured dev environment (e.g. using your favorite extensions, color theme, keybindings, etc.) 🤗
+
+   Additionally, this extension allows you to debug and run arbitrary client/desktop projects (e.g. mobile apps, Chrome extensions, etc.), without needing to push/pull the session's code to an intermediate branch. This works because the VS Code extension supports bi-directional file syncing with the CW service/web client. And so as you make changes in one client, they're immediately available in the other. Collectively, this allows you to start and finish work from whichever client is most convenient 😎
 
      <img src="https://github.com/user-attachments/assets/5ae9c6fb-c4de-4f4e-b37a-83b93e373c74" width="700px" /><br />
      
-     > Note: This extension is very early, and therefore, we're not publishing it to the VS Code marketplace just yet. So if you'd like to give it a try and send us feedback, hit us on our the [GitHub Next Discord server](https://gh.io/next-discord) and we'll send you the VSIX. 
+     > Note: This extension is very early, and therefore, we're not publishing it to the VS Code marketplace just yet. So if you'd like to give it a try and send us feedback, hit us up on the [GitHub Next Discord server](https://gh.io/next-discord) and we'll send you the VSIX. 
      
-* **Incremental plan updates** - When you perform a NL revision (using the pretty input bar at the bottom 💙), the plan is now updated incrementally, to introduce the precise changes needed by your revision. This not only makes it faster to perform iterations, but it also makes it clearer what did and didn't change as a result of your request. Check out the following GIF to see how nice this feels 😻
+* **Incremental plan revision** - When you perform a NL revision (using the pretty input bar at the bottom 💙), the plan is now updated incrementally, as opposed to being completely regenerated. This not only makes it faster to perform iterations, but it also makes it clearer what did and didn't change as a result of your request. To get a sense for how much nicer this feels, check out the following demo 😻
 
      <img src="https://github.com/user-attachments/assets/155e0f56-2707-44dc-98f4-9f704b119496" width="800px" />
 
-* **Improved task context** - The `Task` panel now includes an `Additional context` footer, that is visible when you open an issue (that has comments), or when you're working on a project that includes repository-wide instructions (e.g. a `.github/copilot-workspace/CONTRIBUTING.md` file).
+* **Improved task context** - The `Task` panel now includes an `Additional context` footer, which is visible when you open an issue (that has comments), or when you're working on a project that includes repository-wide instructions (e.g. a `.github/copilot-workspace/CONTRIBUTING.md` file).
 
    <img src="https://github.com/user-attachments/assets/2a8494fd-adcb-48a6-9414-658b72e62ad2" width="500px" />
      
-   This is helpful because it provides you visibility into any external context that will be taken into account when analyzing/planning your task. Additionally, it let's you better predict and control the outcome. For example, if you see a `Repository instructions` item, then you can click it and immediately see the contents of the file (so you know what it declares). And if you exlpicitly don't what an issue's comments to be considered as context for the text, then you can click the trash can icon next to them, and remove them from consideration.
+   This is helpful because it provides visibility into the external context that will be taken into account when analyzing/planning your task. Additionally, it lets you better predict and control the outcome of your task. For example, if you see a `Repository instructions` context item, then you can click it and immediately see the contents of the file (so you know what it declares). And if you're working on an issue, that has comments you don't want to be included, then you can click the trash can icon next to them, and remove them consideration.
 
 * **New specification UX** - In order to simplify the CW workflow, we're removing the `Specification` panel from the timeline, and adding it as optional context to the `Task`. That way, if your task already defines the sufficient success criteria for your intent, then you can jump straight to planning. However, if you'd like CW to help expand/ellaborate/explore on your description, then you can ask it to add a spec, and then treat that as additional input to the plan 🚀
 
@@ -37,8 +39,6 @@
 * **Whitespace diffing** - By default, whitespace changes are now visible within the file diff editors. This makes it easier to spot when Copilot (or you 😄) make any unintended changes to formatting, and can prevent any surprises after creating a PR. If a file has a lot of whitespace churn, and you'd like to filter this out, you can click the settings icon in the `Files changed` section, and then select `Ignore whitespace changes`.
 
      <img src="https://github.com/user-attachments/assets/10d0d291-c17e-4240-adf6-b04ef552aa24" width="200px" />
-
-### Features / Enhancements
 
 ## 📅 30 August 2024
 
