@@ -2,7 +2,7 @@
 
 ### Features / Enhancements
 
-* **VS Code session continuation** - We've created a new VS Code extension, which allows you to resume CW sessions within your editor. This allows you to start tasks from the CW web app/PWA, and after feeling good about the implementation, finish the code off from the comfort of your fully-configured dev environment (e.g. using your favorite extensions, color theme, keybindings, etc.) 🤗
+* **VS Code session continuation** - We're introducing a new VS Code extension, which allows you to resume CW sessions within your editor. This allows you to start tasks from the CW web app/PWA, and after feeling good about the implementation, finish the task from the comfort of your fully-configured dev environment (e.g. using your favorite extensions, color theme, keybindings, etc.) 🤗
 
    Additionally, this extension allows you to debug and run arbitrary client/desktop projects (e.g. mobile apps, Chrome extensions, etc.), without needing to push/pull the session's code to an intermediate branch. This works because the VS Code extension supports bi-directional file syncing with the CW service/web client. And so as you make changes in one client, they're immediately available in the other. Collectively, this allows you to start and finish work from whichever client is most convenient 😎
 
