@@ -28,7 +28,7 @@
 
 * **Planned file placeholders** - After a plan has been generated, the `Files changed` section now immediately displays placeholders for all of the to-be-implemented files. This helps clarify the state you're in (i.e. there are files that are "planned", but not implemented), and creates a stronger association between the plan and the code.
 
-     Additionally, the new `Planned` placeholders contain a delete icon, which let's you quickly delete a file from the plan. This is useful when using CW on mobile, and you want to delete a file from the implementatino, without needing to switch back to the timeline view in order to do it.
+     Additionally, the new `Planned` placeholders contain a delete icon, which let's you quickly delete a file from the plan. This is useful when using CW on mobile, and you want to delete a file from the implementation, without needing to switch back to the timeline view in order to do it.
 
      <img src="https://github.com/user-attachments/assets/d1aa515d-2a5e-4802-9279-aa0a8a670a7e" width="600px" />
 
