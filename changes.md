@@ -4,8 +4,8 @@
 - [Integrated file tree](#integrated-file-tree)
 - [New plan step indicators](#new-plan-step-indicators)
 - [Latest changes filter](#latest-changes-filter)
-- [(VS Code) Planning & implementing](#vs-code-planning--implementing)
 - [Devcontainer tasks improvements](#devcontainer-tasks-improvements)
+- [VS Code: Planning & implementing](#vs-code-planning--implementing)
 - [URL task context](#url-task-context)
 - [Cancellation improvements](#cancellation-improvements)
 
@@ -49,11 +49,11 @@ If the command looks right, then you can submit it, which will execute it in the
 
 <img src="https://github.com/user-attachments/assets/86555379-98cd-4314-bf5b-9d481dc6ff8d" width="600xp" />
 
-### (VS Code) Planning & implementing
+### VS Code: Planning & implementing
 
 The CW extension for VS Code now allows you to generate, regenerate, revise, and implement the plan. Entirely within the editor 🔥 We still require you to **start** sessions from the CW web/mobile client, but once you have a task started, you can resume it within VS Code, and perform the most common iteration operations from there.
 
-> Note: Since this extension is still early, we're still not quite ready to publish it to the marketplace. We'll likely do that in the next couple of weeks, but until them, simply hit us up in [Discord](https://gh.io/next-discord) to grab the latest VSIX 😎
+> Note: Since this extension is early, we're still not quite ready to publish it to the marketplace. We'll likely do that in the next couple of weeks, but until them, simply hit us up in [Discord](https://gh.io/next-discord) to grab the latest VSIX 😎
 
 ### URL task context
 
