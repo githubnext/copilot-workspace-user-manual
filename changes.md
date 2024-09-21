@@ -4,8 +4,8 @@
 - [Integrated file tree](#integrated-file-tree)
 - [New plan step indicators](#new-plan-step-indicators)
 - [Latest changes filter](#latest-changes-filter)
-- [(VS Code) Planning & implementing](#vs-code-planning--implementing)
 - [Devcontainer tasks improvements](#devcontainer-tasks-improvements)
+- [VS Code: Planning & implementing](#vs-code-planning--implementing)
 - [URL task context](#url-task-context)
 - [Cancellation improvements](#cancellation-improvements)
 
@@ -41,7 +41,7 @@ The `Files changed` section has a new filter called `Latest changes`, which allo
 
 ### Devcontainer tasks improvements
 
-When you open the integrated terminal, the `Build`, `Test`, `Run` buttons are now always visible, even if the repo you're working against doesn't define them in a `devcontainer.json` file. And when you click any of them, CW will perform an AI-suggestion for what the appropriate command(s) are to run. 
+When you open the integrated terminal, the `Build`, `Test`, `Run` buttons are now always visible, even if the repo you're working against doesn't define them in a `devcontainer.json` file. And when you click any of them, CW will generate an AI-suggestion for the appropriate command(s) needed to run them (e.g. `npm run compile`).
 
 <img src="https://github.com/user-attachments/assets/d0a89f46-d447-49d6-84f1-b623e41441f2" width="600px" />
 
@@ -49,23 +49,23 @@ If the command looks right, then you can submit it, which will execute it in the
 
 <img src="https://github.com/user-attachments/assets/86555379-98cd-4314-bf5b-9d481dc6ff8d" width="600xp" />
 
-### (VS Code) Planning & implementing
+### VS Code: Planning & implementing
 
 The CW extension for VS Code now allows you to generate, regenerate, revise, and implement the plan. Entirely within the editor 🔥 We still require you to **start** sessions from the CW web/mobile client, but once you have a task started, you can resume it within VS Code, and perform the most common iteration operations from there.
 
-> Note: Since this extension is still early, we're still not quite ready to publish it to the marketplace. We'll likely do that in the next couple of weeks, but until them, simply hit us up in [Discord](https://gh.io/next-discord) to grab the latest VSIX 😎
+> Note: Since this extension is early, we're still not quite ready to publish it to the marketplace. We'll likely do that in the next couple of weeks, but until them, simply hit us up in [Discord](https://gh.io/next-discord) to grab the latest VSIX 😎
 
 ### URL task context
 
-When a task references URLs, those will now be displayed in the `Additional context` section, so that it's clearer when CW is taking into consideration external content. That way, you're always of the context being considered, and you can control if it needed (e.g. deleting a link that is confusing the plan/etc.).
+When a task references URLs, they will now be displayed in the `Additional context` section of the `Task` panel. This ensures that you're always aware of any external context being considered, and you can control if it needed (e.g. deleting a link that is confusing the plan/etc.).
 
 <img src="https://github.com/user-attachments/assets/ce02119f-35c4-49dc-bd3e-c4c831f41e01" width="400px" />
 
-> Note: By default, CW will spider URLs that point at GitHub issues, PRs and repo files. However, if you want it to spider external web URLs, then you need to enable the `Utilize referenced generic web content in analysis` setting in the `Experiments` dialog (underneath your avatar menu).
+> Note: By default, CW will spider URLs that point at GitHub issues, PRs, and repo files. However, if you want it to spider external web URLs, then you need to enable the `Utilize referenced generic web content in analysis` setting in the `Experiments` dialog (underneath your avatar menu).
 
 ### Cancellation improvements
 
-When a plan or implementation is in-progress, clicking the cancel button should now feel immediate. Additionally, if you cancel a file implementation mid-way, it will revert the file back to its previous state (before editing it), as opposed to the previous behavior (which marked the file as `Cancelled`, and looked weird). This is meaningful because when you perform an NL revision, CW automatically updates the plan and then implements it. And in order to make this UX feel responsive, we wanted to make sure you could cancel at any time, and get the immediate/expected results.
+When a plan or implementation is in-progress, clicking the cancel button should now feel immediate. Additionally, if you cancel a file implementation mid-way, it will now revert the file back to its previous state (before editing it), as opposed to the previous behavior (which marked the file as `Cancelled`, and looked pretty weird). This is meaningful because when you perform an NL revision, CW automatically updates the plan and then implements it. And in order to make this UX feel delightful, we wanted to make sure you could cancel it at any time, and get the immediate/expected results.
 
 ## 📅 13 September 2024
 
