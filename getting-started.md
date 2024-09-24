@@ -24,11 +24,6 @@ Welcome to the technical preview for Copilot Workspace! 👋 In order to help yo
 
    <img src="images/general/dashboard.png" width=800 alt="Open an issue in Copilot Workspace">
 
-1. __Iterate on a pull request__ by clicking the “Open in Workspace” button, defining the change you’d like to make (e.g. 
-   “Add docs for the changes in the PR”) and then implementing them.
-
-   <img src="images/getting-started/pr.png" width=800 alt="Open an issue in Copilot Workspace">
-
 1. __Open a workspace session in a Codespace,__ by clicking the “Open in Codespace” button in the header bar or in the 
    “Implementation” panel. Note that your workspace edits will be synced to the Codespace, and also, any edits you make in 
    the Codespace are synced back to the workspace. This allows you to use VS Code/Codespaces as a companion experience for 
