@@ -1,3 +1,145 @@
+## 📅 27 September 2024
+
+- 💡 [Brainstorming](#brainstorming)
+   - [Project exploration / learning](#project-exploration--learning)
+   - [Solution proposals](#solution-proposals)
+   - [Asking questions](#asking-questions)
+   - [Explaining / reviewing code changes](#explaining--reviewing-code-changes)
+- [Create new repository](#create-new-repository)
+- [VS Code: Implement/revise specific files](#vs-code-implementrevise-specific-files)
+- [File tree filtering](#file-tree-filtering)
+- [Plan step filtering](#plan-step-filtering)
+- [Improved build/test/run inference](#improved-buildtestrun-inference)
+- [Plan + implement](#plan--implement)
+- [URL context management](#url-context-management)
+
+### Brainstorming
+
+We've introduced a new CW primitive that we're calling "brainstorming" (💡). And it represents a significant enough change, that it needs to be described in four distinct parts 🤗
+
+<img src="https://github.com/user-attachments/assets/a4884997-43cb-4b84-a414-d407f3a87e28" width="700px" />
+
+> Note: This feature isn't currently enabled by default, and so if you'd like to try it, then enable the `Activate brainstorming` setting in your `Experiments` panel.
+
+#### Project exploration / learning
+
+At its core, CW aspires to be an "AI thought partner" that can enable developers to complete everyday tasks, while learning along the way. And while the `Specification` panel has helped our preview users create thousands of pull requests, it's been clear for a while that we could do a lot better. And in particular, help reduce the activation energy in getting started, even before you've type a single character...
+
+To that end, when you start a new task in CW, you'll notice a new green `Brainstorm` button in the `Task` panel.
+
+<img src="https://github.com/user-attachments/assets/0cb62eff-f676-403e-962b-2becf13f7a5c" width="600px" />
+
+If you click it, it will open a new tab (called `Brainstorm`) and suggest a list of questions that might be relevant for you, in either onboarding to the repository, or learning a bit more about specific behavior.
+
+<img src="https://github.com/user-attachments/assets/29cb8a3b-89c6-4479-8c81-2dc95fd8758b" width="850px" />
+
+When you click one of these questions, CW will generate an answer to it, using the same repository-wide context that you've already come to know and love 💙
+
+<img src="https://github.com/user-attachments/assets/ffa12858-e332-4407-bc9a-fe9c2a8dcd37" width="800px" />
+
+Even cooler, as you select questions, the `Suggestion questions` list will dynamically update to include new, and potentially interesting questions based on your selections. Kind of like a dynamic search engine for code, that can "push" insights at you, instead of waiting for you to ask ⭐
+
+And as with all things in CW, a generated answer can be edited, regenerated, or deleted. And if you find something especially useful, you can even add it as context to the task, which will inform the subsequent plan/code generation.
+
+<img src="https://github.com/user-attachments/assets/9f6402ca-fdda-461e-a8be-b34feb737bd4" width="300px" />
+
+When a brainstorming question is added to the task, it will show up in the task via a new section called `Ideas from brainstorming`. While it may seem silly, we love this title so much. Why? Because it represents the notion that ideas are the output of brainstorming. And ultimately, we want CW to help you produce new and better ideas 💙
+
+<img src="https://github.com/user-attachments/assets/d56781db-ae8a-4973-bf75-d9bcf5d57af8" width="300px" />
+
+Interestingly enough, this behavior means that you can actually work on tasks with CW, without ever actually typing a task description. You simply perform brainstorming, attach the associated ideas, and then move on to the plan/implementation. However, in order for this to work well, you obviously need to be able to describe your intent or to guide CW in the direction that you want to go. So let's see how that works!
+
+#### Solution proposals
+
+If you click the `Brainstorm` button _after_ you've typed a task description, then instead of simply getting a list of suggested questions, CW will actually present you with a proposal for how to solve your task. And this is where things get really fun 😎
+
+When a brainstorming question can result in multiple solutions/parts, then instead of simply answering it, CW will present you with a list of ideas, and allow you to select one, many, or all of them. That way, you can compose your intent by brainstorming with CW, and derive ideas through this collaborative process. Additoinally, just like "single answer questions", you can regenerate the question to get new ideas, and then edit/refine them as needed. And as you select ideas, the `Suggested questions` will dynamically update, in order to provide you a pathway towards other interesting questions, which are based on your selections and might be worthy of further brainstorming 🧠
+
+<img src="https://github.com/user-attachments/assets/21c3d2bb-1e2b-44ff-85ac-499e28018033" width="600px" />
+
+> When you open an issue in CW, it will automatically launch the `Brainstorm` tab, and present you with the same experience. In this sense, the default `How do I solve this issue?` brainstorming question represents an alternative to the `Specification` panel, but has the benefit of being much more rich and flexible in nature.
+
+#### Asking questions
+
+While the default brainstorming experience can help you to learn about repositories, and think through solutions for tasks/issues, it's also important that you can ask arbitrary other questions, in your pursuit of learning/task completion. And to solve that, the existing "NL revision bar" (the pretty textbox that let's you revise the plan/code) has now been converted into an "action bar". This bar is now always visible, and when you start a new task or open an issue/repo, it will present you with a new prompt: `Ask a question...`.
+
+<img src="https://github.com/user-attachments/assets/951c8391-7f42-40d9-a53d-52e0a028a6ce" width="500px" />
+
+When you enter and submit a question, it will launch the `Brainstorming` tab, and start to generate an answer, which will include multiple ideas if relevant, and allow you to edit/refine it as needed. And again, as you ask new and interesting questions, you can attach those as context for the task, and the `Suggested questions` list will continue to provide you would potentially interesting follow-ups.
+
+#### Explaining / reviewing code changes
+
+After you've implemented a plan, you'll notice two new buttons in the file diff headers (within the `Files changed` tab), which allow you to enter brainstorming mode in two interesting ways:
+
+1. Explaining the changes that were made to the file
+2. Exploring ideas about how to improve the file further
+
+<img src="https://github.com/user-attachments/assets/3968d4ba-a5b5-42bf-96f4-0df4ecf241b9" width="600px" />
+
+These allow you to extend the learning process into a specific code, and make sure that you fully understand the "what?" and "why?" behind an edit, before you ever send a PR.
+
+<img src="https://github.com/user-attachments/assets/16d6f4f9-5e78-4964-8233-177fcacba980" width="800xp" />
+
+Additionally, by being able to brainstorm with CW on a changed file, you can effectively perform a lightweight code review with it, and get some simple follow-up suggestions. Just in case there's anything else worth doing 👍
+
+<img src="https://github.com/user-attachments/assets/36193fcb-a5f8-4e72-abe0-0822eb3a7440" width="800px" />
+
+As if that wasn't enough...the next section is effectively also an extension of brainstorming. But I felt like this section got long enough, so I decided to break it up 😄
+
+### Create new repository
+
+You can now easily creating new repositories from CW, by visiting the [dashboard](https://copilot-workspace.githubnext.com) and clicking the `Create new repository` button at the bottom of the `Recent repositories` section.
+
+<img src="https://github.com/user-attachments/assets/bf25ea62-db58-489b-ba81-55aeaf49d796" width="500px" />
+
+This will take you into a new session where you can define (or brainstorm!) what you want the new repo to include. And when you finish planning/implementing the code, you can click the `Create repository` button to create the repository and then commit your changes.
+
+<img src="https://github.com/user-attachments/assets/e1c8b1b9-ca3a-40ea-a25f-3929772aa19e" width="800px" />
+
+Additionally, if you'd like to create a repository from an existing template (as opposed to a blank repo), then simply click the `Choose a repository` link from the dashboard, search for the template you want to use (e.g. `express starter`), and then select it. This will take you into the same "new repo" flow as above, but will display a `Template` panel with the template's `README` contents in it. Between the new repo + template repo flow, and the addition of brainstorming, we're excited to see how much we can improve the process of bootstrapping new projects 💙
+
+### VS Code: Implement/revise specific files
+
+The CW extension for VS Code now allows you to select specific files in the plan that you'd like to implement (by selecting their respective checkboxes in the `Plan` view). Additionally, you can now NL-revise specific files as well, by clicking the target icon in their file tab, and then entering the change you'd like to make. Even cooler, you can NL-revise a file that isn't currently part of the plan, and it will be added + revised automatically for you. These two changes match the behavior of the CW web/mobile client, and effectively round out the core iteration experience within VS Code.
+
+<img src="https://github.com/user-attachments/assets/a57ac8d8-d7a4-4cb9-b3da-c24bd91412a6" width="800px" />
+
+> Note: Since this extension is early, we're still not quite ready to publish it to the marketplace. We'll likely do that in the next couple of weeks, but until them, simply hit us up in [Discord](https://gh.io/next-discord) to grab the latest VSIX 😎
+
+### File tree filtering
+
+The integrated file tree now allows filtering it to show only the files that have changed in the session (and their parent directories). This makes it easier to contextualize the changes being made, through the lens of your repository's folder structure. Additionally, this setting is persisted as part of the session, and so if you toggle it, it will remain filtered whenever you resume working on it later (including from your phone!). 
+
+| Before filtering | After filtering |
+|-|-|
+| <img src="https://github.com/user-attachments/assets/84e90786-9834-4191-972b-7f31a950a4db" width="300px" /> | <img src="https://github.com/user-attachments/assets/49b42c6f-6fd0-4788-a055-9577ce0ad2df" width="300px" /> |
+
+### Plan step filtering
+
+The `Plan` panel now allows filtering it to show only the steps that were introduced in the last revision/edit, and their associated files. As a plan grows in size/complexity, this filter can make it alot easier to focus your attention on only the steps that were recently made, and would benefit from a closer review. This filter builds upon the previously added blue dots (which indicate an "unseen" plan step), and represent another step towards making plan revision feel much more incremental and easy to follow.
+
+| Before filtering | After filtering |
+|-|-|
+| <img src="https://github.com/user-attachments/assets/93d8c868-f850-440d-a00b-068048a0f403" width="300px" /> | <img src="https://github.com/user-attachments/assets/7ae82d1a-1008-4d74-9e02-f4b7a5f43c40" width="400px" /> |
+
+### Improved build/test/run inference
+
+When you click the `Build`, `Test` or `Run` buttons in the integrated terminal, CW will now provide better suggestions for the neccessary shell commands needed to run them. In particular, we now include any Actions workflows, package manifests (e.g. `package.json`), and the `CONTRIBUTING.md` file (if it exists) in the context, which allows CW to more properly infer the best way to build/test/run your code.
+
+<img src="https://github.com/user-attachments/assets/d0a89f46-d447-49d6-84f1-b623e41441f2" width="600px" />
+
+### Plan + implement
+
+After writing/editing a task, you can now generate the plan and implementation in a single step. As opposed to generating the plan, and then clicking the `Implement` button after its done. For simple/straight-forward tasks, this gives you the option to jump straight to code, and then refine things further from there. And if you notice that the plan isn't quite right while the code is being generated, you can easily cancel, revise the plan, and then re-implement. That way you don't lose any steerability when taking advantage of this shortcut 😎 
+
+<img src="https://github.com/user-attachments/assets/827a850a-ca2b-4e05-8abf-15eec6d3609b" width="400px" />
+
+### URL context management
+
+When a task references external URLs (e.g. docs), you can now exclude them from the session context, by clicking their associated trash can icon (within the `Additional context` section of the `Task` panel). Behind the scenes, this simply updates the task description by wrapping the selected URL in backticks (so that it's treated as raw markdown). But since a URL might be buried in an issue description/call stack, or could occur multiple times within the task definition, this new button should make it a lot easier to properly manage the context that you want CW to consider 👍
+
+<img src="https://github.com/user-attachments/assets/0366732a-b949-4f6f-b471-8e4bb1526081" width="600px" />
+
 ## 📅 20 September 2024
 
 - [Plan commands](#plan-commands)
