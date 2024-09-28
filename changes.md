@@ -109,7 +109,7 @@ Even cooler, you can NL-revise a file that isn't even part of the plan, and it w
 
 <img src="https://github.com/user-attachments/assets/a57ac8d8-d7a4-4cb9-b3da-c24bd91412a6" width="800px" />
 
-> Note: Since this extension is early, we're still not quite ready to publish it to the marketplace. We'll likely do that in the next couple of weeks, but until them, simply hit us up in [Discord](https://gh.io/next-discord) to grab the latest VSIX 😎
+> Note: Since this extension is early, we're still not quite ready to publish it to the marketplace. We'll likely do that in the next couple of weeks, but until then, simply hit us up in [Discord](https://gh.io/next-discord) to grab the latest VSIX 😎
 
 ### File tree filtering
 
