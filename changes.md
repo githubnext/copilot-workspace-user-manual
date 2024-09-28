@@ -16,7 +16,7 @@ We've introduced a major new CW primitive that we're calling "brainstorming" (ðŸ
 - [Project exploration / learning](#project-exploration--learning)
 - [Solution proposals](#solution-proposals)
 - [Asking questions](#asking-questions)
-- [Explaining / reviewing code changes](#explaining--reviewing-code-changes)
+- [Explaining / reviewing code](#explaining--reviewing-code)
 
 <img src="https://github.com/user-attachments/assets/a4884997-43cb-4b84-a414-d407f3a87e28" width="700px" />
 
@@ -70,7 +70,7 @@ When you enter and submit a question, it will launch the `Brainstorm` tab, and s
 
 Additionally, questions can be asked at any time. And so while you can ask questions at the start of a task, you can also ask them after planning, impmementing or revising. Which leads up to our next part!
 
-#### Explaining / reviewing code changes
+#### Explaining / reviewing code
 
 After you've implemented a plan, you'll notice two new buttons in the file diff headers (within the `Files changed` tab), which allow you to enter brainstorming mode in two interesting ways:
 
