@@ -11,7 +11,7 @@
 
 ### Brainstorming
 
-We've introduced a major new CW primitive that we're calling "brainstorming" (💡). And it represents a significant enough change, that it needs to be described in four distinct parts 🤗
+We've introduced a major new CW capability that we're calling "brainstorming" (💡). And it represents such a significant change, that it needs to be described in four distinct parts 🤗
 
 - [Project exploration / learning](#project-exploration--learning)
 - [Solution proposals](#solution-proposals)
