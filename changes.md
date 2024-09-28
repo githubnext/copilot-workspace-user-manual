@@ -113,7 +113,7 @@ Even cooler, you can NL-revise a file that isn't even part of the plan, and it w
 
 ### File tree filtering
 
-The integrated file tree now allows filtering it to show only the files that have changed in the session (and their parent directories). This makes it easier to contextualize the changes being made, through the lens of your repository's folder structure. Additionally, this setting is persisted as part of the session, and so if you toggle it, it will remain filtered whenever you resume working on it later (including from your phone!). 
+The integrated file tree now allows filtering it to show only the files that have changed in the session (along with their parent directories). This makes it easier to contextualize the changes being made, through the lens of your repository's folder structure. Additionally, this setting is persisted as part of the session, and so if you toggle it, it will remain filtered whenever you resume working on it later (including from your phone!). 
 
 | Before filtering | After filtering |
 |-|-|
