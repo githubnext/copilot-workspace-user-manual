@@ -130,9 +130,16 @@ The integrated file tree now allows filtering it to show only the files that hav
 
 The `Plan` panel now allows filtering it to show only the steps that were introduced in the last revision/edit (and their associated files). As a plan grows in size/complexity, this filter can make it alot easier to focus your attention on only the steps that were recently made, and therefore, would benefit from a closer review. This filter builds upon the previously-added blue dots (which indicate an "unseen" plan step), and represent another step towards making plan revision feel much more incremental and easy to follow :muscle:
 
-| Before filtering | After filtering |
-|-|-|
-| <img src="https://github.com/user-attachments/assets/93d8c868-f850-440d-a00b-068048a0f403" width="300px" /> | <img src="https://github.com/user-attachments/assets/7ae82d1a-1008-4d74-9e02-f4b7a5f43c40" width="400px" /> |
+<table>
+   <tr>
+      <th>Before filtering</th>
+      <th>After filtering</th>
+   </tr>
+   <tr>
+      <td><img src="https://github.com/user-attachments/assets/93d8c868-f850-440d-a00b-068048a0f403" width="300px" /></td>
+      <td><img src="https://github.com/user-attachments/assets/7ae82d1a-1008-4d74-9e02-f4b7a5f43c40" width="400px" /></td>
+   </tr>
+</table>
 
 ### Improved build/test/run inference
 
