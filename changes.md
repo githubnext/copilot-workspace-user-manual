@@ -79,7 +79,7 @@ After you've implemented a plan, you'll notice two new buttons in the file diff 
 
 <img src="https://github.com/user-attachments/assets/3968d4ba-a5b5-42bf-96f4-0df4ecf241b9" width="600px" />
 
-These allow you to extend the learning process into a specific code, and make sure that you fully understand the "what?" and "why?" behind an edit, before you ever send a PR.
+These allow you to extend the learning process into a specific change, and make sure that you fully understand the "what?" and "why?" behind an edit, before you ever send a PR.
 
 <img src="https://github.com/user-attachments/assets/16d6f4f9-5e78-4964-8233-177fcacba980" width="800xp" />
 
@@ -87,7 +87,7 @@ Additionally, by being able to brainstorm with CW on a changed file, you can eff
 
 <img src="https://github.com/user-attachments/assets/36193fcb-a5f8-4e72-abe0-0822eb3a7440" width="800px" />
 
-As if that wasn't enough...the next section is effectively also an extension of brainstorming. But I felt like this section got long enough, so I decided to break it up 😄
+And as if that wasn't enough...the next section is effectively also an extension of brainstorming. But I felt like this section was getting long enough, so I decided to break it up 😄
 
 ### Create new repository
 
