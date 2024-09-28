@@ -1,10 +1,6 @@
 ## 📅 27 September 2024
 
-- 💡 [Brainstorming](#brainstorming)
-   - [Project exploration / learning](#project-exploration--learning)
-   - [Solution proposals](#solution-proposals)
-   - [Asking questions](#asking-questions)
-   - [Explaining / reviewing code changes](#explaining--reviewing-code-changes)
+- [Brainstorming](#brainstorming)
 - [Create new repository](#create-new-repository)
 - [VS Code: Implement/revise specific files](#vs-code-implementrevise-specific-files)
 - [File tree filtering](#file-tree-filtering)
@@ -16,6 +12,11 @@
 ### Brainstorming
 
 We've introduced a new CW primitive that we're calling "brainstorming" (💡). And it represents a significant enough change, that it needs to be described in four distinct parts 🤗
+
+- [Project exploration / learning](#project-exploration--learning)
+- [Solution proposals](#solution-proposals)
+- [Asking questions](#asking-questions)
+- [Explaining / reviewing code changes](#explaining--reviewing-code-changes)
 
 <img src="https://github.com/user-attachments/assets/a4884997-43cb-4b84-a414-d407f3a87e28" width="700px" />
 
