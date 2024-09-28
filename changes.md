@@ -20,7 +20,7 @@ We've introduced a major new CW capability that we're calling "brainstorming" (ð
 
 <img src="https://github.com/user-attachments/assets/a4884997-43cb-4b84-a414-d407f3a87e28" width="700px" />
 
-> Note: This feature isn't currently enabled by default, and so if you'd like to try it, then enable the `Activate brainstorming` setting in your `Experiments` panel.
+> Note: This feature isn't currently enabled by default. So if you'd like to try it, then enable the `Activate brainstorming` setting in your `Experiments` panel.
 
 #### Project exploration / learning
 
