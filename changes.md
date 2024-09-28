@@ -24,13 +24,13 @@ We've introduced a major new CW primitive that we're calling "brainstorming" (�
 
 #### Project exploration / learning
 
-At its core, CW aspires to be an "AI thought partner" that can enable developers to complete everyday tasks, **while learning along the way**. And while the `Specification` panel has successfully helped preview users create thousands of pull requests, it's been clear for a while that we could do a lot better. And in particular, help reduce the activation energy in getting started, even before you've typed a single character...
+At its core, CW aspires to be an "AI thought partner" that can enable developers to complete everyday tasks, **while learning along the way**. And while the `Specification` panel has successfully helped preview users create thousands of pull requests, it's been clear for a while that we could do a lot better. And in particular, help reduce the activation energy in getting started, **even before you've typed a single character.**
 
-To that end, when you start a new task in CW, you'll notice a new green `Brainstorm` button in the `Task` panel.
+To that end, when you start a new task in CW, you'll now notice a green `Brainstorm` button in the `Task` panel.
 
 <img src="https://github.com/user-attachments/assets/0cb62eff-f676-403e-962b-2becf13f7a5c" width="600px" />
 
-If you click it, it will open a new tab (called `Brainstorm`) and suggest a list of questions that might be relevant for you, in either onboarding to the repository, or learning a bit more about specific behavior.
+If you click it, it will open a new tab (called `Brainstorm`) and suggest a list of questions that might be relevant for you, in either onboarding to the repository, or learning a bit more about specific behavior/topics (e.g. how to buikd VS Code extensions).
 
 <img src="https://github.com/user-attachments/assets/29cb8a3b-89c6-4479-8c81-2dc95fd8758b" width="850px" />
 
@@ -40,11 +40,11 @@ When you click one of these questions, CW will generate an answer to it, using t
 
 Even cooler, as you select questions, the `Suggestion questions` list will dynamically update to include new, and potentially interesting questions based on your selections. Kind of like a dynamic search engine for code, that can "push" insights at you, instead of waiting for you to ask ⭐
 
-And as with all things in CW, a generated answer can be edited, regenerated, or deleted. And if you find something especially useful, you can even add it as context to the task, which will inform the subsequent plan/code generation.
+And as with all things in CW, a generated answer can be edited, regenerated, or deleted. And if you find something especially useful, you can even add it as context to the task, which will inform the subsequent planning/code generation.
 
 <img src="https://github.com/user-attachments/assets/9f6402ca-fdda-461e-a8be-b34feb737bd4" width="300px" />
 
-When a brainstorming question is added to the task, it will show up in the task via a new section called `Ideas from brainstorming`. While it may seem silly, we love this title so much. Why? Because it represents the notion that ideas are the output of brainstorming. And ultimately, we want CW to help you produce new and better ideas 💙
+When a brainstorming question is added to the task, it will show up in the task via a new section called `Ideas from brainstorming`. And while it may seem silly, we love this title so much. Why? Because it represents the notion that ideas are the output of brainstorming. And ultimately, we want CW to help you produce new and better ideas 💙
 
 <img src="https://github.com/user-attachments/assets/d56781db-ae8a-4973-bf75-d9bcf5d57af8" width="300px" />
 
@@ -54,11 +54,11 @@ Interestingly enough, this behavior means that you can actually work on tasks wi
 
 If you click the `Brainstorm` button _after_ you've typed a task description, then instead of simply getting a list of suggested questions, CW will actually present you with a proposal for how to solve your task. And this is where things get really fun 😎
 
-When a brainstorming question can result in multiple solutions/parts, then instead of simply answering it, CW will present you with a list of ideas, and allow you to select one, many, or all of them. That way, you can compose your intent by brainstorming with CW, and derive ideas through this collaborative process. Additoinally, just like "single answer questions", you can regenerate the question to get new ideas, and then edit/refine them as needed. And as you select ideas, the `Suggested questions` will dynamically update, in order to provide you a pathway towards other interesting questions, which are based on your selections and might be worthy of further brainstorming 🧠
+When a brainstorming question can result in multiple solutions/parts, then instead of simply answering it, CW will present you with a list of **ideas**, and allow you to select one, many, or all of them. That way, you can compose your intent by brainstorming with CW, and derive ideas through this collaborative process. Additionally, just like "single answer questions", you can regenerate the question to get new ideas, and then edit/refine them as needed. And as you select ideas, the `Suggested questions` will dynamically update, in order to provide you a pathway towards other interesting questions, which might be worthy of further brainstorming 🧠
 
 <img src="https://github.com/user-attachments/assets/21c3d2bb-1e2b-44ff-85ac-499e28018033" width="600px" />
 
-> When you open an issue in CW, it will automatically launch the `Brainstorm` tab, and present you with the same experience. In this sense, the default `How do I solve this issue?` brainstorming question represents an alternative to the `Specification` panel, but has the benefit of being much more rich and flexible in nature.
+> Note: When you open an issue in CW, it will automatically launch the `Brainstorm` tab, and present you with the same experience as manually entered tasks. In this sense, the default `How do I solve this issue?` brainstorming question represents an alternative to the `Specification` panel, but has the benefit of being much more rich and flexible in nature.
 
 #### Asking questions
 
