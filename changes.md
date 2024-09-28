@@ -91,7 +91,7 @@ And as if that wasn't enough...the next section is effectively also an extension
 
 ### Create new repository
 
-You can now easily creating new repositories from CW, by visiting the [dashboard](https://copilot-workspace.githubnext.com) and clicking the `Create new repository` button at the bottom of the `Recent repositories` section.
+You can now easily create new repositories from CW, by visiting the [dashboard](https://copilot-workspace.githubnext.com) and clicking the `Create new repository` button at the bottom of the `Recent repositories` section.
 
 <img src="https://github.com/user-attachments/assets/bf25ea62-db58-489b-ba81-55aeaf49d796" width="500px" />
 
