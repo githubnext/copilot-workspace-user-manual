@@ -137,7 +137,7 @@ The `Plan` panel now allows filtering it to show only the steps that were introd
    </tr>
    <tr>
       <td><img src="https://github.com/user-attachments/assets/88a5e18f-cfce-4cc1-8291-d807e9e92908" width="300px" /></td>
-      <td><img src="https://github.com/user-attachments/assets/7ae82d1a-1008-4d74-9e02-f4b7a5f43c40" width="400px" /></td>
+      <td><img src="https://github.com/user-attachments/assets/550dc719-890f-4b43-9c65-6a6460901a00" width="400px" /></td>
    </tr>
 </table>
 
