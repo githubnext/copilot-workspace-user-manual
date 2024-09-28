@@ -121,7 +121,7 @@ The integrated file tree now allows filtering it to show only the files that hav
 
 ### Plan step filtering
 
-The `Plan` panel now allows filtering it to show only the steps that were introduced in the last revision/edit, and their associated files. As a plan grows in size/complexity, this filter can make it alot easier to focus your attention on only the steps that were recently made, and would benefit from a closer review. This filter builds upon the previously added blue dots (which indicate an "unseen" plan step), and represent another step towards making plan revision feel much more incremental and easy to follow.
+The `Plan` panel now allows filtering it to show only the steps that were introduced in the last revision/edit (and their associated files). As a plan grows in size/complexity, this filter can make it alot easier to focus your attention on only the steps that were recently made, and therefore, would benefit from a closer review. This filter builds upon the previously-added blue dots (which indicate an "unseen" plan step), and represent another step towards making plan revision feel much more incremental and easy to follow :muscle:
 
 | Before filtering | After filtering |
 |-|-|
