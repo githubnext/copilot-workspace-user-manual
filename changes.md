@@ -121,7 +121,8 @@ The integrated file tree now allows filtering it to show only the files that hav
       <th>After filtering</th>
    </tr>
    <tr>
-      <td><img src="https://github.com/user-attachments/assets/d70b77b6-fb17-4cde-bda1-a3144a969765" width="300px" /></td>
+      <ts><img src="https://gist.github.com/user-attachments/assets/0dda1e8a-f905-4708-aa0c-a13373d83361" width="300px" /></td>
+      <!--<td><img src="https://github.com/user-attachments/assets/d70b77b6-fb17-4cde-bda1-a3144a969765" width="300px" /></td>-->
       <td><img src="https://github.com/user-attachments/assets/49b42c6f-6fd0-4788-a055-9577ce0ad2df" width="300px" /></td>
    </tr>
 </table>
