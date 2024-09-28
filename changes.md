@@ -115,11 +115,16 @@ Even cooler, you can NL-revise a file that isn't even part of the plan, and it w
 
 The integrated file tree now allows filtering it to show only the files that have changed in the session (along with their parent directories). This makes it easier to contextualize the changes being made, through the lens of your repository's folder structure. Additionally, this setting is persisted as part of the session, and so if you toggle it, it will remain filtered whenever you resume working on it later (including from your phone!). 
 
-| Before filtering | After filtering |
-|-|-|
-| <img src="https://github.com/user-attachments/assets/d70b77b6-fb17-4cde-bda1-a3144a969765" width="300px" /> | <img src="https://github.com/user-attachments/assets/49b42c6f-6fd0-4788-a055-9577ce0ad2df" width="300px" /> |
-
-![image](https://github.com/user-attachments/assets/d70b77b6-fb17-4cde-bda1-a3144a969765)
+<table>
+   <tr>
+      <th>Before filtering</th>
+      <th>After filtering</th>
+   </tr>
+   <tr>
+      <td><img src="https://github.com/user-attachments/assets/d70b77b6-fb17-4cde-bda1-a3144a969765" width="300px" /></td>
+      <td><img src="https://github.com/user-attachments/assets/49b42c6f-6fd0-4788-a055-9577ce0ad2df" width="300px" /></td>
+   </tr>
+</table>
 
 ### Plan step filtering
 
