@@ -117,7 +117,7 @@ The integrated file tree now allows filtering it to show only the files that hav
 
 | Before filtering | After filtering |
 |-|-|
-| <img src="https://github.com/user-attachments/assets/84e90786-9834-4191-972b-7f31a950a4db" width="300px" /> | <img src="https://github.com/user-attachments/assets/49b42c6f-6fd0-4788-a055-9577ce0ad2df" width="300px" /> |
+| <img src="https://github.com/user-attachments/assets/d70b77b6-fb17-4cde-bda1-a3144a969765" width="300px" /> | <img src="https://github.com/user-attachments/assets/49b42c6f-6fd0-4788-a055-9577ce0ad2df" width="300px" /> |
 
 ![image](https://github.com/user-attachments/assets/d70b77b6-fb17-4cde-bda1-a3144a969765)
 
