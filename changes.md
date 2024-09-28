@@ -24,7 +24,7 @@ We've introduced a major new CW primitive that we're calling "brainstorming" (ðŸ
 
 #### Project exploration / learning
 
-At its core, CW aspires to be an "AI thought partner" that can enable developers to complete everyday tasks, while learning along the way. And while the `Specification` panel has helped our preview users create thousands of pull requests, it's been clear for a while that we could do a lot better. And in particular, help reduce the activation energy in getting started, even before you've type a single character...
+At its core, CW aspires to be an "AI thought partner" that can enable developers to complete everyday tasks, **while learning along the way**. And while the `Specification` panel has successfully helped preview users create thousands of pull requests, it's been clear for a while that we could do a lot better. And in particular, help reduce the activation energy in getting started, even before you've typed a single character...
 
 To that end, when you start a new task in CW, you'll notice a new green `Brainstorm` button in the `Task` panel.
 
