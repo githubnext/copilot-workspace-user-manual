@@ -122,7 +122,7 @@ The integrated file tree now allows filtering it to show only the files that hav
    </tr>
    <tr>
       <td><img src="https://github.com/user-attachments/assets/9b98e458-bc2d-464b-ab23-9e7aace17802" width="300px" /></td>
-      <td><img src="https://github.com/user-attachments/assets/49b42c6f-6fd0-4788-a055-9577ce0ad2df" width="300px" /></td>
+      <td><img src="https://github.com/user-attachments/assets/d57dfe8e-7d13-448f-a41a-294d92b6e314" width="300px" /></td>
    </tr>
 </table>
 
