@@ -1,3 +1,68 @@
+## 📅 4 October 2024
+
+- [Commands hub](#commands-hub)
+- [Action bar mode picker](#action-bar-mode-picker)
+- [External URL context](#external-url-context)
+- [Auto-completing sessions](#auto-completing-sessions)
+- [VS Code: Workflow enhancements](#vs-code-workflow-enhancements)
+- [High contrast mode](#high-contrast-mode)
+- [Custom instructions](#custom-instructions)
+
+### Commands hub
+
+As part of our revamp of the CW UX (e.g. brainstorming, the action bar, file tabs/tree, etc.), we've introduced a new capability called `Commands`, which replaces the integrated terminal with a full-screen panel, and provides a simplified experience for executing/configuring a build, test, or run against your code changes. Conceptually, you can think of this as being the centralized "hub" for all tasks in the workspace that require executing a shell command.
+
+<img src="https://github.com/user-attachments/assets/93704f18-ad4c-4430-bf9c-dae4247ec3c3" width="900px" />
+
+Even cooler, the contents of the `Output` tab are persisted with your session. And since the output of each individual command is grouped, and can be collapsed, this makes it easier to resume and navigate sessions, in a way that wasn't possible with just the "raw" terminal UX. To begin using the new `Commands` hub, simply click the existing terminal icon in the header bar. Once opened, it will automatically create and connect to a backing Codespace, so you can start running commands as needed. 
+
+And when you need to run an arbitrary command, or perform something interactive, just switch to the `Terminal` tab and execute what you need:
+
+<img src="https://github.com/user-attachments/assets/4031463d-d648-4ff1-aede-6da468d923ac" width="600px" />
+
+### Action bar mode picker
+
+The action bar now allows you to switch between two modes: `Ask` and `Revise`. This ensures that regardless what state your session is in, you can ask a question or revise the plan/implemented files. And in order to complete the new `Commands` experience, we'll be introducing a third mode next week: `Command` (which will allow typing an NL description of a shell command you want to run).
+
+<img src="https://github.com/user-attachments/assets/f8d7e861-d952-4fb8-95b3-4c8939c4aa16" width="500px" />
+
+### External URL context
+
+We've enabled external URL fetching by default, and made the following improvements to the overall user experience:
+
+1. The content of external URLs are now included in the context while brainstorming. This is cool because it allows you to ask questions and ensure they can "see" any meaningful context you've added to the task (e.g. GitHub issues, external documentation)
+1. You can now enable/disable individual URLs from the `Task` panel, which allows you to control which external content is used as context, without needing to modify the task description.
+
+<img src="https://github.com/user-attachments/assets/3937dcfd-db48-4e4b-8366-a76d1e06fee1" width="350px" />
+
+### Auto-completing sessions
+
+We introduced a new setting that allows you to automatically mark sessions as complete after creating a PR/branch/repo for them. For users that create many sessions, this can help keep your `Recent sessions` list (on the [dashboard](https://copilot-workspace.githubnext.com)) nice and clean. And if you later decide that you need to continue a session that was marked as complete, you can always resume it from the [Completed sessions list](https://copilot-workspace-dev.githubnext.com/?view=completed) at any time :thumb:
+
+> To enable this behavior, open your user `Settings` (underneath the avatar menu in the upper-right), and select the `Mark sessions as complete after committing` option.
+
+### VS Code: Workflow enhancements
+
+We've continued to improve the VS Code extension, thanks to all the amazing feedback from early users. And this week, we introduced the following enhancements to the E2E workflow:
+
+1. Sessions can now be deleted from the `Sessions` view
+1. Whenever a plan is generated, it's now automatically implemented (to reduce clicks!)
+1. The `Task` panel now displays ideas that were attached to it while brainstorming
+1. Single-clicking a file in the `Plan` now opens the file's diff editor
+1. A new status bar item indicates when CW is planning, implementing and/or syncing
+
+### High contrast mode
+
+CW already supports a light and dark color theme, and will match your system preference automatically. However, to further improve usability for all users, we've introduced support for a new high-contrast mode of both color themes.
+
+<img src="https://github.com/user-attachments/assets/e54a0d92-901e-44c5-9d11-d7c3f812a6c5" width="800px" />
+
+> To enable this behavior, open your user `Settings` (underneath the avatar menu in the upper-right), and select the `Enable high contrast mode` option.
+
+### Custom instructions
+
+CW now supports configuring repo-wide custom instructions via a `.github/copilot-instructions.md` file, in addition to the existing file location (`.github/copilot-workspace/CONTRIBUTING.md`). If a repo includes a `.github/copilot-instructions.md` file, then it will take precedence over `.github/copilot-workspace/CONTRIBUTING.md` (we don't "merge" the contents if you define both). Otherwise, both files support the exact same set of features and user experience (e.g. the `Task` panel will show custom instructions as additional context, and external URLs in the instructions will be fetched).
+
 ## 📅 27 September 2024
 
 - [Brainstorming](#brainstorming)
