@@ -1,6 +1,138 @@
+## 📅 11 October 2024
+
+- [Commands](#commands)
+   - [Running commands](#running-commands) 
+   - [Command setup / inference](#command-setup--inference)
+   - [NL command suggestions](#nl-command-suggestions)
+   - [Plan commands](#plan-commands)   
+- [Action bar mode picker](#action-bar-mode-picker)
+- [Open in VS Code](#open-in-vs-code)
+- [External URL context](#external-url-context)
+- [Auto-completing sessions](#auto-completing-sessions)
+- [High contrast mode](#high-contrast-mode)
+- [Custom instructions](#custom-instructions)
+
+### Commands
+
+As part of our continued revamp of the CW UX (e.g. brainstorming, the action bar, file tabs/tree, etc.), we've introduced a new capability called `Commands`, which replaces the integrated terminal with a full-height panel, and provides a simplified experience for executing and configuring a build/test/run against your code. Conceptually, you can think of this as being the centralized "hub" for all tasks in the workspace that require executing a shell command.
+
+<img src="https://github.com/user-attachments/assets/bb5aa0b5-c0c0-4209-871d-5079a0b28f04" width="1000px" />
+
+And similar to [brainstorming](#brainstorming), this capability is significant enough in scope, that we need to describe it in four distinct parts 😄
+
+- [Running commands](#running-commands) 
+- [Command setup / inference](#command-setup--inference)
+- [NL command suggestions](#nl-command-suggestions)
+- [Plan commands](#plan-commands)  
+
+#### Running commands
+
+To begin using the new `Commands` hub, simply click the existing terminal icon in the header bar. Once opened, it will automatically create and connect to a backing Codespace, so you can start running commands as needed. And if your repository has been configured with a `postAttachCommand` (in your `devcontainer.json` file), then you'll see a `Post attach` entry appear, that let's you see the output of its underlying shell commands.
+
+Additionally, if you've configured a `build`, `test`, or `launch` task in your `devcontainer.json`, then you can click to run any of those. This will result in the command being displayed in the list on the `Output` tab, and allow you to view its output, stop it, or re-run it once complete.
+
+<img src="https://github.com/user-attachments/assets/6a0f0ecc-64f0-4871-b5f3-0840c684b85e" width="450px" />
+
+#### Command setup / inference
+
+If you haven't configured any tasks in your `devcontainer.json`, then you can simply click on either the build, test, or run command and then type the respective shell commands into the task editor. When you do that, the entered commands will be automatically added to a `devcontainer.json` file for you, so you can include it in your subsequent PR.
+
+And if you don't know how to perf a build/test/run on the repo, then simply click the lightbulb icon next to a task and let CW suggest how to perform it 🚀
+
+<img src="https://github.com/user-attachments/assets/2db837df-33db-4608-8674-54d36ae5e9f7" width="500px" />
+
+#### NL command suggestions
+
+While we've optimized the UX for building, testing, and running your code, there are many other tasks you might need to perform during a session (e.g. linting, formatting). And to make that simpler, the action bar now enters "command mode" (when you've focused the `Commands` tab), which lets you describe the command you want to run using natural language.
+
+After typing an NL request, you'll be presented with a suggestion, which you can edit, regenerate. And if you click the `Run` button, it will open the `Terminal` tab on the `Commands` hub, and execute it on your behalf.
+
+<img src="https://github.com/user-attachments/assets/d4dbb27e-3f78-43f7-8e94-d68caa2ae9ce" width="500px" />
+
+#### Plan commands
+
+The "plan commands" feature is now on by default, and when a plan includes shell commands (e.g. running a package manager to include a new dependency), it will execute them via a new `Plan` command entry in the `Commands` tab.
+
+<img src="https://github.com/user-attachments/assets/60ed8f3d-013f-461f-a143-9d642be5e64e" width="700px" />
+
+### Action bar mode picker
+
+The action bar now allows you to switch between three modes: `Ask`, `Revise`, and `Command`. This ensures that regardless what state your session is in, you can ask a question, revise the plan/implemented files, or execute a terminal command. All using natural language 💙
+
+<img src="https://github.com/user-attachments/assets/93c6664e-66ad-42a3-96b5-3e9a4cdad099" width="600px" />
+
+Even cooler, you can switch between any of the modes using the following keyboard shortcuts, which make it really easy to navigate a session, while jumping between brainstorming, code revision, and terminal actions:
+
+| Mode | Keyboard shortcut |
+|-|-|
+| Ask | <kbd>?</kbd> |
+| Revise | <kbd>></kbd> |
+| Command | <kbd>$</kbd> |
+
+### Open in VS Code
+
+After a month of _amazing_ feedback from our preview users, we've officially published the [Copilot Workspace extension](https://gh.io/cw-vscode ) to the VS Code marketplace 🥳
+
+And in order to make it even easier to use, we've introduced a new `Open in VS Code` button to the CW header. When you click this, it will launch VS Code, and open your current session directly. That way you can start tasks and brainstorm from the web (or your phone!), and when you want to jump into your editor to finish it off, you can do that in a single-click 💪
+
+<img src="https://github.com/user-attachments/assets/1928f16e-3663-4d6e-becb-8cd409fb4430" width="500px" />
+
+Additionally, the official extension release also includes a ton of new capabilities that make the E2E experience a lot better. In particular, we've enhanced the `Sessions` and `Plan` views in the following ways...
+
+#### `Sessions` view
+
+In order to make it easier to manage many sessions, your sessions list is now grouped by repository, and each session displays an icon based on its respective type: issue, task, or PR. Additionally, when you're done with a session, you can now delete it directly from the editor, by hovering over it and clicking the trash can icon.
+
+<img src="https://github.com/user-attachments/assets/70513fd2-cb7e-416c-9ee6-90c0780d4f21" width="350px" />
+
+#### `Plan` view
+
+The VS Code extension now has full parity with the CW web client, when it comes to iterating on the plan and code. And in particular, you can now perform the following actions on the plan, directly from the editor:
+
+1. Add, editing, and deleting files
+2. Add, editing, and deleting steps
+3. Re-organizing the plan, by moving/indenting files and steps
+
+| Plan file actions | Plan step actions |
+|-|-|
+| <img src="https://github.com/user-attachments/assets/6836d12c-7977-4d34-8760-0456d547e89f" width="400px" /> | <img src="https://github.com/user-attachments/assets/62e0b417-2d64-4597-8055-d7e34bdd70ce" width="360px" /> |
+
+### External URL context
+
+We've enabled external URL fetching by default, and made the following improvements to the overall user experience:
+
+1. The content of external URLs are now included in the context while brainstorming. This is cool because it allows you to ask questions and ensure they can "see" any meaningful context you've added to the task (e.g. GitHub issues, external documentation)
+1. You can now enable/disable individual URLs from the `Task` panel, which allows you to control which external content is used as context, without needing to modify the task description.
+
+<img src="https://github.com/user-attachments/assets/3937dcfd-db48-4e4b-8366-a76d1e06fee1" width="350px" />
+
+> Note: If you'd like to disable external URLs from being enabled by default, then you can turn off the `Automatically include external URLs in context` setting in your `Settings` panel (underneath the avatar menu).
+
+### Auto-completing sessions
+
+We introduced a new setting that allows you to automatically mark sessions as complete after creating a PR/branch/repo for them. For users that create many sessions, this can help keep your `Recent sessions` list (on the [dashboard](https://copilot-workspace.githubnext.com)) nice and clean. And if you later decide that you need to continue a session that was marked as complete, you can always resume it from the [Completed sessions list](https://copilot-workspace-dev.githubnext.com/?view=completed) at any time :thumb:
+
+> To enable this behavior, open your user `Settings` (underneath the avatar menu in the upper-right), and select the `Mark sessions as complete after committing` option.
+
+### High contrast mode
+
+CW already supports a light and dark color theme, and will match your system preference automatically. However, to further improve usability for all users, we've introduced support for a new high-contrast mode of both color themes.
+
+<img src="https://github.com/user-attachments/assets/e54a0d92-901e-44c5-9d11-d7c3f812a6c5" width="800px" />
+
+> To enable this behavior, open your user `Settings` (underneath the avatar menu in the upper-right), and select the `Enable high contrast mode` option.
+
+### Custom instructions
+
+CW now supports configuring repo-wide custom instructions via a `.github/copilot-instructions.md` file, in addition to the existing file location (`.github/copilot-workspace/CONTRIBUTING.md`). If a repo includes a `.github/copilot-instructions.md` file, then it will take precedence over `.github/copilot-workspace/CONTRIBUTING.md` (we don't "merge" the contents if you define both). Otherwise, both files support the exact same set of features and user experience (e.g. the `Task` panel will show custom instructions as additional context, and external URLs in the instructions will be fetched).
+
 ## 📅 27 September 2024
 
 - [Brainstorming](#brainstorming)
+   - [Project exploration / learning](#project-exploration--learning)
+   - [Solution proposals](#solution-proposals)
+   - [Asking questions](#asking-questions)
+   - [Explaining / reviewing code](#explaining--reviewing-code)
 - [Create new repository](#create-new-repository)
 - [VS Code: Implement/revise specific files](#vs-code-implementrevise-specific-files)
 - [File tree filtering](#file-tree-filtering)
