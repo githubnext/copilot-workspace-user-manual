@@ -45,31 +45,33 @@ And if you don't know how to perform a build/test/run on the current repo, then 
 
 #### NL command suggestions
 
-While we've optimized the UX for building, testing, and running your code, there are many other tasks you might need to perform during a session (e.g. linting, formatting). And to make that simpler, the action bar now enters "command mode" (when you've focused the `Commands` tab), which lets you describe the command you want to run using natural language.
+While we've optimized the UX for building, testing, and running your code, there are many other tasks you might need to perform during a session (e.g. linting, formatting, etc.). And to make that simpler, the action bar now enters "command mode" (when you're focused on the `Commands` tab), which lets you describe a shell command you want to run, using only natural language.
 
-After typing an NL request, you'll be presented with a suggestion, which you can edit, regenerate. And if you click the `Run` button, it will open the `Terminal` tab on the `Commands` hub, and execute it on your behalf.
+After typing an NL request, you'll be presented with a command suggestion, which you can edit or regenerate. And if you click the `Run` button, it will open the `Terminal` tab on the `Commands` hub, and execute it on your behalf. 
 
 <img src="https://github.com/user-attachments/assets/d4dbb27e-3f78-43f7-8e94-d68caa2ae9ce" width="500px" />
 
 #### Plan commands
 
-The "plan commands" feature is now on by default, and when a plan includes shell commands (e.g. running a package manager to include a new dependency), it will execute them via a new `Plan` command entry in the `Commands` tab.
+The "plan commands" feature is now on by default, and when a plan includes shell commands (e.g. running a package manager to include a new dependency), it will execute them via a new `Plan` command entry in the `Commands` tab. 
 
 <img src="https://github.com/user-attachments/assets/60ed8f3d-013f-461f-a143-9d642be5e64e" width="700px" />
 
 ### Action bar mode picker
 
-The action bar now allows you to switch between three modes: `Ask`, `Revise`, and `Command`. This ensures that regardless what state your session is in, you can ask a question, revise the plan/implemented files, or execute a terminal command. All using natural language 💙
+The action bar now allows you to seamlessly switch between its three modes: `Ask`, `Revise`, and `Command`. This ensures that regardless what state your session is in, you can ask a question, revise the plan/implemented files, or execute a terminal command. All using natural language 💙
 
 <img src="https://github.com/user-attachments/assets/93c6664e-66ad-42a3-96b5-3e9a4cdad099" width="600px" />
 
-Even cooler, you can switch between any of the modes using the following keyboard shortcuts, which make it really easy to navigate a session, while jumping between brainstorming, code revision, and terminal actions:
+Even cooler, you can switch between any of these modes using the following keyboard shortcuts, which make it really easy to navigate a session, while jumping between brainstorming, code iteration, and terminal actions:
 
 | Mode | Keyboard shortcut |
 |-|-|
 | Ask | <kbd>?</kbd> |
 | Revise | <kbd>></kbd> |
 | Command | <kbd>$</kbd> |
+
+By introducing the new `Commands` tab, and allowing all three of the action bar's modes to be usable at any time, the action bar is now the official "central nervous system" for the entire CW experience. We've really fallen in love with how it feels to start and iterate on tasks now. And we're excited to hear how it feels for everyone else! 👋
 
 ### Open in VS Code
 
