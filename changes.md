@@ -73,7 +73,7 @@ Even cooler, you can switch between any of the modes using the following keyboar
 
 After a month of _amazing_ feedback from our preview users, we've officially published the [Copilot Workspace extension](https://gh.io/cw-vscode ) to the VS Code marketplace 🥳
 
-And in order to make it even easier to use, we've introduced a new `Open in VS Code` button to the CW header. When you click this, it will launch VS Code, and open your current session directly. That way you can start tasks and brainstorm from the web (or your phone!), and when you want to jump into your editor to finish it off, you can do that in a single-click 💪
+And in order to make it even easier to use, we've introduced a new `Open in VS Code` button to the CW session header. When you click it, we'll launch VS Code, and open your current session directly from within the editor. That way you can start tasks and brainstorm from the web (or your phone!), and when you want to jump into VS Code to finish it off (e.g. step-debug some code), you can now do that in a single-click 💪
 
 <img src="https://github.com/user-attachments/assets/1928f16e-3663-4d6e-becb-8cd409fb4430" width="500px" />
 
@@ -81,17 +81,19 @@ Additionally, the official extension release also includes a ton of new capabili
 
 #### `Sessions` view
 
-In order to make it easier to manage many sessions, your sessions list is now grouped by repository, and each session displays an icon based on its respective type: issue, task, or PR. Additionally, when you're done with a session, you can now delete it directly from the editor, by hovering over it and clicking the trash can icon.
+In order to make it easier to manage _many_ sessions, your sessions list is now grouped by repository, and each session displays an icon based on its respective type: issue, task, or PR. Additionally, when you're done with a session, you can now delete it directly from the editor, by hovering over it and clicking the trash can icon.
 
 <img src="https://github.com/user-attachments/assets/70513fd2-cb7e-416c-9ee6-90c0780d4f21" width="350px" />
 
 #### `Plan` view
 
-The VS Code extension now has full parity with the CW web client, when it comes to iterating on the plan and code. And in particular, you can now perform the following actions on the plan, directly from the editor:
+The VS Code extension now has full parity with the CW web client, when it comes to iterating on the plan and code in a session. And in particular, you can now perform the following actions on the plan, directly from the `Plan` view:
 
-1. Add, editing, and deleting files
-2. Add, editing, and deleting steps
+1. Adding, editing, and deleting files
+2. Adding, editing, and deleting steps for a file
 3. Re-organizing the plan, by moving/indenting files and steps
+
+To access these new capabilities, simply click the `...` menu next to a file or step in the plan. We're pretty happy with how this experience "feels", and we're looking forwarding to hearing more feedback 🙌
 
 | Plan file actions | Plan step actions |
 |-|-|
