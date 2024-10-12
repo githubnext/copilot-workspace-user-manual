@@ -63,7 +63,7 @@ The action bar now allows you to seamlessly switch between its three modes: `Ask
 
 <img src="https://github.com/user-attachments/assets/93c6664e-66ad-42a3-96b5-3e9a4cdad099" width="600px" />
 
-Even cooler, you can switch between any of these modes using the following keyboard shortcuts, which make it really easy to navigate a session, while jumping between brainstorming, code iteration, and terminal actions:
+Even cooler, you can switch between any of these modes using the following keyboard shortcuts, which make it really easy to navigate a session, while jumping between brainstorming, code iteration, and terminal actions. 
 
 | Mode | Keyboard shortcut |
 |-|-|
@@ -71,7 +71,9 @@ Even cooler, you can switch between any of these modes using the following keybo
 | Revise | <kbd>></kbd> |
 | Command | <kbd>$</kbd> |
 
-By introducing the new `Commands` tab, and allowing all three of the action bar's modes to be usable at any time, the action bar is now the official "central nervous system" for the entire CW experience. We've really fallen in love with how it feels to start and iterate on tasks now. And we're excited to hear how it feels for everyone else! 👋
+Additionally, each mode retains a history of its previous request. So if you realize you wanted to ask a question a slightly different way, or make a subtly different revision, then simply hit the up arrow, edit and submit 👍
+
+> By introducing the new `Commands` tab, and allowing all three of the action bar's modes to be usable at any time, the action bar is now the official "central nervous system" for the entire CW experience. We've really fallen in love with how it feels to start and iterate on tasks now. And we're excited to hear how it feels for everyone else! 👋
 
 ### Open in VS Code
 
@@ -102,6 +104,8 @@ To access these new capabilities, simply click the `...` menu next to a file or 
 | Plan file actions | Plan step actions |
 |-|-|
 | <img src="https://github.com/user-attachments/assets/6836d12c-7977-4d34-8760-0456d547e89f" width="400px" /> | <img src="https://github.com/user-attachments/assets/62e0b417-2d64-4597-8055-d7e34bdd70ce" width="360px" /> |
+
+> If you use VS Code Insiders, then set the "Open in VS Code Insiders" setting, and the "Open in VS Code" button which launch Insiders instead of Stable.
 
 ### External URL context
 
