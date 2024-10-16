@@ -1,0 +1,7 @@
+id=magisk_module
+name=Magisk Module
+version=1.0
+versionCode=1
+author=Your Name
+description=This is a Magisk module that provides additional functionality for your Android device.
+support=https://github.com/yourusername/magisk-module
