@@ -60,6 +60,10 @@ Copilot Workspace is currently delivered as a web application with an opinionate
 
 We are also looking at augmenting the range of developer tooling to integrate with Copilot Workspace web experience.
 
+### Automated PR Creation
+
+We have introduced a new feature that allows Copilot Workspace to automatically create a first-round PR when an issue is created. This feature can be enabled in the Copilot Workspace settings panel. When enabled, creating an issue in a repository will trigger the creation of a first-round PR based on the initial analysis of the issue. The PR will include a draft implementation plan, which the user can review and modify before finalizing it. For more details on how to enable this feature, please refer to the [settings section](settings.md).
+
 ## Known issues
 
 The following are more specific known issues related to the current release of Copilot Workspace.

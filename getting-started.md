@@ -30,3 +30,5 @@ Welcome to the technical preview for Copilot Workspace! 👋 In order to help yo
    making larger edits, debugging, etc.
 
 1. __Learn about ad-hoc tasks__ by visiting the [Ad-hoc Tasks](adhoc-tasks.md) page. Ad-hoc tasks are tasks that you define yourself, without the context of an issue or pull request. You can start an ad-hoc task from the Copilot Workspace dashboard, or from the repository page on GitHub.com.
+
+1. __Enable Automated PR Creation__ by visiting the [Copilot Workspace settings panel](settings.md) and enabling the "Automate PR Creation" setting. This feature allows Copilot Workspace to automatically create a first-round PR when an issue is created. The PR will be based on the initial analysis of the issue and will include a draft implementation plan. You can review and modify the PR before finalizing it.
