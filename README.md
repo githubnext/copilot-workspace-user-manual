@@ -21,6 +21,10 @@ This manual will help you understand how to use Copilot Workspace most effective
   - [Settings](settings.md)
 * [Change Notes](changes.md)
 
+## Overview
+
+Copilot Workspace now includes a feature for automated PR creation. When enabled, creating an issue in a repository will automatically trigger the creation of a first-round PR. The PR will be based on the initial analysis of the issue and will include a draft implementation plan. The user can review and modify the PR before finalizing it. For more details on how to enable this feature, please refer to the [settings section](settings.md).
+
 ## Feedback
 
 To give general feedback, please join the [GitHub Next Discord](https://discord.gg/FeGshJZ2yy) and post in the [#copilot-workspace](https://discord.com/channels/735557230698692749/1237161687233200279) forum channel.  Please provide a share link to the workspace and a description of the issue you're facing so that we can help you more effectively.

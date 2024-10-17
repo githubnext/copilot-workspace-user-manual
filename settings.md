@@ -17,3 +17,7 @@ When this setting is enabled, a Codespace will be automatically created when you
 ## Show notification after implementing
 
 When this setting is enabled, Copilot Workspace will notify you when it has completed its implementation. This allows you to get back into the flow as soon as possible, without having to constantly check the status of the implementation. You can enable or disable this setting based on your preference.
+
+## Automate PR Creation
+
+When this setting is enabled, creating an issue in a repository will automatically trigger the creation of a first-round PR. The PR will be based on the initial analysis of the issue and will include a draft implementation plan. The user can review and modify the PR before finalizing it. Note that selecting this option may cause PRs to be created automatically, which could result in unintended changes being proposed. By selecting this option, you acknowledge the potential risks of auto-generating PRs.
