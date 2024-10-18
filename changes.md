@@ -1,3 +1,44 @@
+## 📅 18 October 2024
+
+- [Command error repair](#command-error-repair)
+- [Brainstorm enhancements](#brainstorm-enhancements)
+- [Plan command enhancements](#plan-command-enhancements)
+
+### Command error repair
+
+When a [build/test/run command](#commands) fails, CW now displays a lightbulb button in the command's toolbar. When you click this, it will trigger a [brainstorming](#brainstorming) action, and then offer a suggestion for how to fix the error.
+
+<img src="https://github.com/user-attachments/assets/db1cc14e-f3b5-49ea-a9e0-80b8b2b98bba" width="450px" />
+
+When a suggestion comes back, it can take one of two forms:
+
+1. A **terminal command**, which can be run in order to resolve the issue (e.g. installing a missing environment dependency)
+2. A **plan update**, which can be applied, and then implemented in the impacted file(s) (e.g. missing imports, type errors)
+
+| Terminal fix | Plan fix |
+|-|-|
+| <img src="https://github.com/user-attachments/assets/f81063fe-deca-455a-9c38-07bbb336b193" width="350px" /> | <img src="https://github.com/user-attachments/assets/029729bd-a50f-4078-b764-a464a35bf4f4" width="350px" /> |
+
+After taking a suggestion, you can then re-run the failed command, and hopefully see it pass. That said, if you encounter another issue (e.g. a build with multiple errors), then you can just continue to command + repair as much as needed 🚀
+
+> As you might have noticed, we're getting dangerously close to an experience where you can opt-into auto-building your changes (after a plan has been implemented), and then automatically repairing any issues that are found. So we're making some pretty fun progress, on the path towards a much more powerful E2E 💪
+
+### Brainstorm enhancements
+
+When you open an issue in CW, or click `Brainstorm` after defining an ad-hoc task, the initially-generated question (`How do I solve this issue?`) is now presented in a "special" structured format. The response includes two sections (`Current behavior` / `Proposed solution`), and has the advantage of allowing you to more easily add/edit/delete/organize any of the steps. And over time, you can expect to see us introduce additional "special" formats, as we further optimize for the various types of questions that users ask.
+
+<img src="https://github.com/user-attachments/assets/d11ad993-6ee7-4899-a3f4-f6c896b0472d" width="700px" />
+
+Additionally, since we're treating this question as "special", it's automatically updated any time you attach an additional brainstorming question/idea to the task. This way, you can continue to brainstorm further, and ensure that CW's understanding of the overall solution remains always up-to-date 👍
+
+### Plan command enhancements
+
+When a plan includes a `Commands` section (e.g. because your task required installing 3rd-party dependencies), you can now execute an individual command, in addition to the existing "Execute all" support. Additionally, the completion status of commands are now persisted. So when you resume a CW session later, you can see which commands were already run, which failed, and which are still outstanding.
+
+<img src="https://github.com/user-attachments/assets/ede11071-62a8-4f9c-a8a9-f91a4ddf71c0" width="300px" />
+
+> Note: CW shouldn't generate a plan that includes running the `false` command. I just added that to show a simple failure example 😄
+
 ## 📅 11 October 2024
 
 - [Commands](#commands)
