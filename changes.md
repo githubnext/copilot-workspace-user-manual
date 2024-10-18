@@ -10,7 +10,7 @@ When a [build/test/run command](#commands) fails, CW now displays a lightbulb bu
 
 <img src="https://github.com/user-attachments/assets/db1cc14e-f3b5-49ea-a9e0-80b8b2b98bba" width="450px" />
 
-When a suggestion comes back, it can take one of two forms:
+When a suggestion comes back, it will include an explaination of the issue, and then present a fix in one of two forms:
 
 1. A **terminal command**, which can be run in order to resolve the issue (e.g. installing a missing environment dependency)
 2. A **plan update**, which can be applied, and then implemented in the impacted file(s) (e.g. missing imports, type errors)
@@ -19,9 +19,9 @@ When a suggestion comes back, it can take one of two forms:
 |-|-|
 | <img src="https://github.com/user-attachments/assets/f81063fe-deca-455a-9c38-07bbb336b193" width="350px" /> | <img src="https://github.com/user-attachments/assets/029729bd-a50f-4078-b764-a464a35bf4f4" width="350px" /> |
 
-After taking a suggestion, you can then re-run the failed command, and hopefully see it pass. That said, if you encounter another issue (e.g. a build with multiple errors), then you can just continue to command + repair as much as needed 🚀
+After accepting a suggestion, you can then re-run the failed command, and hopefully see it pass. That said, if you encounter another issue (e.g. a build with multiple errors), then you can just continue to command + repair as much as needed 🚀
 
-> As you might have noticed, we're getting dangerously close to an experience where you can opt-into auto-building your changes (after a plan has been implemented), and then automatically repairing any issues that are found. So we're making some pretty fun progress, on the path towards a much more powerful E2E 💪
+> Note: We're getting dangerously close to an experience where you can opt-into auto-building your changes (after a plan has been implemented), and then automatically repairing any issues that are found. So we're making some pretty fun progress, on the path towards a much more powerful E2E 💪
 
 ### Brainstorm enhancements
 
