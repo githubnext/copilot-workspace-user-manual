@@ -37,8 +37,6 @@ When a plan includes a `Commands` section (e.g. because your task required insta
 
 <img src="https://github.com/user-attachments/assets/ede11071-62a8-4f9c-a8a9-f91a4ddf71c0" width="300px" />
 
-> Note: CW shouldn't generate a plan that includes running the `false` command. I just added that to show a simple failure example 😄
-
 ## 📅 11 October 2024
 
 - [Commands](#commands)
