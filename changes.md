@@ -25,7 +25,7 @@ After accepting a suggestion, you can then re-run the failed command, and hopefu
 
 ### Brainstorm enhancements
 
-When you open an issue in CW, or click `Brainstorm` after defining an ad-hoc task, the initially-generated question (`How do I solve this issue?`) is now presented in a "special" structured format. The response includes two sections (`Current behavior` / `Proposed solution`), and has the advantage of allowing you to more easily add/edit/delete/organize any of the steps. And over time, you can expect to see us introduce additional "special" formats, as we further optimize for the various types of questions that users ask.
+When you open an issue in CW, or click `Brainstorm` after defining an ad-hoc task, the initially-generated question (`How do I solve this issue?`) is now presented in a "special" structured format. The response includes two sections (`Current behavior` / `Proposed solution`), and has the advantage of allowing you to more easily add/edit/delete/organize any of the steps.
 
 <img src="https://github.com/user-attachments/assets/d11ad993-6ee7-4899-a3f4-f6c896b0472d" width="700px" />
 
