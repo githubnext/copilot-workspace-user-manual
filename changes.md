@@ -22,8 +22,6 @@ When a suggestion comes back, it will include an explaination of the issue, and 
 
 After accepting a suggestion, you can then re-run the failed command, and hopefully see it pass. That said, if you encounter another issue (e.g. a build with multiple errors), then you can just continue to command + repair as much as needed 🚀
 
-> Note: We're getting dangerously close to an experience where you can opt-into auto-building your changes (after a plan has been implemented), and then automatically repairing any issues that are found. So we're making some pretty fun progress, on the path towards a much more powerful E2E 💪
-
 ### Follow ups
 
 We've introduced a new capability into CW, that we're calling `Follow up`. And we're pretty excited about it 😃
