@@ -46,11 +46,11 @@ And while we let this capability bake a bit, it's currently disabled by default.
 
 ### Brainstorm enhancements
 
-When you open an issue in CW, or click `Brainstorm` after defining an ad-hoc task, the initially-generated question (`How do I solve this issue?`) is now presented in a "special" structured format. The response includes two sections (`Current behavior` / `Proposed solution`), and has the advantage of allowing you to add/edit/delete/organize any of the steps, in a very granular way.
+When you open an issue in CW, or click the `Brainstorm` button for ad-hoc tasks, the initially-generated question (`How do I solve this issue?`) is now presented in a "special" structured format. The response includes two sections (`Current behavior` / `Proposed solution`), and has the advantage of allowing you to add/edit/delete/organize any of the steps, in a very granular way.
 
 <img src="https://github.com/user-attachments/assets/d11ad993-6ee7-4899-a3f4-f6c896b0472d" width="700px" />
 
-Additionally, since we're treating this question as "special", it's automatically updated any time you attach an additional brainstorming question/idea to the task. This way, you can continue to brainstorm further, and ensure that CW's understanding of the overall solution remains always up-to-date 👍
+Additionally, since we're treating this question as "special", it's automatically updated any time you attach an additional brainstorming question/idea to the task. That way, you can continue to brainstorm further, and ensure that CW's understanding of the overall solution remains always up-to-date 👍
 
 ### Plan command enhancements
 
