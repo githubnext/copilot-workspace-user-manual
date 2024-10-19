@@ -1,10 +1,11 @@
 ## 📅 18 October 2024
 
-- [Command error repair](#command-error-repair)
+- [Error repair](#error-repair)
+- [Follow ups](#follow-ups)
 - [Brainstorm enhancements](#brainstorm-enhancements)
 - [Plan command enhancements](#plan-command-enhancements)
 
-### Command error repair
+### Error repair
 
 When a [build/test/run command](#commands) fails, CW now displays a lightbulb button in the command's toolbar. When you click this, it will trigger a [brainstorming](#brainstorming) action, and then offer a suggestion for how to fix the error.
 
@@ -22,6 +23,28 @@ When a suggestion comes back, it will include an explaination of the issue, and 
 After accepting a suggestion, you can then re-run the failed command, and hopefully see it pass. That said, if you encounter another issue (e.g. a build with multiple errors), then you can just continue to command + repair as much as needed 🚀
 
 > Note: We're getting dangerously close to an experience where you can opt-into auto-building your changes (after a plan has been implemented), and then automatically repairing any issues that are found. So we're making some pretty fun progress, on the path towards a much more powerful E2E 💪
+
+### Follow ups
+
+We've introduced a new capability into CW, that we're calling `Follow up`. And we're pretty excited about it 😃
+
+<img src="https://github.com/user-attachments/assets/bd881a9f-f557-4f9d-8682-25075368ad00" width="400px" />
+
+#### Let's talk about why it's useful!
+
+When you're working against a large repository that has complex/inter-file dependencies, it's possible that a simple change/refactoring can impact many other places across the codebase (e.g. updating a shared method signature). And while the plan can do a great job of identifying the core changes needed for a task (the "primary edits"), it can sometimes miss transitive changes that are needed in response (e.g. updating callers of a changed function).
+
+To address this, after you've implemented a plan, you can open up the `Commands` tab and click the new `Follow up` button. This will perform a thorough, fine-grained check on your codebase + edits, to see if any additional changes are required, in order to complete your task. And if any follow-ups are detected, it will edit the neccessary files, and add them to your existing implementation 👍
+
+<img src="https://github.com/user-attachments/assets/4c33b6e9-9506-4726-a018-4889b0a2d210" width="400px" />
+
+This workflow is pretty slick, because it allows the initial CW plan to be both fast and focused, which makes it quicker for you to get to code, and easier for you to review the essence of the change. And in cases that a change has repo-wide impact, you can simply trigger a follow up and let Copilot do the rest 😎
+
+#### How can you try it?
+
+At the moment, this experience supports codebases that are written in TypeScript/JavaScript, Python, Java, and C#. So if you're working in one of those languages, we'd love to hear your feedback! And if not, we'd love to hear whether this capability would be useful, in order to help us prioritize new languages in the future 🙏
+
+And while we let this capability bake a bit, it's currently disabled by default. So if you'd like to give it a try, simply open the `Experiments` panel (under the avatar menu) and check the `Enable follow up` setting. 
 
 ### Brainstorm enhancements
 
