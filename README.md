@@ -11,7 +11,6 @@ This manual will help you understand how to use Copilot Workspace most effective
   - [Tips & Tricks](tips-and-tricks.md)
   - [Troubleshooting](troubleshooting.md)
 * Going Further
-  - [Ad-hoc Tasks](adhoc-tasks.md)
   - [Creating New Repositories](creating-repos.md)
   - [Controls for Repository Maintainers](repo-maintainers.md)
   - [Experiments, Roadmap and Known Issues](known-issues.md)
