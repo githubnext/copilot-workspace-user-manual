@@ -7,6 +7,7 @@ This manual will help you understand how to use Copilot Workspace most effective
 ## Table of Contents
 
 * [Getting Started](getting-started.md)
+  - [VS Code](https://gh.io/cw-vscode)
   - [`CHANGELOG`](changes.md)
   - [Tips & Tricks](tips-and-tricks.md)
   - [Troubleshooting](troubleshooting.md)
