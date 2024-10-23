@@ -35,10 +35,9 @@ This is currently an alpha extension and we will be rolling out enhancements to 
 
 1. Allow your browser to open the link in VS Code when prompted.
 
-Follow the directions that appear in VS Code and make any selections when prompted by VS Code, and you'll be guided towards syncing the session to your local machine. That's it! 😎
+Follow the directions that appear in VS Code and make any selections when prompted, and you'll be guided towards syncing the session to your local machine. That's it! 😎
 
-Here is generally what you can expect:
-
+Here is generally what you can expect to see:
 
 1. VS Code will open (if it isn't already running), and you'll be prompted to install the Copilot Workspace extension and then open the URI. If the extension is already installed, you'll just be asked about the URI. Either way, open the URI.
 
@@ -60,39 +59,44 @@ Once syncing has begun, your local repository will switch to GitHub Copilot Work
 
 Any edits make to the local files will be synced back to the web session. This allows you to use the full power of VS Code with GitHub Copilot Workspace.
 
-However, if you picked a session that doesn't yet have an implementation, note that you'll be notified and have the opportunity to sync it locally later. Read on for more! 😎
+However, if you picked a session that doesn't yet have an implementation with updated files to start syncing, you'll be notified that you can start syncing once you [have an implementation](#planning-and-implementing).
 
 <img src="./images/vscode/ghcw-uri-sync-not-enabled.png" title="Image of notification that sync was not enabled" width="400px">
 
 ## Browsing Sessions
 
-To browse and manage your sessions, first click on the `GitHub Copilot Workspace` icon in the activity bar on the left side of the VS Code window.
+Even if you are not syncing a session locally, you can still browse through your sessions and view their details. To browse and manage your sessions, first click on the `GitHub Copilot Workspace` icon in the activity bar on the left side of the VS Code window.
 
 <img src="./images/vscode/ghcw-activity-bar-icon.png" title="Image of status bar with GitHub Copilot Workspace icon" width="50px">
 
-Even if you are not syncing a session locally you can browse through your sessions and view details. 
 
-The session list includes a list of all of your sessions sorted by repository. If you do not see the session list, you can click the `Back to Sessions List` arrow in the `Task` view or use the **GitHub Copilot Workspace: Back to Session List** command from the Command Pallette (F1 or Ctrl/Cmd+Shift+P) to switch from the session details to the list.
+After you've clicked the activity bar icon, you'll either see list of your sessions, or details about a specific session you've already selected.
 
-Selecting a session from the session list will open up two views, which allow you to see the details of the `Task` and `Plan` for the session along with links to other information. Additionally, you can view the contents of implemented files, clicking on file in the `Plan` view.
+The session list is sorted by repository. Any repository that applies to currently opened VS Code folders will be on top. You can always get back to the session list when viewing session details by clicking on the `Back to Session List` arrow in the `Task` view or using the **GitHub Copilot Workspace: Back to Session List** command from the Command Pallette (F1 or Ctrl/Cmd+Shift+P).
+
+Selecting a session in the session list will hide the list and show the related session details instead. A `Task` (or Issue or Pull Request) view and `Plan` view will be visible.  Each view can be expanded into a larger panel by clicking on the "full screen" icon.
+
+The `Task` view includes a description of the task along with links to additional information. The `Plan` view will include details about the related plan for your session (if one exists yet) any files currently in the plan.
+
+If the [plan has already been implemented](#planning-and-implementing), you'll be able to view any changed files by clicking on file in the plan.
 
 <img src="./images/vscode/ghcw-overview.png" width="700px" />
 
-When syncing is active, clicking on a file will open a local changes view of the synced contents. This view is editable and the changes will be synced back to the web session. If the session is not syncing, you will see the changes currently stored in the web session in a read-only mode.
+When syncing is active, clicking on the file will open a local changes view of the synced contents. This view is editable and the changes will be synced back to the web session. If the session is not syncing, you will see the changes currently stored in the web session in a read-only mode.
 
-You can also click on the `Open File` icon when hovering on an item to open the file (instead of the changes view) in a new tab in VS Code. You may be prompted to start syncing the session if you are not already.
+You can also click on the `Open File` icon when hovering on an file in the plan to open the file (instead of the changes view) in a new tab in VS Code. You may be prompted to start syncing the session if you are not already.
 
 ## Managing Sessions
 
-If your session has a plan with an implementation, you can sync the changes locally and edit them in VS Code. 
+You can sync session file changes locally for any session that has a plan and an initial implementation.
 
-If the session you opened does not yet have an implementation, see [Planning and Implementing](#planning-and-implementing) for information on creating one.
+If the session you opened does not yet have an implementation, see [Planning and Implementing](#planning-and-implementing) for information on creating one from VS Code. You can then sync its contents locally once done.
 
 ### Stopping Syncing Changes
 
-Since the quick start helped you get your session's changes syncing locally, let's cover how to stop syncing changes next.
+The quick start highlighted a fast way to start syncing your session's changes locally, so let's cover how to stop syncing changes next.
 
-If the session list is visible, you will see a green checkbox next to any session that is currently being synced. When hovering over this session, you will see a `Stop Syncing Changes` button. If the session details are visible for a session that is currently syncing, you will find this same button in the `Plan` view. Simply click this button in either location to stop syncing.
+If the session list is visible, you will see a green checkbox next to any session that is currently being synced. When hovering over this session, you will see a `Stop Syncing Changes` button. Otherwise, if the session details are visible for a session that is currently syncing, you will find this same button in the `Plan` view. Simply click this button in either location to stop syncing.
 
 | Session List | Session Details |
 | :--- | :--- |
@@ -104,11 +108,17 @@ You'll be switched back to the branch you where on when you started syncing chan
 
 The next time you sync this same session, the session will go back to this tracking branch and the latest changes in GitHub Copilot Workspace - including your edits - will appear again.
 
+Note that if you manually change the branch away from the one set when syncing began, syncing will also automatically stop. However, in this case, any changes you made will be kept in the working tree to make sure you don't lose something you intended to keep. Stopping syncing as described above will ensure you've got a clean working tree to continue making other changes.
+
 ### Syncing Changes Locally
 
-As outlined in the quick start, you can always click on the VS Code icon in the GitHub Copilot Workspace web UI to start syncing changes locally. But you can also start syncing a session directly from within VS Code. However, note that only sessions with a [plan and an initial implementation](#planning-and-implementing) can be synced locally.
+As outlined in the quick start, you can always click on the VS Code icon in the GitHub Copilot Workspace web UI to start syncing changes locally. But you can also start syncing a session directly from within VS Code. 
 
-If session list is visible, hovering over a session that is not currently being synced (no green checkbox), will show a `Stop Syncing Changes` button. If the session details are visible instead, you will see this same button the `Plan` view if syncing is inactive. Click this button to start syncing changes for the session locally.
+However, as described in these previous sections, note that only sessions with a [plan and an initial implementation](#planning-and-implementing) can be synced locally.
+
+If session list is visible, hovering over a session that is not currently being synced (no green checkbox), will show a `Stop Syncing Changes` button. Otherwise, if the session details are visible instead, you will see this same button the `Plan` view (assuming syncing is inactive for this session). Click this button to start syncing changes for the session locally. 
+
+Note that any other existing session that is already syncing for the same repository will automatically stop syncing first, so you don't have to worry about conflicts.
 
 | Session List | Session Details |
 | :--- | :--- |
@@ -118,7 +128,7 @@ Similarly, you can use the Command Palette (F1 or Ctrl/Cmd+Shift+P) and select t
 
 Next you may be prompted as follows:
 1. If you do not currently have the repository for the session open in VS Code, you will be prompted to open a folder with the repository or to clone the repository in a fresh location.
-1. If you do have the correct repository open, but the current working tree has uncommitted or changes, you'll be asked what you want to do with them.
+1. If you do have the correct repository open, but the current working tree has uncommitted changes, you'll be asked what you want to do with them.
 
 Either way, once this is done, your local repository will be on a GitHub Copilot Workspace tracking branch with a `ghcw-session` prefix as you can see in the status bar.
 
@@ -126,16 +136,18 @@ Either way, once this is done, your local repository will be on a GitHub Copilot
 
 Any edits make to the local files will be synced back to the web session, so you do not need to worry about committing or loosing your changes.
 
-### Deleting a session
+### Deleting a Session
 
-To delete a session, click on the trash can icon next to the item in the session list or select **Delete Session** from the context menu that appears by clicking on the `...` button on the `Task` or `Plan` views in the session details.
+To delete a session, you click on the trash can icon next to the item in the session list. If you are currently viewing a session's details, select **Delete Session** from the context menu that appears when clicking on the `...` button on the `Task` or `Plan` views.
 
 Alternatively, you can use thee Command Palette (F1 or Ctrl/Cmd+Shift+P) and select the **GitHub Copilot Workspace: Delete Session** command when you are viewing a session's details.
 
 ## Planning and implementing
-When the session details are visible (and you see the `Task` and `Plan` views), you can make changes to the plan and related implementation for the session.  
+When the session details are visible (and you see the `Task` and `Plan` views), you can make changes to the plan and its related implementation for the session right from VS Code.
 
-You will find a number of different options for editing the plan by clicking on the `...` button and using the context menu that appears in the `Plan` view, or when hovering on an item in the plan. However, the most common actions will appear as icons. Let's go through what each of these does.
+In fact, can also generate and implement an initial plan if your session doesn't have one yet. 
+
+You will find a number of different options for interacting with the plan by clicking on the `...` button in the `Plan` view. However, the most common actions will appear as icons. Let's go through what each of these does.
 
 | Button | Command | Description | Location(s) |
 | :--- | :--- | :--- | :--- |
@@ -147,11 +159,11 @@ You will find a number of different options for editing the plan by clicking on 
 
 Generally these same commands are available in the Command Palette (F1 or Ctrl/Cmd+Shift+P) as well.
 
-The `...` context menu is also available for items in the plan when you hover over them. This context menu will allow you to edit, move, delete, or change them when needed.
+The `...` context menu is also available for files and items in the plan when you hover over them. This context menu will allow you to view the files, their changes, or edit, move, delete, or the list items as needed.
 
-### Natural language revisions
+### Natural Language Revisions
 
-You can also make revisions to the plan and implementation using natural language. This can be done for the entire plan as highlighted previously, or you can make targeted revisions to a file in the plan. You can even add a file to the plan and revise it in one shot.
+You can also make revisions to the plan and implementation using natural language. This can be done for the entire plan as highlighted previously, or you can make targeted revisions to a file in the plan. You can even add another file to the plan and revise it in one shot.
 
 To make file-level revisions easy, there are buttons in the upper-right of any open editor window for a file that can be part of the plan.
 
@@ -168,4 +180,11 @@ Here's a summary of where you can trigger these kinds of revisions:
 | <img src="https://raw.githubusercontent.com/microsoft/vscode-codicons/refs/heads/main/src/icons/add.svg"  width="24px" style="background-color:white;"> | Add File to Plan | Adds the file to the plan, but makes no revisions to it. | Editor actions (upper-right), `...` context menu. |
 
 
+## Known Limitations
 
+1. As outlined above, you need to use the web UI for the following as they are not yet available in VS Code:
+    1. Starting a new session
+    1. Edits to the task/specification/brainstorming
+    1. Creating a PR from a session
+1. File syncing status does not cross open windows. So if you have multiple windows for the same folder (and repository) open, and each are syncing, you can end up transmitting or applying same file contents multiple times and fail to apply updates. To avoid this, either use a single window for a given repository, or do not start file syncing for more than one.
+1. The sessions list will only show sessions that would also show up in the web's session list. For example, it excludes archived sessions or sessions that include a task but nothing else. However, as long as the session is in the web UI, you'll be able to click on the "Open in VS Code" button to open it in VS Code.
