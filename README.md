@@ -6,21 +6,20 @@ This manual will help you understand how to use Copilot Workspace most effective
 
 ## Table of Contents
 
-* [Overview](overview.md)
 * [Getting Started](getting-started.md)
-* [Tips and Tricks](tips-and-tricks.md)
-* [Terminal/Codespaces Guide](codespaces-guide.md)
-* [VS Code Extension Guide](vscode.md)
-* [Troubleshooting](troubleshooting.md)
+  - [VS Code](vscode.md) ([Extension link](https://gh.io/cw-vscode))
+  - [`CHANGELOG`](changes.md)
+  - [Tips & Tricks](tips-and-tricks.md)
+  - [Troubleshooting](troubleshooting.md)
 * Going Further
-  - [Creating Repositories](creating-repos.md)
-  - [Ad-hoc Tasks](adhoc-tasks.md)
+  - [Creating New Repositories](creating-repos.md)
   - [Controls for Repository Maintainers](repo-maintainers.md)
   - [Experiments, Roadmap and Known Issues](known-issues.md)
-  - [Responsible AI FAQ](responsible-ai-faq.md)
-  - [Origins](origins.md)
+  - [Terminal/Codespaces Guide](codespaces-guide.md)
   - [Settings](settings.md)
-* [Change Notes](changes.md)
+  - [Responsible AI FAQ](responsible-ai-faq.md)
+* [Origins](origins.md)
+  - [Conceptual Overview](overview.md)
 
 ## Feedback
 
