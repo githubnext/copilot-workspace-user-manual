@@ -10,7 +10,7 @@ This manual will help you understand how to use Copilot Workspace most effective
 * [Getting Started](getting-started.md)
 * [Tips and Tricks](tips-and-tricks.md)
 * [Terminal/Codespaces Guide](codespaces-guide.md)
-* [VS Code extensions](vscode.md)
+* [VS Code Extension Guide](vscode.md)
 * [Troubleshooting](troubleshooting.md)
 * Going Further
   - [Creating Repositories](creating-repos.md)

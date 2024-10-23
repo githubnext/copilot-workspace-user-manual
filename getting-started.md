@@ -24,9 +24,6 @@ Welcome to the technical preview for Copilot Workspace! 👋 In order to help yo
 
    <img src="images/general/dashboard.png" width=800 alt="Open an issue in Copilot Workspace">
 
-1. __Open a workspace session in a Codespace,__ by clicking the “Open in Codespace” button in the header bar or in the 
-   “Implementation” panel. Note that your workspace edits will be synced to the Codespace, and also, any edits you make in 
-   the Codespace are synced back to the workspace. This allows you to use VS Code/Codespaces as a companion experience for 
-   making larger edits, debugging, etc.
+1. __Open a workspace session in a Codespace or locally in VS Code,__ by clicking the “Open in Codespace” or "Open in VS Code" buttons in the header bar or in the “Implementation” panel. Note that your workspace edits will be synced to the Codespace or your local filesystem in VS Code, and also, any edits you make in the Codespace or when syncing locally in VS Code will be synced back to the workspace. This allows you to use VS Code / Codespaces as a companion experience for making larger edits, debugging, etc.
 
 1. __Learn about ad-hoc tasks__ by visiting the [Ad-hoc Tasks](adhoc-tasks.md) page. Ad-hoc tasks are tasks that you define yourself, without the context of an issue or pull request. You can start an ad-hoc task from the Copilot Workspace dashboard, or from the repository page on GitHub.com.
