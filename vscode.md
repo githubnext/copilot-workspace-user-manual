@@ -1,6 +1,6 @@
 # GitHub Copilot Workspace VS Code extension
 
-This Copilot Workspace VS Code extension allows you to use GitHub Copilot Workspace from the comfort of VS Code. Continue an existing session and edit and debug the proposed changes before creating a PR. Whether you use natural language to revise the plan or implementation, or edit files directly, you can use the full power of VS Code and its extension ecosystem all while syncing your edits to GitHub Copilot Workspace on the web.
+This Copilot Workspace VS Code extension allows you to use GitHub Copilot Workspace from the comfort of VS Code. Continue an existing session and edit and debug the proposed changes before creating a PR. Whether you use natural language to revise the plan or implementation, or edit files directly, you can use the full power of VS Code and its extension ecosystem all while syncing your local edits to GitHub Copilot Workspace on the web automatically (any saved file change will be visible online within few seconds).
 
 This is currently an alpha extension and we will be rolling out enhancements to the extension in multiple phases.
 
@@ -53,11 +53,11 @@ Here is generally what you can expect to see:
 
     <img src="./images/vscode/ghcw-clone-or-open-folder.png" title="Image of clone or open folder notification" width="200px">
 
-Once syncing has begun, your local repository will switch to GitHub Copilot Workspace tracking branch with a `ghcw-session` prefix as you can see in the status bar.
+Once syncing has begun, your local repository will switch to GitHub Copilot Workspace tracking branch with a `ghcw-session` prefix as you can see in the status bar. This is a temporary branch for this session, so you should **not** push your local changes.
 
 <img src="./images/vscode/ghcw-branch-example.png" title="Image of branch in status bar" width="250px">
 
-Any edits make to the local files will be synced back to the web session. This allows you to use the full power of VS Code with GitHub Copilot Workspace.
+Any edits make to the local files will be automatically synced back to the web session. You only have to save a local file and your change will be visible within a few seconds online (no need to push anything). This allows you to use the full power of VS Code with GitHub Copilot Workspace.
 
 However, if you picked a session that doesn't yet have an implementation with updated files to start syncing, you'll be notified that you can start syncing once you [have an implementation](#planning-and-implementing).
 
