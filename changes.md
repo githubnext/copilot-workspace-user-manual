@@ -636,6 +636,7 @@ After you implement a plan, Copilot Workspace now displays a natural language re
 Additionally, if you'd like to revise a specific file, you can click the bullseye icon in the file's header, which will put the NL revision bar into "scoped file" mode.
 
 <img src="https://github.com/user-attachments/assets/74e393da-8dcf-4c17-809e-4306a3676178" width="400px" />
+
 Both of these changes are part of a larger theme to elevate/simplify the ability to iterate through natural language. And you can expect to see more improvements in this space in the coming weeks 👍 
   
 ### Terminal repair improvements
