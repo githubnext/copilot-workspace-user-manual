@@ -1,3 +1,30 @@
+## 📅 25 October 2024
+
+As the team prepares for GitHub Universe next week, we were primarily focused on stabilization, bug fixing, and ramping up the waitlist (it's been exciting to get so much new feedback!). That said, we also managed to slip in a couple of fun new enhancements as well 😄
+
+- [AI vision](#ai-vision)
+- [Auto-installed extension](#auto-installed-extension)
+
+### AI vision
+
+If you open an issue in CW, and that issue includes images in it's description, then those images will now be included in the context of the task. This is a significant capability, since it unlocks fun new ways of defining intent, such as using...
+
+1. **Architecture/class diagrams**, that outline the structure or "shape" of code you want to generate ([example](https://copilot-workspace.githubnext.com/githubnext/workspace-blank?shareId=25cc2d17-3d00-4f6c-ad5b-ccf3e53a992c))
+2. **App screenshots**, which visually highlight a part of the UI you want to change
+3. **Photographs**, which capture hand-written notes or drawings from a meeting
+
+<img src="https://github.com/user-attachments/assets/2020b755-b2e3-4639-9871-973cad184b64" width="900px" />
+
+When combined with support for [custom instructions](#custom-instructions) and [web URLs](#external-context), AI vision further expands CW's ability for defining your tasks in the most natural way neccessary.
+
+> Note: If you want to give this feature a try, you need to enable the `Use summaries of images in the context` setting in the `Experiments` dialog (underneath the avatar menu).
+
+### Auto-installed extension
+
+When you click the `Open in Codespace` button in a session, the [Copilot Workspace](https://gh.io/cw-vscode) extension for VS Code is now automatically installed within the Codespace. Why is this cool? Because that allows you to transition to the editor, while still being able to view the details of the task and plan. Additionally, it allows you to continue performing NL-based revision, in addition to any many edits.
+
+<img src="https://github.com/user-attachments/assets/8bb283d3-5a69-4dfa-a75c-22dc23e47daa" />
+
 ## 📅 18 October 2024
 
 - [Error repair](#error-repair)
@@ -590,41 +617,48 @@ By default, whitespace changes are now visible within the file diff editors. Thi
 
 ## 📅 9 August 2024
 
-### Features / Enhancements
+### External context
 
-* **External context** - When defining a task/issue, you can now include links to external references, and Copilot Workspace will use them as additional context when generating the spec, plan, and code. This makes it a _lot_ easier to express your intent, without having to copy & paste and/or summarize existing content (which can be non-trivial!). In particular, CW supports referencing the following types of assets:
+When defining a task/issue, you can now include links to external references, and Copilot Workspace will use them as additional context when generating the spec, plan, and code. This makes it a _lot_ easier to express your intent, without having to copy & paste and/or summarize existing content (which can be non-trivial!). In particular, CW supports referencing the following types of assets:
 
    1. *Issues / Pull Requests* - If you reference an issue/PR by number (e.g. `#43`) or URL, then CW will take into account it's description and comments. Additionally, if you link to a specific issue/PR comment, then CW will focus it's attention on just that one. This allows you to use an existing discussion/feedback as context, or work on "umbrella issues" that aggregate a set of sub-tasks together. 
  
    1. *Repository files* - If you reference the URL of a file in a GitHub repository (that you have access to), then CW will include that in its set of prioritized references. Additionally, you can include a link to a specific line ([example](https://github.com/lostintangent/codeswing/blob/b40dbeb3dbf5f133121605c751e1fa7c7a6f67ec/src/extension.ts#L16)) or range of lines in a file ([example](https://github.com/lostintangent/codeswing/blob/b40dbeb3dbf5f133121605c751e1fa7c7a6f67ec/src/preview/layoutManager.ts#L53-L62)), in order to focus CW on that exact code. This allows you to use existing code as a source of inspiration (e.g. "Implement an auth provider just like the one in <URL>"), and help steer Copilot in a more precise direction.
  
    1. *Arbitrary web URLs* - If you reference a public web URL, then CW will fetch and use a summary of its content. Additionally, if you link to a specific fragment of a page (e.g. `#link-to-a-specific-heading`), then CW will extract and focus on just that section. This allows you to reference documentation/blog posts/tweets/etc. that can provide more recent and/or specific instructions of what you're trying to accomplish 💪
- 
-    > Note: This capability isn't enabled by default, and so if you'd like to give it a try, click the `Experiments` link in your avatar menu, and check either `Utilize linked issues, PR, and GitHub file links in analysis` and/or `Utilize referenced generic web content in analysis`.
 
-* **NL revision** - After you implement a plan, Copilot Workspace now displays a natural language revision bar at the bottom of the `Files changed` section. This allows you to update the plan in complex and arbitrary ways, while remaining focused on reviewing the changes.
+### NL revision
 
-    <img src="https://github.com/user-attachments/assets/1f20f837-548f-4a33-9ec5-e07002c67f65" width="400px" />
+After you implement a plan, Copilot Workspace now displays a natural language revision bar at the bottom of the `Files changed` section. This allows you to update the plan in complex and arbitrary ways, while remaining focused on reviewing the changes.
 
-    Additionally, if you'd like to revise a specific file, you can click the bullseye icon in the file's header, which will put the NL revision bar into "scoped file" mode.
+<img src="https://github.com/user-attachments/assets/1f20f837-548f-4a33-9ec5-e07002c67f65" width="400px" />
 
-    <img src="https://github.com/user-attachments/assets/74e393da-8dcf-4c17-809e-4306a3676178" width="400px" />
+Additionally, if you'd like to revise a specific file, you can click the bullseye icon in the file's header, which will put the NL revision bar into "scoped file" mode.
 
-   Both of these changes are part of a larger theme to elevate/simplify the ability to iterate through natural language. And you can expect to see more improvements in this space in the coming weeks 👍 
+<img src="https://github.com/user-attachments/assets/74e393da-8dcf-4c17-809e-4306a3676178" width="400px" />
+Both of these changes are part of a larger theme to elevate/simplify the ability to iterate through natural language. And you can expect to see more improvements in this space in the coming weeks 👍 
   
-* **Terminal repair improvements** - CW's terminal assistance can now perform updates to the plan, when you encounter an error that requires a code change. This can be helpful when a build/test/lint action fails, and you want Copilot to suggest a fix. While this capability is still early (and evolving!), we're excited to make steady progress towards a better workflow for automatically addressing errors.
+### Terminal repair improvements
 
-* **Exit path improvements** - When you create a PR/branch/repo, CW no longer generates a commit description by default. That way you can decide if you'd like Copilot to write a message for you, or if you'd prefer to craft your own 💙
+CW's terminal assistance can now perform updates to the plan, when you encounter an error that requires a code change. This can be helpful when a build/test/lint action fails, and you want Copilot to suggest a fix. While this capability is still early (and evolving!), we're excited to make steady progress towards a better workflow for automatically addressing errors.
 
-  Additionally, when you create a PR for a session that's associated with an issue, the PR dialog now includes a checkbox that allows you to indicate whether the code changes fix the issue or not. When checked, CW will insert a `Fixes #<number` into the issue description. Otherwise, it will insert a `Related to #<number>` (which is what it did previously).
+### Exit path improvements
 
-  <img src="https://github.com/user-attachments/assets/a5b9c1e6-6f32-4b87-8de0-16336030f68f" width="400px" />
+When you create a PR/branch/repo, CW no longer generates a commit description by default. That way you can decide if you'd like Copilot to write a message for you, or if you'd prefer to craft your own 💙
 
-* **SVG preview** - When you implement or open a `*.svg` file, you can now preview a rendered version of its contents, by clicking the eyeball icon in its header. We previously introduced preview support for Markdown, and plan to continue adding support for other file formats in the coming weeks (HTML? 🤔)
+Additionally, when you create a PR for a session that's associated with an issue, the PR dialog now includes a checkbox that allows you to indicate whether the code changes fix the issue or not. When checked, CW will insert a `Fixes #<number` into the issue description. Otherwise, it will insert a `Related to #<number>` (which is what it did previously).
 
-    <img src="https://github.com/user-attachments/assets/d8229ba0-c373-4ff6-875a-677b0b5414d1" width="500px" />
+<img src="https://github.com/user-attachments/assets/a5b9c1e6-6f32-4b87-8de0-16336030f68f" width="400px" />
 
-* **Sessions + Settings** - The user menu (that you get to by clicking your avatar in the upper-right) now includes two new items:
+### SVG preview
+
+When you implement or open a `*.svg` file, you can now preview a rendered version of its contents, by clicking the eyeball icon in its header. We previously introduced preview support for Markdown, and plan to continue adding support for other file formats in the coming weeks (HTML? 🤔)
+
+<img src="https://github.com/user-attachments/assets/d8229ba0-c373-4ff6-875a-677b0b5414d1" width="500px" />
+
+### Sessions + Settings
+
+The user menu (that you get to by clicking your avatar in the upper-right) now includes two new items:
 
    * `Your sessions` - This navigates you to the [CW dashboard](https://copilot-workspace.githubnext.com), so you can see your recent/bookmarked/completed sessions. We got feedback that folks weren't discovering the dashboard, and so we wanted to make this a bit more discoverable (since it's super useful!)
 
@@ -636,13 +670,19 @@ By default, whitespace changes are now visible within the file diff editors. Thi
  
      <img src="https://github.com/user-attachments/assets/2a22900a-2950-4311-a072-7c07ce4fbfbc" width="400px" />
 
-* **Renamed files** - Renamed files are now collapsed by default in the `Files changed` section. This makes it easier to focus your attention on new and changed code, while simply seeing the presence of renamed or deleted files. If a file is both renamed + changed, then it won't be collapsed post-implement, so you can properly review its changes.
+### Renamed files
 
-    <img src="https://github.com/user-attachments/assets/fd3cd39d-6466-4185-8693-aad8a4b9c1d1" width="400px" />
+Renamed files are now collapsed by default in the `Files changed` section. This makes it easier to focus your attention on new and changed code, while simply seeing the presence of renamed or deleted files. If a file is both renamed + changed, then it won't be collapsed post-implement, so you can properly review its changes.
 
-* **Dark mode editor** - The code editor is now properly themed for users with a dark mode system setting. The editor's background was previously a medium greyish color, and now it's black 🖤  
+<img src="https://github.com/user-attachments/assets/fd3cd39d-6466-4185-8693-aad8a4b9c1d1" width="400px" />
 
-* **Usage quota increase** - Due to popular demand, we've increased the daily usage quota again. That way, the folks that are using CW for many tasks every day, can keep sending us amazing feedback 🙏
+### Dark mode editor
+
+The code editor is now properly themed for users with a dark mode system setting. The editor's background was previously a medium greyish color, and now it's black 🖤  
+
+### Usage quota increase
+
+Due to popular demand, we've increased the daily usage quota again. That way, the folks that are using CW for many tasks every day, can keep sending us amazing feedback 🙏
 
 ## 📅 2 August 2024
 
