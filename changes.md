@@ -1,6 +1,6 @@
 ## 📅 25 October 2024
 
-As the team prepares for [GitHub Universe](https://githubuniverse.com/) next week, we were primarily focused on stabilization, bug fixing, and welcoming many new preview users (as we continue to ramp up the waitlist). That said, we also managed to slip in a couple of fun new features as well 😄
+As the team prepares for [GitHub Universe](https://githubuniverse.com/) next week, we were primarily focused on stabilization, bug fixing, and welcoming new preview users (as we continue to ramp up the waitlist!). That said, we also managed to slip in a couple of fun new features as well 😄
 
 - [AI vision](#ai-vision)
 - [Auto-installed extension](#auto-installed-extension)
@@ -9,13 +9,14 @@ As the team prepares for [GitHub Universe](https://githubuniverse.com/) next wee
 
 If you open an issue in CW, and that issue includes images in it's description, then those images will now be included in the context of the task. This is a significant capability, since it unlocks fun new ways of defining intent, such as using...
 
-1. **Architecture/class diagrams**, that outline the structure or "shape" of code you want to generate ([example](https://copilot-workspace.githubnext.com/githubnext/workspace-blank?shareId=25cc2d17-3d00-4f6c-ad5b-ccf3e53a992c))
+1. **Architecture/class diagrams**, that outline the structure of code you want to generate ([example](https://copilot-workspace.githubnext.com/githubnext/workspace-blank?shareId=25cc2d17-3d00-4f6c-ad5b-ccf3e53a992c))
 2. **App screenshots**, which visually highlight a part of the UI you want to change
-3. **Photographs**, which capture hand-written notes or drawings from a meeting
+3. **UI mock-ups**, which describe the layout/behavior of some client code you want to write
+4. **Photographs**, which capture hand-written notes or drawings from a meeting
 
-<img src="https://github.com/user-attachments/assets/2020b755-b2e3-4639-9871-973cad184b64" width="900px" />
+<img src="https://github.com/user-attachments/assets/2020b755-b2e3-4639-9871-973cad184b64" width="900px" /><br />
 
-When combined with support for [custom instructions](#custom-instructions) and [web URLs](#external-context), AI vision further expands CW's ability for defining your tasks in the most natural way neccessary.
+When combined with support for [custom instructions](#custom-instructions) and [web URLs](#external-context), AI vision further expands CW's ability for defining your tasks in the most natural way neccessary. And we're excited to hear how folks make use of it!
 
 > Note: If you want to give this feature a try, you need to enable the `Use summaries of images in the context` setting in the `Experiments` dialog (underneath the avatar menu).
 
