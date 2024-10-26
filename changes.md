@@ -1,6 +1,6 @@
 ## 📅 25 October 2024
 
-As the team prepares for [GitHub Universe](https://githubuniverse.com/) next week, we were primarily focused on stabilization, bug fixing, and welcoming new preview users (as we continue to ramp up the waitlist!). That said, we also managed to slip in a couple of fun enhancements as well 😄
+As the team prepares for [GitHub Universe](https://githubuniverse.com/) next week, we were primarily focused on stabilization, bug fixing, and welcoming new preview users (as we continue to ramp up the waitlist!). That said, we also managed to slip in a few enhancements as well 😄
 
 - [AI vision](#ai-vision)
 - [Auto-installed extension](#auto-installed-extension)
