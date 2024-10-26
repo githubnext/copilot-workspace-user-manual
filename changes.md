@@ -7,7 +7,7 @@ As the team prepares for [GitHub Universe](https://githubuniverse.com/) next wee
 
 ### AI vision
 
-If you open an issue in CW, and that issue includes images in it's description, then those images will now be included in the context of the task. This is a significant capability, since it unlocks fun new ways of defining intent, such as using...
+If you open an issue in CW, and that issue includes images in it's description, then those images will now be included in the context of the task. This is a pretty significant new capability, since it unlocks fun ways of defining intent, such as using...
 
 1. **Architecture/class diagrams**, that outline the structure of code you want to generate ([example](https://copilot-workspace.githubnext.com/githubnext/workspace-blank?shareId=25cc2d17-3d00-4f6c-ad5b-ccf3e53a992c))
 2. **App screenshots**, which visually highlight a part of the UI you want to change
