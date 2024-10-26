@@ -1,9 +1,10 @@
 ## 📅 25 October 2024
 
-As the team prepares for [GitHub Universe](https://githubuniverse.com/) next week, we were primarily focused on stabilization, bug fixing, and welcoming new preview users (as we continue to ramp up the waitlist!). That said, we also managed to slip in a couple of fun new features as well 😄
+As the team prepares for [GitHub Universe](https://githubuniverse.com/) next week, we were primarily focused on stabilization, bug fixing, and welcoming new preview users (as we continue to ramp up the waitlist!). That said, we also managed to slip in a couple of fun enhancements as well 😄
 
 - [AI vision](#ai-vision)
 - [Auto-installed extension](#auto-installed-extension)
+- [Command status](#command-status)
 
 ### AI vision
 
@@ -25,6 +26,12 @@ When combined with [custom instructions](#custom-instructions) and [web URLs](#e
 When you click the `Open in Codespace` button in a session, the [Copilot Workspace](https://gh.io/cw-vscode) extension for VS Code is now automatically installed within the Codespace. Why is this cool? Because that allows you to transition to the editor, while still being able to view the details of the task and plan. Additionally, it allows you to continue performing NL-based revision, in addition to any many edits.
 
 <img src="https://github.com/user-attachments/assets/8bb283d3-5a69-4dfa-a75c-22dc23e47daa" />
+
+### Command status
+
+The build/test/run button in the `Commands` tab now displays the status of the current/last run command. That way if you're actively using the `Terminal` tab, you can still see that a build (or test/run) is in-progress. Or that the build you were running in parallel, just succeeded 👍
+
+<img src="https://github.com/user-attachments/assets/f3c70fcb-c879-423e-bcaf-c7902723f11a" width="400px" />
 
 ## 📅 18 October 2024
 
