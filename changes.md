@@ -7,7 +7,7 @@ As the team prepares for [GitHub Universe](https://githubuniverse.com/) next wee
 
 ### AI vision
 
-If you open an issue in CW, and that issue includes images in it's description, then those images will now be included in the context of the task. This is a pretty significant new capability, since it unlocks fun ways of defining intent, such as using...
+If you open an issue in CW, and that issue includes images in it's description, then those images will now be included in the context of the task. This is a pretty significant capability, since it unlocks new ways of defining your intent, such as using...
 
 1. **Architecture/class diagrams**, that outline the structure of code you want to generate ([example](https://copilot-workspace.githubnext.com/githubnext/workspace-blank?shareId=25cc2d17-3d00-4f6c-ad5b-ccf3e53a992c))
 2. **App screenshots**, which visually highlight a part of the UI you want to change
@@ -16,7 +16,7 @@ If you open an issue in CW, and that issue includes images in it's description, 
 
 <img src="https://github.com/user-attachments/assets/2020b755-b2e3-4639-9871-973cad184b64" width="900px" /><br />
 
-When combined with support for [custom instructions](#custom-instructions) and [web URLs](#external-context), AI vision further expands CW's ability for defining your tasks in the most natural way neccessary. And we're excited to hear how folks make use of it!
+When combined with [custom instructions](#custom-instructions) and [web URLs](#external-context), AI vision expands CW's support for managing task context, and defining your tasks in whichever way is most natural. And we're excited to hear how folks make use of it!
 
 > Note: If you want to give this feature a try, you need to enable the `Use summaries of images in the context` setting in the `Experiments` dialog (underneath the avatar menu).
 
