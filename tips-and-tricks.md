@@ -168,7 +168,7 @@ Copilot Workspace is implemented as an OAuth application. If you revoked authori
 ✨ TIP: Copilot Workspace has a capability for the task to be specified by query parameters when the subject is a repository, branch or pull request. 
 
 ```
-https://copilot-workspace.githubnext.com/githubnext/copilot-workspace/pull/695?task=Add%20more%20unit%20tests%20to%20this%20pull%20request.```
+https://copilot-workspace.githubnext.com/githubnext/copilot-workspace/pull/695?task=Add%20more%20unit%20tests%20to%20this%20pull%20request.
 ```
 
 The query parameters supported are
