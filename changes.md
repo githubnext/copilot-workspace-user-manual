@@ -1,3 +1,48 @@
+## 📅 22 November 2024
+
+Coming off the back of [GitHub Universe](https://githubuniverse.com/), we have been making a ton of behind the scenes change, to improve stability, performance, and setting ourselves up for the next stage of product growth. With that said we have a few updates to share with you! 
+
+- [File Attachments](#file-attachments)
+- [Sortable Tabs](#sortable-tabs)
+- [UI Polish](#ui-polish)
+
+VS Code Extension Updates:
+
+- [Brainstorming](#brainstorming)
+- [Branch and PR creation](#branch-and-pr-creation)
+
+### File Attachments
+
+Continuing on from the image support we added previously, today we are adding support to attach image and text files from the local machine to a Workspace session. Once attached, file attachments work similar to URL attachments in the sense that they get taken into account as context. 
+
+<img src="https://github.com/user-attachments/assets/89b411f6-6e63-4870-88e4-6efcae3a20ea" width="450px" />
+
+> Note: If you want to give this feature a try, you need to enable the `Allow file(s) to be attached as additional context` setting in the `Experiments` dialog (underneath the avatar menu).
+
+### Sortable Tabs
+
+You can now customize your Workspace experience by sorting and reordering tabs using drag and drop. 
+
+<img src="https://github.com/user-attachments/assets/2129f3a6-0434-4f24-8e07-7857c8809af4" width="600px" />
+
+### UI Polish
+
+Fixing a bunch of small issues that we have noticed and other reported by users to make the experience smoother/more polished. 
+
+### VS Code Extension Updates
+
+A number of updates this week to the VS Code extension to make it easier to use and more powerful.
+
+#### Brainstorming
+Initial support for brainstorming is now available in VS Code!  Open up your session of choice, and click on the light bulb or a Ideas from brainstorming in Task view to get started. To answer a new question, click question mark in the Task view, or a Suggested questions, or the Answer button in the Brainstorming panel. Once in the panel, attach ideas or answers and the How should I solve this issue? question will get automatically refreshed with the latest info. Generate or update your plan from there and continue on as always!
+
+<img src="https://github.com/user-attachments/assets/bf62fc9b-a77d-4a42-b286-d00a017804ce" width="800px" />
+
+#### Branch and PR creation
+When session syncing is enabled, your changes are automatically synced to the web. But it can be useful to push your changes to a local and/or remote branch, or even create a PR - and you can now do this from VS Code! Click on the push or PR icon in the Plan view and select your options to get started.
+
+<img src="https://github.com/user-attachments/assets/e802962a-97af-479f-a26c-bd7e2c9a8656" width="500px" />
+
 ## 📅 25 October 2024
 
 As the team prepares for [GitHub Universe](https://githubuniverse.com/) next week, we were primarily focused on stabilization, bug fixing, and welcoming new preview users (as we continue to ramp up the waitlist!). That said, we also managed to slip in a few enhancements as well 😄
