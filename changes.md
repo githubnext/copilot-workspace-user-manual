@@ -1,5 +1,7 @@
 ## 📅 6 December 2024
 
+**Note:** Future updates to the changelog will be available at [github.blog/changelog](https://github.blog/changelog).
+
 ### Image Preview Support
 
 You can now preview selected images directly from the file tree in Workspace.
