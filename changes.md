@@ -1,3 +1,50 @@
+## 📅 6 December 2024
+
+### Image Preview Support
+
+You can now preview selected images directly from the file tree in Workspace.
+
+<img src="https://github.com/user-attachments/assets/939410dd-2b3a-488e-8d0d-558e9d33ae29" width="900px" >
+
+### Improved Feedback Button
+
+- Enhanced accessibility for the feedback button.
+- Updated the link to direct users to our new feedback discussion post: [Workspace Feedback](https://gh.io/workspace-feedback).
+
+### Header Split Button Enhancements
+
+The pull request split button has been streamlined for efficiency, allowing actions to be performed with a single click instead of two.
+
+<img src="https://github.com/user-attachments/assets/95228cfd-3031-49b8-8e0f-d47b5c98d4ae" width="400" >
+
+### Simplified Plan Action Buttons
+
+To simplify the UI, we’ve relocated some plan actions to the “kebab menu.”
+
+**Before:**  
+<img src="https://github.com/user-attachments/assets/d049b613-b48a-4494-80eb-a4a92f1c00dd" width="400" >
+
+**After:**  
+<img src="https://github.com/user-attachments/assets/2f5a89f6-00c7-42cc-81aa-381f928cb34c" width="400" >
+
+### Better Handling of Plan File Names
+
+Plan file names no longer wrap, ensuring better readability.
+
+**Before:**  
+<img src="https://github.com/user-attachments/assets/2d7eb47e-04ae-4841-9592-bb5e6193e742" width="400" >
+
+**After:**  
+<img src="https://github.com/user-attachments/assets/a39db2d9-21a6-4e55-a7d1-5bafcdcf36b0" width="400" >
+
+### VS Code Extension Updates
+
+- **Stale View Fix:** Resolved an issue where stale view states were retained in certain views.
+- **Push to Branch / PR Creation Fix:** Fixed failures when merging into an existing branch with updates to the same files.
+- **Binary Detection Fix:** Addressed a false positive issue where folders were incorrectly flagged as binary after session syncing stopped.
+- **Enhanced Session List:** Sessions now appear earlier in their lifecycle in the session list, supporting the new brainstorming feature in VS Code.
+- **Error Message Visibility:** Resolved cases where certain error messages did not display.
+
 ## 📅 22 November 2024
 
 Coming off the back of [GitHub Universe](https://githubuniverse.com/), we have been making a ton of behind the scenes change, to improve stability, performance, and setting ourselves up for the next stage of product growth. With that said we have a few updates to share with you! 
