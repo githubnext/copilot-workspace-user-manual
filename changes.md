@@ -4,7 +4,7 @@ As you may have seen in Discord a few weeks ago, [Copilot Workspace is graduatin
 
 **Changelog location:** Starting next week we will post changelogs to the main [GitHub changelog](https://github.blog/changelog) rather than this repository. This will be the last changelog posted in this repository, so make sure to follow the [GitHub changelog](https://github.blog/changelog) to stay up to date with the latest and greatest.
 
-**How to provide feedback:** We are also transitioning from the current Discord to a [GitHub Discussion](https://gh.io/workspace-feedback) as the primary place for feedback and discussions around Copilot Workspace. We will still be available in Discord, but posting in the [discussion](https://gh.io/workspace-feedback) will ensure we see your feedback.
+**How to provide feedback:** We are also transitioning from the current Discord to a [GitHub Discussion](https://gh.io/workspace-feedback) as the primary place for feedback and discussions around Copilot Workspace. We will still be available in Discord, but posting in the [discussion](https://gh.io/workspace-feedback) will ensure we see your feedback sooner.
 
 Okay, no more logistics, now onto the product changes for this week! :tada:
 
