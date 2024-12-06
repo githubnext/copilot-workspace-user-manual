@@ -42,10 +42,10 @@ We have also consolidated plan action buttons like Regenerate and Add File to a 
 
 ### VS Code Extension Updates
 
+- **Enhanced Session List:** Sessions now appear earlier in their lifecycle in the session list, supporting the new brainstorming feature in VS Code.
 - **Stale View Fix:** Resolved an issue where stale view states were retained in certain views.
 - **Push to Branch / PR Creation Fix:** Fixed failures when merging into an existing branch with updates to the same files.
 - **Binary Detection Fix:** Addressed a false positive issue where folders were incorrectly flagged as binary after session syncing stopped.
-- **Enhanced Session List:** Sessions now appear earlier in their lifecycle in the session list, supporting the new brainstorming feature in VS Code.
 - **Error Message Visibility:** Resolved cases where certain error messages did not display.
 
 ## 📅 22 November 2024
