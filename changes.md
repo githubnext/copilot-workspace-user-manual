@@ -8,7 +8,7 @@ As you may have seen in Discord a few weeks ago, [Copilot Workspace is graduatin
 
 Okay, now onto the product updates for this week! :tada:
 
-- [Image Preview Support](#Image-Preview-Support)
+- [Image Preview Support](#image-preview-support)
 - [Simplifying the Experience](#simplifying-the-experience)
     - [Reducing Action Button Clicks](#reducing-action-button-clicks)
     - [Consolidating the Plan Action Buttons](#consolidating-the-plan-action-buttons)
