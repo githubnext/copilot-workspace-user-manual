@@ -1,43 +1,44 @@
 ## 📅 6 December 2024
 
-**Note:** Future updates to the changelog will be available at [github.blog/changelog](https://github.blog/changelog).
+As you may have seen in Discord a few weeks ago, [Copilot Workspace is graduating](https://discord.com/channels/735557230698692749/1309719558449397780/1309719558449397780)! It is a very exciting time, and also a time of change. So before getting into the product changes from this week, we want to highlight a few logistical changes, because everyone loves logistics :muscle:
+
+**Changelog location:** Starting next week we will post changelogs to the main [GitHub changelog](https://github.blog/changelog) rather than this repository. This will be the last changelog posted in this repository, so make sure to follow the [GitHub changelog](https://github.blog/changelog) to stay up to date with the latest and greatest.
+
+**How to provide feedback:** We are also transitioning from the current Discord to a [GitHub Discussion](https://gh.io/workspace-feedback) as the primary place for feedback and discussions around Copilot Workspace. We will still be available in Discord, but posting in the [discussion](https://gh.io/workspace-feedback) will ensure we see your feedback.
+
+Okay, no more logistics, now onto the product changes for this week! :tada:
+
+- [Image Preview Support](#Image-Preview-Support)
+- [Simplifying the Experience](#simplifying-the-experience)
+    - [Reducing Action Button Clicks](#reducing-action-button-clicks)
+    - [Consolidating the Plan Action Buttons](#consolidating-the-plan-action-buttons)
+- [VS Code Extension Improvements](#vs-code-extension-updates)
 
 ### Image Preview Support
 
-You can now preview selected images directly from the file tree in Workspace.
+Building on recent improvements to file and image support, you can now preview images directly in the Workspace editor. Selecting an image from the file tree will now display a full preview of the image, letting you open a preview tab directly within the editor.
 
 <img src="https://github.com/user-attachments/assets/939410dd-2b3a-488e-8d0d-558e9d33ae29" width="900px" >
 
-### Improved Feedback Button
+### Simplifying the Experience
 
-- Enhanced accessibility for the feedback button.
-- Updated the link to direct users to our new feedback discussion post: [Workspace Feedback](https://gh.io/workspace-feedback).
+Since our last changes dropped we have invested time into streamlining the Workspace experience, saving you clicks, headaches, and frustration.
 
-### Header Split Button Enhancements
+#### Reducing Action Button Clicks
 
-The pull request split button has been streamlined for efficiency, allowing actions to be performed with a single click instead of two.
+We updated the primary action button such that secondary actions available in the dropdown no longer require a second click of the primary button - when you select an action it will immediately take effect.
 
 <img src="https://github.com/user-attachments/assets/95228cfd-3031-49b8-8e0f-d47b5c98d4ae" width="400" >
 
-### Simplified Plan Action Buttons
+#### Consolidating the Plan Action Buttons
 
-To simplify the UI, we’ve relocated some plan actions to the “kebab menu.”
+We have also consolidated plan action buttons like Regenerate and Add File to a kebab menu.
 
 **Before:**  
 <img src="https://github.com/user-attachments/assets/d049b613-b48a-4494-80eb-a4a92f1c00dd" width="400" >
 
 **After:**  
 <img src="https://github.com/user-attachments/assets/2f5a89f6-00c7-42cc-81aa-381f928cb34c" width="400" >
-
-### Better Handling of Plan File Names
-
-Plan file names no longer wrap, ensuring better readability.
-
-**Before:**  
-<img src="https://github.com/user-attachments/assets/2d7eb47e-04ae-4841-9592-bb5e6193e742" width="400" >
-
-**After:**  
-<img src="https://github.com/user-attachments/assets/a39db2d9-21a6-4e55-a7d1-5bafcdcf36b0" width="400" >
 
 ### VS Code Extension Updates
 
