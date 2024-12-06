@@ -6,7 +6,7 @@ As you may have seen in Discord a few weeks ago, [Copilot Workspace is graduatin
 
 **How to provide feedback:** We are also transitioning from the current Discord to a [GitHub Discussion](https://gh.io/workspace-feedback) as the primary place for feedback and discussions around Copilot Workspace. We will still be available in Discord, but posting in the [discussion](https://gh.io/workspace-feedback) will ensure we see your feedback sooner.
 
-Okay, no more logistics, now onto the product changes for this week! :tada:
+Okay, now onto the product updates for this week! :tada:
 
 - [Image Preview Support](#Image-Preview-Support)
 - [Simplifying the Experience](#simplifying-the-experience)
