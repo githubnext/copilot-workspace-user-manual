@@ -10,30 +10,21 @@ We greatly appreciate any [feedback](https://github.com/githubnext/copilot-works
 
 There are several active "Experiments" available related to things we are working on. We invite you to activate these and will update this document with new experiments when they are available. These features aren't set in stone, and any feedback regarding them would be greatly appreciated.
 
-### Use line numbers always (🥼)
+### Use emoji in topic and explorations 😊
 
-We are experimenting with a feature that allows Copilot Workspace to always use line numbers when generating code. Enable this using the "Use line numbers always" feature in Copilot Workspace.
+We are experimenting with a feature that allows Copilot Workspace to use emoji in the topic and explorations. Enable this using the "Use emoji in topic and explorations" feature in Copilot Workspace.
 
-### Use emoji in topic and specs (🥼)
+### Enable follow up 🔄
 
-We are experimenting with a feature that allows Copilot Workspace to use emoji in the topic and specifications. Enable this using the "Use emoji in topic and specs" feature in Copilot Workspace.
+When working with large repositories that have complex inter-file dependencies, a simple change or refactoring can impact many other parts of the codebase (e.g., updating a shared method signature). While the plan does a great job of identifying the core changes needed for a task (the "primary edits"), it can sometimes miss transitive changes that are needed in response (e.g., updating callers of a changed function).
 
-### Utilize linked issues, PRs, and GitHub file links in analysis (🥼)
+To address this, after implementing a plan, you can open the Commands tab and click the new Follow up button. This will perform a thorough, fine-grained check on your codebase and edits to see if any additional changes are required to complete your task. If any follow-ups are detected, it will edit the necessary files and add them to your existing implementation.
 
-We are experimenting with a feature that allows Copilot Workspace to utilize linked issues, pull requests, and GitHub file links when analyzing tasks. This allows CW to have more context related to linked issues, PRs, and GitHub file links in analysis. Enable this using the "Utilize linked issues, PRs, and GitHub file links in analysis" feature in Copilot Workspace.
 
-### Utilize referenced generic web content in analysis (🥼)
+### Use summaries of images in the context 🖼️
 
-We are experimenting with a feature that allows Copilot Workspace to utilize referenced generic web content when analyzing tasks. Currently, the contents of the URL are summarized and given to Copilot Workspace, in order to aid Copilot Workspace more focused on relevant details.
+We are experimenting with a feature that allows Copilot Workspace to use summaries of images in the context. This helps provide more relevant information and improve the accuracy of the generated specifications and plans. Enable this using the "Use summaries of images in the context" feature in Copilot Workspace.
 
-### Use code search during task analysis (🥼)
+### Allow file(s) to be attached as additional context 📎
 
-We are experimenting with a feature that allows Copilot Workspace to utilize code search during task analysis. This helps Copilot Workspace identify relevant files and code snippets more effectively, improving the overall accuracy and relevance of the generated specifications and plans. Enable this using the "Use code search during task analysis" feature in Copilot Workspace. Note that this experiment may result in slower completion times for spec/plan generation, but will cause Copilot Workspace to be more "focused" on your codebase.
-
-### Clarify ambiguous specifications (🥼)
-
-We are experimenting with a feature that allows Copilot Workspace to detect and warn about ambiguous specifications, in cooperation with the user. Enable this using the "Clarify ambiguous specifications" feature in Copilot Workspace.
-
-### Allow skipping the spec and going straight to plan (🥼)
-
-We are experimenting with a feature that allows users to skip the specification step and go straight to the plan. This is especially useful if you have already written a very detailed task description and want Copilot Workspace to go straight to implementing the task. Enable this using the "Allow skipping the spec and going straight to plan" feature in Copilot Workspace.
+We are experimenting with a feature that allows Copilot Workspace to allow file(s) to be attached as additional context. This helps provide more relevant information and improve the accuracy of the generated specifications and plans. Enable this using the "Allow file(s) to be attached as additional context" feature in Copilot Workspace.
