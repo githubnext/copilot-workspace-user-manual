@@ -20,8 +20,8 @@ When working with organizations in Copilot Workspace, you may encounter some com
 - **Other known limitations to working within organizations:**
   1. The enterprise (or org) must opt-in to Copilot feature previews.
   2. The enterprise (or org) has set the Copilot Extension policy to Enabled.
-  3. The enterprise must not be using EMUs
-  4. Developers within the enterprise (or org) must have paid Copilot licenses
+  3. The enterprise must not be using EMUs.
+  4. Developers within the enterprise (or org) must have paid Copilot licenses.
 
 
 ### Troubleshooting Private Repositories
