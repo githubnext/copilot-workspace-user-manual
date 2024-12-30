@@ -16,6 +16,13 @@ When working with organizations in Copilot Workspace, you may encounter some com
   1. Log out of Copilot Workspace.
   2. Go through SAML auth in the browser by looking at, say, a repository of the organization
   3. Then log back into Copilot Workspace.
+ 
+- **Other known limitations to working within organizations:**
+  1. The enterprise (or org) must opt-in to Copilot feature previews.
+  2. The enterprise (or org) has set the Copilot Extension policy to Enabled.
+  3. The enterprise must not be using EMUs
+  4. Developers within the enterprise (or org) must have paid Copilot licenses
+
 
 ### Troubleshooting Private Repositories
 
