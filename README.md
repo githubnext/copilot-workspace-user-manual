@@ -20,6 +20,7 @@ This manual will help you understand how to use Copilot Workspace most effective
   - [Responsible AI FAQ](responsible-ai-faq.md)
 * [Origins](origins.md)
   - [Conceptual Overview](overview.md)
+* [Feedback](#feedback)
 
 ## Feedback
 

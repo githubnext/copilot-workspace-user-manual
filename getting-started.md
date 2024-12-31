@@ -32,3 +32,9 @@ Welcome to the technical preview for Copilot Workspace (CW)! 👋 CW is a "task-
       </td>
    </tr>
 </table>
+
+## Feedback
+
+To give general feedback, please join the [GitHub Next Discord](https://discord.gg/FeGshJZ2yy) and post in the [#copilot-workspace](https://discord.com/channels/735557230698692749/1237161687233200279) forum channel. Please provide a share link to the workspace and a description of the issue you're facing so that we can help you more effectively.
+
+To report harmful content, please email copilot-safety@github.com with a description of the issue and a share link to the workspace.
