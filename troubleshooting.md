@@ -35,3 +35,9 @@ If Copilot Workspace detects that your task is overly ambiguous/unclear (e.g. it
 - **Billable owner could not be determined for a new codespace, Repository may not be used for a codespace.** The CW OAuth app is not installed in the billable owner's organization.
 
 Please view the [Codespaces Guide](codespaces-guide.md) for more information on Codespaces and troubleshooting common errors.
+
+## Feedback
+
+To give general feedback, please join the [GitHub Next Discord](https://discord.gg/FeGshJZ2yy) and post in the [#copilot-workspace](https://discord.com/channels/735557230698692749/1237161687233200279) forum channel. Please provide a share link to the workspace and a description of the issue you're facing so that we can help you more effectively.
+
+To report harmful content, please email copilot-safety@github.com with a description of the issue and a share link to the workspace.

@@ -1153,11 +1153,11 @@ For example, here's a [sample session](https://copilot-workspace-staging.githubn
 
 * **Color the `Issue` and `Pull Request` panel icons based on their state** - When opening an issue or pull request within Copilot Workspace, we'll now indicate the state of the issue/PR, using the same colors as GitHub.com: open (green), completed/merged (purple), closed (red), and closed as not planned (grey). That way, the status of the issue/PR will be immediately clear 👍
 
-   <img src="https://github.com/githubnext/copilot-workspace-user-manual/assets/116461/1f127b54-a697-4594-8a0f-946dfb47b06b" width="600px" />
+   <img src="https://githubnext.com/user-attachments/assets/1f127b54-a697-4594-8a0f-946dfb47b06b" width="600px" />
 
    *Opening an issue that's closed as completed*
 
-   <img src="https://github.com/githubnext/copilot-workspace-user-manual/assets/116461/1f9a0ea6-bf6f-4f1e-961c-107f27dbb12c" width="600px" />
+   <img src="https://githubnext.com/user-attachments/assets/1f9a0ea6-bf6f-4f1e-961c-107f27dbb12c" width="600px" />
 
    *Opening a pull request that's been closed*
 
