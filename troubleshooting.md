@@ -4,6 +4,15 @@
 
 Welcome to the troubleshooting guide for Copilot Workspace! In this section, we will provide you with helpful tips and solutions to common issues you may encounter while working with organizations and private repositories in Copilot Workspace. Our goal is to ensure that you have a smooth and productive experience. Let's dive in!
 
+### Troubleshooting access
+
+If you are seeing an Access Denied error when attempting to use Copilot Workspace for the first time, follow these steps to make sure you have access:
+
+- You must have an active, paid copilot license. Trial licenses are not granted access until it is paid for.
+- You must NOT be an enterprise managed user. Support for EMUs is coming soon.
+- You must NOT have any trade restrictions.
+- All of your organizations with Copilot enabled MUST have the Copilot Preview Features setting AND the Copilot Extensions setting enabled. You will need to contact the administrator of your organization to ask them to enable these settings. More info on organization settings for Copilot.
+
 ### Troubleshooting Organizations
 
 When working with organizations in Copilot Workspace, you may encounter some common issues. Here are some troubleshooting tips to help you resolve them:
