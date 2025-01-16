@@ -6,12 +6,12 @@ Welcome to the troubleshooting guide for Copilot Workspace! In this section, we 
 
 ### Troubleshooting access
 
-If you are seeing an Access Denied error when attempting to use Copilot Workspace for the first time, follow these steps to make sure you have access:
+If you are seeing an "Access Denied" error when trying Copilot Workspace for the first time, here are a few steps that may help:
 
-- You must have an active, paid copilot license. Trial licenses are not granted access until it is paid for.
-- You must NOT be an enterprise managed user. Support for EMUs is coming soon.
-- You must NOT have any trade restrictions.
-- All of your organizations with Copilot enabled MUST have the Copilot Preview Features setting AND the Copilot Extensions setting enabled. You will need to contact the administrator of your organization to ask them to enable these settings. More info on organization settings for Copilot.
+- Make sure you have an active, paid copilot license. Trial licenses only allow access once the subscription is upgraded to a paid plan.
+- At this time, [enterprise-managed users (EMUs)](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users) aren’t supported, but support for EMUs is on the way.
+- Ensure there are no [trade restrictions](https://docs.github.com/en/site-policy/other-site-policies/github-and-trade-controls) on your account.
+- Verify that any organization with Copilot enabled has both the **Copilot Preview Features** setting and the **Copilot Extensions setting** turned ON. If necessary, reach out to your organization’s administrator for assistance. For more details on configuring organization settings for Copilot, please refer to the [documentation](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization).
 
 ### Troubleshooting Organizations
 
