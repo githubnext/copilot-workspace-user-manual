@@ -27,7 +27,6 @@ When working with organizations in Copilot Workspace, you may encounter some com
 - **Other known limitations to working within organizations:**
   1. The enterprise (or org) must opt-in to Copilot feature previews. [Learn how to enable feature previews in GitHub.com](https://docs.github.com/en/get-started/using-github/exploring-early-access-releases-with-feature-preview).
   2. The enterprise (or org) has set the Copilot Extension policy to Enabled. This can be done under your org / enterprise settings under Copilot > Copilot Policies.
-  3. The enterprise must not be using EMUs.
   4. Developers within the enterprise (or org) must have paid Copilot licenses.
 
 
