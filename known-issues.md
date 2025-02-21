@@ -94,4 +94,8 @@ The repair flow from the terminal to the plan sometimes times out, causing the t
 A workaround for this is to click the send button (up arrow icon) again can regenerate the suggestion.
 We understand that this is not ideal, and are working on a solution to this issue.
 
+### PR review enhancements
 
+The new PR review enhancements in Copilot Workspace allow users to view and respond to individual comments and synchronize selected suggestions with the exact part of the file to be modified. However, there are some known issues related to these enhancements:
+
+- Potential performance impacts when loading large PRs with many comments. We are working on optimizing the performance to handle large PRs more efficiently.

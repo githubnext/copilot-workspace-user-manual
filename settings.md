@@ -17,3 +17,7 @@ When this setting is enabled, a Codespace will be automatically created when you
 ## Show notification after implementing
 
 When this setting is enabled, Copilot Workspace will notify you when it has completed its implementation. This allows you to get back into the flow as soon as possible, without having to constantly check the status of the implementation. You can enable or disable this setting based on your preference.
+
+## Enable PR review enhancements
+
+When this setting is enabled, the PR review experience in Copilot Workspace will include the ability to view and respond to individual comments and synchronize selected suggestions with the exact part of the file to be modified. This enhances the overall review process and ensures accurate application of changes. You can enable or disable this setting based on your preference.
