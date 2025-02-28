@@ -11,6 +11,7 @@ If you are seeing an "Access Denied" error when trying Copilot Workspace for the
 - Make sure you have an active, paid copilot license. Trial licenses only allow access once the subscription is upgraded to a paid plan.
 - Ensure there are no [trade restrictions](https://docs.github.com/en/site-policy/other-site-policies/github-and-trade-controls) on your account.
 - Verify that any organization with Copilot enabled has both the **Copilot Preview Features** setting and the **Copilot Extensions setting** turned ON. If necessary, reach out to your organization’s administrator for assistance. For more details on configuring organization settings for Copilot, please refer to the [documentation](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization).
+- For Enterprise users, enable the Copilot Workspace policy through your enterprise account (note this means accepting the [GitHub Next Terms and Conditions](https://github.com/githubnext/githubnext/blob/main/TERMS_AND_CONDITIONS.md))
 
 ### Troubleshooting Organizations
 
