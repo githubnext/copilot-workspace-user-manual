@@ -221,7 +221,7 @@ To begin using the new `Commands` hub, simply click the existing terminal icon i
 
 Additionally, if you've configured a `build`, `test`, or `launch` task in your `devcontainer.json`, then you can click to run any of those. This will result in the command being displayed in the list on the `Output` tab, and allow you to view its output, stop it, or re-run it once complete (e.g. to re-trigger a build after editing code).
 
-<img src="https://github.com/user-attachments/assets/6a0f0ecc-64f0-4871-b5f3-0840c684b85e" width="450px" />
+<img src="https://github.com/user-attachments/assets/6a0f0ecc-64f0-4871-b5f3-0840c684b85c" width="450px" />
 
 And just like the existing terminal, if a build/test/run command starts a server, then it will be automatically forwarded, so you can securely view it. 
 
@@ -1174,3 +1174,15 @@ For example, here's a [sample session](https://copilot-workspace-staging.githubn
 ## 📅 29 April 2024
 
 Initial release! 🚀
+
+## 📅 15 December 2024
+
+We are excited to announce several new enhancements to the PR review experience in Copilot Workspace! These updates aim to improve the overall user experience by allowing you to view and respond to individual comments and synchronize selected suggestions with the exact part of the file to be modified.
+
+### PR Review Enhancements
+
+- **View and Respond to Individual Comments:** You can now view and respond to individual comments within the PR review experience. This makes it easier to address all feedback and ensure that no comments are missed.
+- **Synchronize Selected Suggestions:** The UI now synchronizes the selected suggestion with the exact part of the file to be modified. This ensures that the correct changes are applied and helps you verify that nothing else was altered.
+
+These enhancements are designed to streamline the PR review process and make it more efficient. We hope you find them useful and look forward to your feedback!
+
