@@ -18,7 +18,7 @@ This is currently an alpha extension and we will be rolling out enhancements to 
 * [Quick Start](#quick-start)
 * [Browsing Sessions](#browsing-sessions)
 * [Managing Sessions](#managing-sessions)
-* [Planing and Implementing](#plan-and-implement)
+* [Planning and Implementing](#plan-and-implement)
 * [Natural Language Revisions](#natural-language-revisions)
 * [Brainstorming](#brainstorming)
 * [Known Limitations](#known-limitations)
