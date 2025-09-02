@@ -57,7 +57,7 @@ Once syncing has begun, your local repository will switch to GitHub Copilot Work
 
 <img src="./images/vscode/ghcw-branch-example.png" title="Image of branch in status bar" width="250px">
 
-Any edits make to the local files will be automatically synced back to the web session. You only have to save a local file and your change will be visible within a few seconds online (no need to push anything). This allows you to use the full power of VS Code with GitHub Copilot Workspace.
+Any edits made to the local files will be automatically synced back to the web session. You only have to save a local file and your change will be visible within a few seconds online (no need to push anything). This allows you to use the full power of VS Code with GitHub Copilot Workspace.
 
 However, if you picked a session that doesn't yet have an implementation with updated files to start syncing, you'll be notified that you can start syncing once you [have an implementation](#planning-and-implementing).
 
@@ -75,21 +75,21 @@ Even if you are not syncing a session locally, you can still browse through your
 <img src="./images/vscode/ghcw-activity-bar-icon.png" title="Image of status bar with GitHub Copilot Workspace icon" width="50px">
 
 
-After you've clicked the activity bar icon, you'll either see list of your sessions, or details about a specific session you've already selected.
+After you've clicked the activity bar icon, you'll either see a list of your sessions, or details about a specific session you've already selected.
 
-The session list is sorted by repository. Any repository that applies to currently opened VS Code folders will be on top. You can always get back to the session list when viewing session details by clicking on the `Back to Session List` arrow in the `Task` view or using the **GitHub Copilot Workspace: Back to Session List** command from the Command Pallette (F1 or Ctrl/Cmd+Shift+P).
+The session list is sorted by repository. Any repository that applies to currently opened VS Code folders will be on top. You can always get back to the session list when viewing session details by clicking on the `Back to Session List` arrow in the `Task` view or using the **GitHub Copilot Workspace: Back to Session List** command from the Command Palette (F1 or Ctrl/Cmd+Shift+P).
 
 Selecting a session in the session list will hide the list and show the related session details instead. A `Task` (or Issue or Pull Request) view and `Plan` view will be visible.  Each view can be expanded into a larger panel by clicking on the "full screen" icon.
 
-The `Task` view includes a description of the task along with links to additional information. The `Plan` view will include details about the related plan for your session (if one exists yet) any files currently in the plan.
+The `Task` view includes a description of the task along with links to additional information. The `Plan` view will include details about the related plan for your session (if one exists yet) and any files currently in the plan.
 
-If the [plan has already been implemented](#planning-and-implementing), you'll be able to view any changed files by clicking on file in the plan.
+If the [plan has already been implemented](#planning-and-implementing), you'll be able to view any changed files by clicking on the file in the plan.
 
 <img src="./images/vscode/ghcw-overview.png" width="700px" />
 
 When syncing is active, clicking on the file will open a local changes view of the synced contents. This view is editable and the changes will be synced back to the web session. If the session is not syncing, you will see the changes currently stored in the web session in a read-only mode.
 
-You can also click on the `Open File` icon when hovering on an file in the plan to open the file (instead of the changes view) in a new tab in VS Code. You may be prompted to start syncing the session if you are not already.
+You can also click on the `Open File` icon when hovering on a file in the plan to open the file (instead of the changes view) in a new tab in VS Code. You may be prompted to start syncing the session if you are not already.
 
 ## Managing Sessions
 
@@ -119,9 +119,9 @@ Note that if you manually change the branch away from the one set when syncing b
 
 As outlined in the quick start, you can always click on the VS Code icon in the GitHub Copilot Workspace web UI to start syncing changes locally. But you can also start syncing a session directly from within VS Code. 
 
-However, as described in these previous sections, note that only sessions with a [plan and an initial implementation](#planning-and-implementing) can be synced locally.
+However, as described in the previous sections, note that only sessions with a [plan and an initial implementation](#planning-and-implementing) can be synced locally.
 
-If session list is visible, hovering over a session that is not currently being synced (no green checkbox), will show a `Stop Syncing Changes` button. Otherwise, if the session details are visible instead, you will see this same button the `Plan` view (assuming syncing is inactive for this session). Click this button to start syncing changes for the session locally. 
+If session list is visible, hovering over a session that is not currently being synced (no green checkbox), will show a `Stop Syncing Changes` button. Otherwise, if the session details are visible instead, you will see this same button in the `Plan` view (assuming syncing is inactive for this session). Click this button to start syncing changes for the session locally. 
 
 Note that any other existing session that is already syncing for the same repository will automatically stop syncing first, so you don't have to worry about conflicts.
 
@@ -139,20 +139,20 @@ Either way, once this is done, your local repository will be on a GitHub Copilot
 
 <img src="./images/vscode/ghcw-branch-example.png" title="Image of branch in status bar" width="250px">
 
-Regardless, any edits make to the local files will be synced back to the web session, so you do not need to worry about committing or loosing your changes.
+Regardless, any edits made to local files will be synced back to the web session, so you do not need to worry about committing or losing your changes.
 
 ### Visibility to Sync Status and Processing State
 
-Since you won't always have the `Plan` view visible while you work, GitHub Copilot Workspace has a status bar item that can help you understand what the extension is doing at that moment. Here are some examples of what you will see:
+Since you won't always have the `Plan` view visible while you work, GitHub Copilot Workspace has a status bar item that can help you understand what the extension is doing at any given moment. Here are some examples of what you will see:
 
 | Example | Description |
 | :--- | :--- |
 | <img src="./images/vscode/status-bar-not-syncing.png" title="Image of GitHub Copilot Workspace in status bar when the extension is idle"> | The extension is signed in, but but idle. |
 | <img src="./images/vscode/status-bar-syncing.png" title="Image of GitHub Copilot Workspace in status bar when the extension is idle but syncing is enabled"> | Syncing is enabled for a session, but the extension is currently idle. |
-| <img src="./images/vscode/status-bar-working.png" title="Image of GitHub Copilot Workspace in status bar when the extension is actively doing work"> | The extension is performing an operation indicated by the text (`Starting implementation...`) and spinning loading or sync icon (when files are transferring). |
+| <img src="./images/vscode/status-bar-working.png" title="Image of GitHub Copilot Workspace in status bar when the extension is actively doing work"> | The extension is performing an operation indicated by the text (`Starting implementation...`) and has a spinning loading or sync icon (when files are transferring). |
 | <img src="./images/vscode/status-bar-error.png" title="Image of GitHub Copilot Workspace in status bar when a sync error has occurred"> | Here, an error occurred while syncing. Clicking on the status bar item will show more information. |
 
-Clicking on this status bar item will take you to the session details for the session you are syncing (or the session list if you are syncing multiple sessions in a multi-root workspace with multiple repos). The status bar will also turn red if a sync error has occurred, and clicking on it should provide you options to remediate the issue.
+Clicking on the status bar item will take you to the session details for the session you are syncing (or the session list if you are syncing multiple sessions in a multi-root workspace with multiple repos). The status bar will also turn red if a sync error has occurred, and clicking on it should provide you options to remediate the issue.
 
 #### Plan View Banner
 
@@ -165,24 +165,24 @@ However, if you do have the `Plan` view up, you can look at the status banner to
 
 While the extension automatically syncs changes to the web, you may want to push your changes to a branch or create a PR from the session. This is useful when you are either done with the session, or you want to keep changes to something that is not automatically synced - like something in the .gitignore file or large files that you received a notification where ignored.
 
-Thankfully, the you can use following buttons in the `Plan` view when you are syncing a session to perform these actions. Note that the command name in this table is also the name of the command in the **Command Palette** (F1 or Ctrl/Cmd+Shift+P) when the appropriate session is visible in the side bar.
+Thankfully, you can use the following buttons in the `Plan` view when you are syncing a session to perform these actions. Note that the command name in this table is also the name of the command in the **Command Palette** (F1 or Ctrl/Cmd+Shift+P) when the appropriate session is visible in the side bar.
 
 | Button | Command | Description | Location(s) |
 | :--- | :--- | :--- | :--- |
 | <img src="https://raw.githubusercontent.com/microsoft/vscode-codicons/refs/heads/main/src/icons/repo-push.svg" width="24px" style="background-color:white;">               | Push Changes into Branch... | Pushes changes to a new or existing local branch, optionally pushes them remotely too. | Plan view when file syncing is enabled, `...` context menu. |
-| <img src="https://raw.githubusercontent.com/microsoft/vscode-codicons/refs/heads/main/src/icons/git-pull-request-create.svg" width="24px" style="background-color:white;"> | Create PR from Changes...   | Pushes changes to a specified remote branch, then makes opens the PR UX in VS Code to let you enter details on the request. | Plan view when file syncing is enabled, `...` context menu. |
+| <img src="https://raw.githubusercontent.com/microsoft/vscode-codicons/refs/heads/main/src/icons/git-pull-request-create.svg" width="24px" style="background-color:white;"> | Create PR from Changes...   | Pushes changes to a specified remote branch, then opens the PR UX in VS Code to let you enter details on the request. | Plan view when file syncing is enabled, `...` context menu. |
 
 
 ### Deleting a Session
 
 To delete a session, you click on the trash can icon next to the item in the session list. If you are currently viewing a session's details, select **Delete Session** from the context menu that appears when clicking on the `...` button on the `Task` or `Plan` views.
 
-Alternatively, you can use thee Command Palette (F1 or Ctrl/Cmd+Shift+P) and select the **GitHub Copilot Workspace: Delete Session** command when you are viewing a session's details.
+Alternatively, you can use the Command Palette (F1 or Ctrl/Cmd+Shift+P) and select the **GitHub Copilot Workspace: Delete Session** command when you are viewing a session's details.
 
 ## Planning and implementing
 When the session details are visible (and you see the `Task` and `Plan` views), you can make changes to the plan and its related implementation for the session right from VS Code.
 
-In fact, can also generate and implement an initial plan if your session doesn't have one yet. 
+In fact, you can also generate and implement an initial plan if your session doesn't have one yet. 
 
 You will find a number of different options for interacting with the plan by clicking on the `...` button in the `Plan` view. However, the most common actions will appear as icons. The table below outlines what each of these does. Note that the command name in this table is also the name of the command in the **Command Palette** (F1 or Ctrl/Cmd+Shift+P) when the appropriate session is visible in the side bar.
 
@@ -194,7 +194,7 @@ You will find a number of different options for interacting with the plan by cli
 | <img src="https://raw.githubusercontent.com/microsoft/vscode-codicons/refs/heads/main/src/icons/sync.svg"  width="24px" style="background-color:white;"> | Sync Changes Locally | See Managing Sessions. Start syncing session changes locally. | Plan view if there is an implementation, and the session is not already syncing, `...` context menu. |
 | <img src="https://raw.githubusercontent.com/microsoft/vscode-codicons/refs/heads/main/src/icons/sync-ignored.svg"  width="24px" style="background-color:white;"> | Stop Syncing Changes | See Managing Sessions.  Stops syncing session changes locally. | Plan view if the visible session is already syncing, `...` context menu. |
 | <img src="https://raw.githubusercontent.com/microsoft/vscode-codicons/refs/heads/main/src/icons/repo-push.svg" width="24px" style="background-color:white;">               | Push Changes into Branch... | Pushes changes to a new or existing local branch, optionally pushes them remotely too. | Plan view when file syncing is enabled, `...` context menu. |
-| <img src="https://raw.githubusercontent.com/microsoft/vscode-codicons/refs/heads/main/src/icons/git-pull-request-create.svg" width="24px" style="background-color:white;"> | Create PR from Changes...   | Pushes changes to a specified remote branch, then makes opens the PR UX in VS Code to let you enter details on the request. | Plan view when file syncing is enabled, `...` context menu. |
+| <img src="https://raw.githubusercontent.com/microsoft/vscode-codicons/refs/heads/main/src/icons/git-pull-request-create.svg" width="24px" style="background-color:white;"> | Create PR from Changes...   | Pushes changes to a specified remote branch, then opens the PR UX in VS Code to let you enter details on the request. | Plan view when file syncing is enabled, `...` context menu. |
 
 The `...` context menu is also available for files and items in the plan when you hover over them. This context menu will allow you to view the files, their changes, or edit, move, delete, or the list items as needed.
 
@@ -217,7 +217,7 @@ Here's a summary of where you can trigger these kinds of revisions:
 
 ## Brainstorming
 
-> Note that this feature is new to Copilot Workspace, so you may encounter more rough edges that other parts of the experience. Please let us know if you have any feedback!
+> Note that this feature is new to Copilot Workspace, so you may encounter more rough edges than other parts of the experience. Please let us know if you have any feedback!
 
 Brainstorming provides a way for you to interact with Copilot Workspace to refine the task you want to perform. You can ask or select suggested questions to learn more about potential options for your task and then add the answers you like as additional context to use when planning and implementing. This feature is now available in VS Code so that you can refine your initial task and plan directly from your editor.
 
